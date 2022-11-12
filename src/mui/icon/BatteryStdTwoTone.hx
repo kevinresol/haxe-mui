@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BatteryStdTwoTone')
+@:jsRequire('@mui/icons-material', 'BatteryStdTwoTone')
 extern class BatteryStdTwoTone extends ReactComponentOfProps<IconProps> {}

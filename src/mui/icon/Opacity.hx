@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Opacity')
+@:jsRequire('@mui/icons-material', 'Opacity')
 extern class Opacity extends ReactComponentOfProps<IconProps> {}

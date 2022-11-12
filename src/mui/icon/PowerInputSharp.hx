@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PowerInputSharp')
+@:jsRequire('@mui/icons-material', 'PowerInputSharp')
 extern class PowerInputSharp extends ReactComponentOfProps<IconProps> {}

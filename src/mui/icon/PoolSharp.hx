@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PoolSharp')
+@:jsRequire('@mui/icons-material', 'PoolSharp')
 extern class PoolSharp extends ReactComponentOfProps<IconProps> {}

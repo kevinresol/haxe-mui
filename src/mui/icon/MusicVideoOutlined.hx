@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MusicVideoOutlined')
+@:jsRequire('@mui/icons-material', 'MusicVideoOutlined')
 extern class MusicVideoOutlined extends ReactComponentOfProps<IconProps> {}

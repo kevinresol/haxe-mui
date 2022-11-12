@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CommuteTwoTone')
+@:jsRequire('@mui/icons-material', 'CommuteTwoTone')
 extern class CommuteTwoTone extends ReactComponentOfProps<IconProps> {}

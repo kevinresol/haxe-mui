@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NfcRounded')
+@:jsRequire('@mui/icons-material', 'NfcRounded')
 extern class NfcRounded extends ReactComponentOfProps<IconProps> {}

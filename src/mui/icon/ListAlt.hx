@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ListAlt')
+@:jsRequire('@mui/icons-material', 'ListAlt')
 extern class ListAlt extends ReactComponentOfProps<IconProps> {}

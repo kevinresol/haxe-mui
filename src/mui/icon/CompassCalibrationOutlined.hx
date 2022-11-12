@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CompassCalibrationOutlined')
+@:jsRequire('@mui/icons-material', 'CompassCalibrationOutlined')
 extern class CompassCalibrationOutlined extends ReactComponentOfProps<IconProps> {}

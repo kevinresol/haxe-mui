@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CompareArrowsRounded')
+@:jsRequire('@mui/icons-material', 'CompareArrowsRounded')
 extern class CompareArrowsRounded extends ReactComponentOfProps<IconProps> {}

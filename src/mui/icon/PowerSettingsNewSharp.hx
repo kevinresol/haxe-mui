@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PowerSettingsNewSharp')
+@:jsRequire('@mui/icons-material', 'PowerSettingsNewSharp')
 extern class PowerSettingsNewSharp extends ReactComponentOfProps<IconProps> {}

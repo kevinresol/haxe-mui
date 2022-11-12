@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SportsVolleyballRounded')
+@:jsRequire('@mui/icons-material', 'SportsVolleyballRounded')
 extern class SportsVolleyballRounded extends ReactComponentOfProps<IconProps> {}

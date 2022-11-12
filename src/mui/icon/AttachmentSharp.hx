@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AttachmentSharp')
+@:jsRequire('@mui/icons-material', 'AttachmentSharp')
 extern class AttachmentSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EmojiFlags')
+@:jsRequire('@mui/icons-material', 'EmojiFlags')
 extern class EmojiFlags extends ReactComponentOfProps<IconProps> {}

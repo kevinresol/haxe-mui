@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ExitToAppSharp')
+@:jsRequire('@mui/icons-material', 'ExitToAppSharp')
 extern class ExitToAppSharp extends ReactComponentOfProps<IconProps> {}

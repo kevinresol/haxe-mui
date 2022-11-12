@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WorkOffSharp')
+@:jsRequire('@mui/icons-material', 'WorkOffSharp')
 extern class WorkOffSharp extends ReactComponentOfProps<IconProps> {}

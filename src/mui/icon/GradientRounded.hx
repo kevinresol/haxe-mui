@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GradientRounded')
+@:jsRequire('@mui/icons-material', 'GradientRounded')
 extern class GradientRounded extends ReactComponentOfProps<IconProps> {}

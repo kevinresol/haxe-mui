@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HistoryOutlined')
+@:jsRequire('@mui/icons-material', 'HistoryOutlined')
 extern class HistoryOutlined extends ReactComponentOfProps<IconProps> {}

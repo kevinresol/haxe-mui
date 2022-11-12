@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AccessibleSharp')
+@:jsRequire('@mui/icons-material', 'AccessibleSharp')
 extern class AccessibleSharp extends ReactComponentOfProps<IconProps> {}

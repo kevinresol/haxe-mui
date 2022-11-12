@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SpeedRounded')
+@:jsRequire('@mui/icons-material', 'SpeedRounded')
 extern class SpeedRounded extends ReactComponentOfProps<IconProps> {}

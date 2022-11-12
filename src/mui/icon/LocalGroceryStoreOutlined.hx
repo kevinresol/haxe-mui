@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalGroceryStoreOutlined')
+@:jsRequire('@mui/icons-material', 'LocalGroceryStoreOutlined')
 extern class LocalGroceryStoreOutlined extends ReactComponentOfProps<IconProps> {}

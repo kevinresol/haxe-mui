@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GradeSharp')
+@:jsRequire('@mui/icons-material', 'GradeSharp')
 extern class GradeSharp extends ReactComponentOfProps<IconProps> {}

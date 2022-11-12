@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MouseRounded')
+@:jsRequire('@mui/icons-material', 'MouseRounded')
 extern class MouseRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TapAndPlayRounded')
+@:jsRequire('@mui/icons-material', 'TapAndPlayRounded')
 extern class TapAndPlayRounded extends ReactComponentOfProps<IconProps> {}

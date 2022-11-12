@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WbAutoOutlined')
+@:jsRequire('@mui/icons-material', 'WbAutoOutlined')
 extern class WbAutoOutlined extends ReactComponentOfProps<IconProps> {}

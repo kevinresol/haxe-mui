@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'InsertChartOutlined')
+@:jsRequire('@mui/icons-material', 'InsertChartOutlined')
 extern class InsertChartOutlined extends ReactComponentOfProps<IconProps> {}

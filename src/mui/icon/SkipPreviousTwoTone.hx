@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SkipPreviousTwoTone')
+@:jsRequire('@mui/icons-material', 'SkipPreviousTwoTone')
 extern class SkipPreviousTwoTone extends ReactComponentOfProps<IconProps> {}

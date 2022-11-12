@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MapOutlined')
+@:jsRequire('@mui/icons-material', 'MapOutlined')
 extern class MapOutlined extends ReactComponentOfProps<IconProps> {}

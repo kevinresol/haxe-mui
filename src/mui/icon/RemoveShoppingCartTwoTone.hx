@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RemoveShoppingCartTwoTone')
+@:jsRequire('@mui/icons-material', 'RemoveShoppingCartTwoTone')
 extern class RemoveShoppingCartTwoTone extends ReactComponentOfProps<IconProps> {}

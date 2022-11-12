@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SpaRounded')
+@:jsRequire('@mui/icons-material', 'SpaRounded')
 extern class SpaRounded extends ReactComponentOfProps<IconProps> {}

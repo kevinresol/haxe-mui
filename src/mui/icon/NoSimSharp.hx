@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NoSimSharp')
+@:jsRequire('@mui/icons-material', 'NoSimSharp')
 extern class NoSimSharp extends ReactComponentOfProps<IconProps> {}

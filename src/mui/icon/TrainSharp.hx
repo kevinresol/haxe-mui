@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TrainSharp')
+@:jsRequire('@mui/icons-material', 'TrainSharp')
 extern class TrainSharp extends ReactComponentOfProps<IconProps> {}

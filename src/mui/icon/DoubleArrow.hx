@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DoubleArrow')
+@:jsRequire('@mui/icons-material', 'DoubleArrow')
 extern class DoubleArrow extends ReactComponentOfProps<IconProps> {}

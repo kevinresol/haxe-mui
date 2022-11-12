@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BorderHorizontalSharp')
+@:jsRequire('@mui/icons-material', 'BorderHorizontalSharp')
 extern class BorderHorizontalSharp extends ReactComponentOfProps<IconProps> {}

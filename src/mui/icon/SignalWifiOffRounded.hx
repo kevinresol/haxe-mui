@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SignalWifiOffRounded')
+@:jsRequire('@mui/icons-material', 'SignalWifiOffRounded')
 extern class SignalWifiOffRounded extends ReactComponentOfProps<IconProps> {}

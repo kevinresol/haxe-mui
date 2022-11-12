@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AutorenewTwoTone')
+@:jsRequire('@mui/icons-material', 'AutorenewTwoTone')
 extern class AutorenewTwoTone extends ReactComponentOfProps<IconProps> {}

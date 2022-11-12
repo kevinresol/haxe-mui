@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PermIdentityOutlined')
+@:jsRequire('@mui/icons-material', 'PermIdentityOutlined')
 extern class PermIdentityOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'KeyboardTabTwoTone')
+@:jsRequire('@mui/icons-material', 'KeyboardTabTwoTone')
 extern class KeyboardTabTwoTone extends ReactComponentOfProps<IconProps> {}

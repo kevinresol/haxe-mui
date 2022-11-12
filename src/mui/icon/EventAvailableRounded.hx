@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EventAvailableRounded')
+@:jsRequire('@mui/icons-material', 'EventAvailableRounded')
 extern class EventAvailableRounded extends ReactComponentOfProps<IconProps> {}

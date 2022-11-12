@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HdrWeak')
+@:jsRequire('@mui/icons-material', 'HdrWeak')
 extern class HdrWeak extends ReactComponentOfProps<IconProps> {}

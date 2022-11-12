@@ -14,13 +14,13 @@ typedef ToggleButtonGroupProps = ForcedOverride<StandardDOMAttributes, {
 	@:optional var value:Any;
 }>;
 
-@:jsRequire('@material-ui/lab', 'ToggleButtonGroup')
+@:jsRequire('@mui/lab', 'ToggleButtonGroup')
 extern class ToggleButtonGroup extends ReactComponentOfProps<ToggleButtonGroupProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<ToggleButtonGroupClassKey>
 		return ToggleButtonGroupStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/lab/ToggleButtonGroup/ToggleButtonGroup.js')
+@:jsRequire('@mui/lab/ToggleButtonGroup/ToggleButtonGroup.js')
 extern class ToggleButtonGroupStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<ToggleButtonGroupClassKey>;
 }

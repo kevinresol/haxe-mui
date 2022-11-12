@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MaximizeSharp')
+@:jsRequire('@mui/icons-material', 'MaximizeSharp')
 extern class MaximizeSharp extends ReactComponentOfProps<IconProps> {}

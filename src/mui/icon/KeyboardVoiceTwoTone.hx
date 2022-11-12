@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'KeyboardVoiceTwoTone')
+@:jsRequire('@mui/icons-material', 'KeyboardVoiceTwoTone')
 extern class KeyboardVoiceTwoTone extends ReactComponentOfProps<IconProps> {}

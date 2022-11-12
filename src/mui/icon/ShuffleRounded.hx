@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ShuffleRounded')
+@:jsRequire('@mui/icons-material', 'ShuffleRounded')
 extern class ShuffleRounded extends ReactComponentOfProps<IconProps> {}

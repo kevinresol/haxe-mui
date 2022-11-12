@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SwapHorizontalCircleTwoTone')
+@:jsRequire('@mui/icons-material', 'SwapHorizontalCircleTwoTone')
 extern class SwapHorizontalCircleTwoTone extends ReactComponentOfProps<IconProps> {}

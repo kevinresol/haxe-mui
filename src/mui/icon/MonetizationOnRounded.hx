@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MonetizationOnRounded')
+@:jsRequire('@mui/icons-material', 'MonetizationOnRounded')
 extern class MonetizationOnRounded extends ReactComponentOfProps<IconProps> {}

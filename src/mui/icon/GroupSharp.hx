@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GroupSharp')
+@:jsRequire('@mui/icons-material', 'GroupSharp')
 extern class GroupSharp extends ReactComponentOfProps<IconProps> {}

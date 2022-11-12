@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GitHub')
+@:jsRequire('@mui/icons-material', 'GitHub')
 extern class GitHub extends ReactComponentOfProps<IconProps> {}

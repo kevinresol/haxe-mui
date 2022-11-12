@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AccessTimeRounded')
+@:jsRequire('@mui/icons-material', 'AccessTimeRounded')
 extern class AccessTimeRounded extends ReactComponentOfProps<IconProps> {}

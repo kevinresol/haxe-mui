@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalBarOutlined')
+@:jsRequire('@mui/icons-material', 'LocalBarOutlined')
 extern class LocalBarOutlined extends ReactComponentOfProps<IconProps> {}

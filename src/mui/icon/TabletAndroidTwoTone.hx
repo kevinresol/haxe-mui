@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TabletAndroidTwoTone')
+@:jsRequire('@mui/icons-material', 'TabletAndroidTwoTone')
 extern class TabletAndroidTwoTone extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LowPriorityTwoTone')
+@:jsRequire('@mui/icons-material', 'LowPriorityTwoTone')
 extern class LowPriorityTwoTone extends ReactComponentOfProps<IconProps> {}

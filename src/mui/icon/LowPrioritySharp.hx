@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LowPrioritySharp')
+@:jsRequire('@mui/icons-material', 'LowPrioritySharp')
 extern class LowPrioritySharp extends ReactComponentOfProps<IconProps> {}

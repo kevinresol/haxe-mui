@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DeveloperModeOutlined')
+@:jsRequire('@mui/icons-material', 'DeveloperModeOutlined')
 extern class DeveloperModeOutlined extends ReactComponentOfProps<IconProps> {}

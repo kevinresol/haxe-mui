@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FastRewindSharp')
+@:jsRequire('@mui/icons-material', 'FastRewindSharp')
 extern class FastRewindSharp extends ReactComponentOfProps<IconProps> {}

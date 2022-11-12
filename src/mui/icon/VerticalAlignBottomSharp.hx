@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VerticalAlignBottomSharp')
+@:jsRequire('@mui/icons-material', 'VerticalAlignBottomSharp')
 extern class VerticalAlignBottomSharp extends ReactComponentOfProps<IconProps> {}

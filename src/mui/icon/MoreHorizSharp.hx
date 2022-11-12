@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MoreHorizSharp')
+@:jsRequire('@mui/icons-material', 'MoreHorizSharp')
 extern class MoreHorizSharp extends ReactComponentOfProps<IconProps> {}

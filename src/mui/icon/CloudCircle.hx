@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CloudCircle')
+@:jsRequire('@mui/icons-material', 'CloudCircle')
 extern class CloudCircle extends ReactComponentOfProps<IconProps> {}

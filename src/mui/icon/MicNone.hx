@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MicNone')
+@:jsRequire('@mui/icons-material', 'MicNone')
 extern class MicNone extends ReactComponentOfProps<IconProps> {}

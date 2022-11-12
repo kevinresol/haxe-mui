@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SortByAlphaRounded')
+@:jsRequire('@mui/icons-material', 'SortByAlphaRounded')
 extern class SortByAlphaRounded extends ReactComponentOfProps<IconProps> {}

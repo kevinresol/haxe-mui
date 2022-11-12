@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FiberSmartRecord')
+@:jsRequire('@mui/icons-material', 'FiberSmartRecord')
 extern class FiberSmartRecord extends ReactComponentOfProps<IconProps> {}

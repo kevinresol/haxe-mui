@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatListNumbered')
+@:jsRequire('@mui/icons-material', 'FormatListNumbered')
 extern class FormatListNumbered extends ReactComponentOfProps<IconProps> {}

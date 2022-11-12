@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PowerInputRounded')
+@:jsRequire('@mui/icons-material', 'PowerInputRounded')
 extern class PowerInputRounded extends ReactComponentOfProps<IconProps> {}

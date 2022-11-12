@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddToHomeScreen')
+@:jsRequire('@mui/icons-material', 'AddToHomeScreen')
 extern class AddToHomeScreen extends ReactComponentOfProps<IconProps> {}

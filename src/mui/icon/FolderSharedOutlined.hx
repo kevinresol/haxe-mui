@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FolderSharedOutlined')
+@:jsRequire('@mui/icons-material', 'FolderSharedOutlined')
 extern class FolderSharedOutlined extends ReactComponentOfProps<IconProps> {}

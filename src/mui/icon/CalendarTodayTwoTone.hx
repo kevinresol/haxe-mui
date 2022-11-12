@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CalendarTodayTwoTone')
+@:jsRequire('@mui/icons-material', 'CalendarTodayTwoTone')
 extern class CalendarTodayTwoTone extends ReactComponentOfProps<IconProps> {}

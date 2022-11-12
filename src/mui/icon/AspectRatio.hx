@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AspectRatio')
+@:jsRequire('@mui/icons-material', 'AspectRatio')
 extern class AspectRatio extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GpsOff')
+@:jsRequire('@mui/icons-material', 'GpsOff')
 extern class GpsOff extends ReactComponentOfProps<IconProps> {}

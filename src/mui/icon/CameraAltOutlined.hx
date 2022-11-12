@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CameraAltOutlined')
+@:jsRequire('@mui/icons-material', 'CameraAltOutlined')
 extern class CameraAltOutlined extends ReactComponentOfProps<IconProps> {}

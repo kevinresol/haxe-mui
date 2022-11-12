@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HowToReg')
+@:jsRequire('@mui/icons-material', 'HowToReg')
 extern class HowToReg extends ReactComponentOfProps<IconProps> {}

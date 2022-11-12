@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'UnfoldLessRounded')
+@:jsRequire('@mui/icons-material', 'UnfoldLessRounded')
 extern class UnfoldLessRounded extends ReactComponentOfProps<IconProps> {}

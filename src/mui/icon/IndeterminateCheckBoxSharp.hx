@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'IndeterminateCheckBoxSharp')
+@:jsRequire('@mui/icons-material', 'IndeterminateCheckBoxSharp')
 extern class IndeterminateCheckBoxSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RestorePage')
+@:jsRequire('@mui/icons-material', 'RestorePage')
 extern class RestorePage extends ReactComponentOfProps<IconProps> {}

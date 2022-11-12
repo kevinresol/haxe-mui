@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NavigateNextOutlined')
+@:jsRequire('@mui/icons-material', 'NavigateNextOutlined')
 extern class NavigateNextOutlined extends ReactComponentOfProps<IconProps> {}

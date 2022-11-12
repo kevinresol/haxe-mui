@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LaptopSharp')
+@:jsRequire('@mui/icons-material', 'LaptopSharp')
 extern class LaptopSharp extends ReactComponentOfProps<IconProps> {}

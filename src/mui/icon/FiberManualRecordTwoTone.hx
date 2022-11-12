@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FiberManualRecordTwoTone')
+@:jsRequire('@mui/icons-material', 'FiberManualRecordTwoTone')
 extern class FiberManualRecordTwoTone extends ReactComponentOfProps<IconProps> {}

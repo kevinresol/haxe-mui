@@ -12,5 +12,5 @@ typedef MenuListProps = {
 	@:optional var variant:MenuVariant;
 }
 
-@:jsRequire('@material-ui/core', 'MenuList')
+@:jsRequire('@mui/material', 'MenuList')
 extern class MenuList extends ReactComponentOfProps<MenuListProps> {}

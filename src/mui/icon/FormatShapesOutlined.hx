@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatShapesOutlined')
+@:jsRequire('@mui/icons-material', 'FormatShapesOutlined')
 extern class FormatShapesOutlined extends ReactComponentOfProps<IconProps> {}

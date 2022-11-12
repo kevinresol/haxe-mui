@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ArrowDropUpSharp')
+@:jsRequire('@mui/icons-material', 'ArrowDropUpSharp')
 extern class ArrowDropUpSharp extends ReactComponentOfProps<IconProps> {}

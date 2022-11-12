@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatPaintSharp')
+@:jsRequire('@mui/icons-material', 'FormatPaintSharp')
 extern class FormatPaintSharp extends ReactComponentOfProps<IconProps> {}

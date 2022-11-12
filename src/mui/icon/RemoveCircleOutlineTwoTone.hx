@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RemoveCircleOutlineTwoTone')
+@:jsRequire('@mui/icons-material', 'RemoveCircleOutlineTwoTone')
 extern class RemoveCircleOutlineTwoTone extends ReactComponentOfProps<IconProps> {}

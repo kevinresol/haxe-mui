@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SignalCellularOffSharp')
+@:jsRequire('@mui/icons-material', 'SignalCellularOffSharp')
 extern class SignalCellularOffSharp extends ReactComponentOfProps<IconProps> {}

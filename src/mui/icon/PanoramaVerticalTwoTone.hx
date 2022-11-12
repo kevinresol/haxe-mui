@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PanoramaVerticalTwoTone')
+@:jsRequire('@mui/icons-material', 'PanoramaVerticalTwoTone')
 extern class PanoramaVerticalTwoTone extends ReactComponentOfProps<IconProps> {}

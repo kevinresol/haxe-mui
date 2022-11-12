@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Refresh')
+@:jsRequire('@mui/icons-material', 'Refresh')
 extern class Refresh extends ReactComponentOfProps<IconProps> {}

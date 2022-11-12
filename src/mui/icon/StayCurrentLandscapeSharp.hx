@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'StayCurrentLandscapeSharp')
+@:jsRequire('@mui/icons-material', 'StayCurrentLandscapeSharp')
 extern class StayCurrentLandscapeSharp extends ReactComponentOfProps<IconProps> {}

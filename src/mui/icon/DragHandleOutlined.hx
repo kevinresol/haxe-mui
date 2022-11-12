@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DragHandleOutlined')
+@:jsRequire('@mui/icons-material', 'DragHandleOutlined')
 extern class DragHandleOutlined extends ReactComponentOfProps<IconProps> {}

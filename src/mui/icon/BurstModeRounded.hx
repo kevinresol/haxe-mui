@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BurstModeRounded')
+@:jsRequire('@mui/icons-material', 'BurstModeRounded')
 extern class BurstModeRounded extends ReactComponentOfProps<IconProps> {}

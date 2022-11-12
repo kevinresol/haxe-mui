@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PieChartOutlined')
+@:jsRequire('@mui/icons-material', 'PieChartOutlined')
 extern class PieChartOutlined extends ReactComponentOfProps<IconProps> {}

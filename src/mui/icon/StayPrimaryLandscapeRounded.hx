@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'StayPrimaryLandscapeRounded')
+@:jsRequire('@mui/icons-material', 'StayPrimaryLandscapeRounded')
 extern class StayPrimaryLandscapeRounded extends ReactComponentOfProps<IconProps> {}

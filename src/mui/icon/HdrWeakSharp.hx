@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HdrWeakSharp')
+@:jsRequire('@mui/icons-material', 'HdrWeakSharp')
 extern class HdrWeakSharp extends ReactComponentOfProps<IconProps> {}

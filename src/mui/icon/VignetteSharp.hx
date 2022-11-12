@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VignetteSharp')
+@:jsRequire('@mui/icons-material', 'VignetteSharp')
 extern class VignetteSharp extends ReactComponentOfProps<IconProps> {}

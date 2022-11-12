@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Save')
+@:jsRequire('@mui/icons-material', 'Save')
 extern class Save extends ReactComponentOfProps<IconProps> {}

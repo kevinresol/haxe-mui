@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LinkSharp')
+@:jsRequire('@mui/icons-material', 'LinkSharp')
 extern class LinkSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CloudOffSharp')
+@:jsRequire('@mui/icons-material', 'CloudOffSharp')
 extern class CloudOffSharp extends ReactComponentOfProps<IconProps> {}

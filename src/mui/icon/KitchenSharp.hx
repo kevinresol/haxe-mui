@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'KitchenSharp')
+@:jsRequire('@mui/icons-material', 'KitchenSharp')
 extern class KitchenSharp extends ReactComponentOfProps<IconProps> {}

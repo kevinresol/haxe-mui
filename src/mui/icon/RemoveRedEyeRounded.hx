@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RemoveRedEyeRounded')
+@:jsRequire('@mui/icons-material', 'RemoveRedEyeRounded')
 extern class RemoveRedEyeRounded extends ReactComponentOfProps<IconProps> {}

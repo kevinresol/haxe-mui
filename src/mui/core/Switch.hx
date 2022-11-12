@@ -30,13 +30,13 @@ typedef SwitchProps = ForcedOverride<StandardDOMAttributes, {
 	@:optional var value:String;
 }>;
 
-@:jsRequire('@material-ui/core', 'Switch')
+@:jsRequire('@mui/material', 'Switch')
 extern class Switch extends ReactComponentOfProps<SwitchProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<SwitchClassKey>
 		return SwitchStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Switch/Switch.js')
+@:jsRequire('@mui/material/Switch/Switch.js')
 extern class SwitchStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<SwitchClassKey>;
 }

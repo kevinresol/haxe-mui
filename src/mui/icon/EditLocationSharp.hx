@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EditLocationSharp')
+@:jsRequire('@mui/icons-material', 'EditLocationSharp')
 extern class EditLocationSharp extends ReactComponentOfProps<IconProps> {}

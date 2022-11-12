@@ -13,13 +13,13 @@ typedef ExpansionPanelSummaryProps = {
 	@:optional var IconButtonProps:Partial<IconButtonProps>;
 }
 
-@:jsRequire('@material-ui/core', 'ExpansionPanelSummary')
+@:jsRequire('@mui/material', 'ExpansionPanelSummary')
 extern class ExpansionPanelSummary extends ReactComponentOfProps<ExpansionPanelSummaryProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<ExpansionPanelSummaryClassKey>
 		return ExpansionPanelSummaryStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/ExpansionPanelSummary/ExpansionPanelSummary.js')
+@:jsRequire('@mui/material/ExpansionPanelSummary/ExpansionPanelSummary.js')
 extern class ExpansionPanelSummaryStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<ExpansionPanelSummaryClassKey>;
 }

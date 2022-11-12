@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'InsertLink')
+@:jsRequire('@mui/icons-material', 'InsertLink')
 extern class InsertLink extends ReactComponentOfProps<IconProps> {}

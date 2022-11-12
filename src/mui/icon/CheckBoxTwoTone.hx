@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CheckBoxTwoTone')
+@:jsRequire('@mui/icons-material', 'CheckBoxTwoTone')
 extern class CheckBoxTwoTone extends ReactComponentOfProps<IconProps> {}

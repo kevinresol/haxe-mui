@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MergeType')
+@:jsRequire('@mui/icons-material', 'MergeType')
 extern class MergeType extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FiberNewRounded')
+@:jsRequire('@mui/icons-material', 'FiberNewRounded')
 extern class FiberNewRounded extends ReactComponentOfProps<IconProps> {}

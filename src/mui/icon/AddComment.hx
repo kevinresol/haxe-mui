@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddComment')
+@:jsRequire('@mui/icons-material', 'AddComment')
 extern class AddComment extends ReactComponentOfProps<IconProps> {}

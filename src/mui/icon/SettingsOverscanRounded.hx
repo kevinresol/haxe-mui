@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsOverscanRounded')
+@:jsRequire('@mui/icons-material', 'SettingsOverscanRounded')
 extern class SettingsOverscanRounded extends ReactComponentOfProps<IconProps> {}

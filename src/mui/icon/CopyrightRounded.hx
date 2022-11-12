@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CopyrightRounded')
+@:jsRequire('@mui/icons-material', 'CopyrightRounded')
 extern class CopyrightRounded extends ReactComponentOfProps<IconProps> {}

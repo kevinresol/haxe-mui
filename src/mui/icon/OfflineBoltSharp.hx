@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'OfflineBoltSharp')
+@:jsRequire('@mui/icons-material', 'OfflineBoltSharp')
 extern class OfflineBoltSharp extends ReactComponentOfProps<IconProps> {}

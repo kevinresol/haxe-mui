@@ -15,13 +15,13 @@ typedef TreeItemProps = {
 	@:optional var TransitionComponent:ReactType;
 }
 
-@:jsRequire('@material-ui/lab', 'TreeItem')
+@:jsRequire('@mui/lab', 'TreeItem')
 extern class TreeItem extends ReactComponentOfProps<TreeItemProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<TreeItemClassKey>
 		return TreeItemStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/lab/TreeItem/TreeItem.js')
+@:jsRequire('@mui/lab/TreeItem/TreeItem.js')
 extern class TreeItemStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<TreeItemClassKey>;
 }

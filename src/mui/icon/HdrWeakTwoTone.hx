@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HdrWeakTwoTone')
+@:jsRequire('@mui/icons-material', 'HdrWeakTwoTone')
 extern class HdrWeakTwoTone extends ReactComponentOfProps<IconProps> {}

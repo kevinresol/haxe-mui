@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NetworkCellOutlined')
+@:jsRequire('@mui/icons-material', 'NetworkCellOutlined')
 extern class NetworkCellOutlined extends ReactComponentOfProps<IconProps> {}

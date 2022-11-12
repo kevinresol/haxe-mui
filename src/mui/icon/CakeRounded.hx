@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CakeRounded')
+@:jsRequire('@mui/icons-material', 'CakeRounded')
 extern class CakeRounded extends ReactComponentOfProps<IconProps> {}

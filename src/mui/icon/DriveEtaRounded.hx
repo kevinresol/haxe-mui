@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DriveEtaRounded')
+@:jsRequire('@mui/icons-material', 'DriveEtaRounded')
 extern class DriveEtaRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SelectAll')
+@:jsRequire('@mui/icons-material', 'SelectAll')
 extern class SelectAll extends ReactComponentOfProps<IconProps> {}

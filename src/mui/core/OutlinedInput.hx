@@ -11,13 +11,13 @@ typedef OutlinedInputProps = ForcedOverride<InputBaseProps, {
 	@:optional var notched:Bool;
 }>;
 
-@:jsRequire('@material-ui/core', 'OutlinedInput')
+@:jsRequire('@mui/material', 'OutlinedInput')
 extern class OutlinedInput extends ReactComponentOfProps<OutlinedInputProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<OutlinedInputClassKey>
 		return OutlinedInputStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/OutlinedInput/OutlinedInput.js')
+@:jsRequire('@mui/material/OutlinedInput/OutlinedInput.js')
 extern class OutlinedInputStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<OutlinedInputClassKey>;
 }

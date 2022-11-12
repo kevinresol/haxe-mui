@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NfcSharp')
+@:jsRequire('@mui/icons-material', 'NfcSharp')
 extern class NfcSharp extends ReactComponentOfProps<IconProps> {}

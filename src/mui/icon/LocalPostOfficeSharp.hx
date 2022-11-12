@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalPostOfficeSharp')
+@:jsRequire('@mui/icons-material', 'LocalPostOfficeSharp')
 extern class LocalPostOfficeSharp extends ReactComponentOfProps<IconProps> {}

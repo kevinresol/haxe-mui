@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DialpadTwoTone')
+@:jsRequire('@mui/icons-material', 'DialpadTwoTone')
 extern class DialpadTwoTone extends ReactComponentOfProps<IconProps> {}

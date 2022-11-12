@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VpnKeyOutlined')
+@:jsRequire('@mui/icons-material', 'VpnKeyOutlined')
 extern class VpnKeyOutlined extends ReactComponentOfProps<IconProps> {}

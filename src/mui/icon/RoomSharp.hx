@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RoomSharp')
+@:jsRequire('@mui/icons-material', 'RoomSharp')
 extern class RoomSharp extends ReactComponentOfProps<IconProps> {}

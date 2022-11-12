@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FontDownloadOutlined')
+@:jsRequire('@mui/icons-material', 'FontDownloadOutlined')
 extern class FontDownloadOutlined extends ReactComponentOfProps<IconProps> {}

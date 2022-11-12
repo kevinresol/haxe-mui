@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NetworkCheckSharp')
+@:jsRequire('@mui/icons-material', 'NetworkCheckSharp')
 extern class NetworkCheckSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'QueryBuilderOutlined')
+@:jsRequire('@mui/icons-material', 'QueryBuilderOutlined')
 extern class QueryBuilderOutlined extends ReactComponentOfProps<IconProps> {}

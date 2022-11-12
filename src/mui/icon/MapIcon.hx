@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Map')
+@:jsRequire('@mui/icons-material', 'Map')
 extern class MapIcon extends ReactComponentOfProps<IconProps> {}

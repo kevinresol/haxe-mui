@@ -15,13 +15,13 @@ typedef TreeViewProps = {
 	@:optional var onNodeToggle:HandlerOrVoid<Event->Array<String>->Void>;
 }
 
-@:jsRequire('@material-ui/lab', 'TreeView')
+@:jsRequire('@mui/lab', 'TreeView')
 extern class TreeView extends ReactComponentOfProps<TreeViewProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<TreeViewClassKey>
 		return TreeViewStyles.styles;
 }
 
-@:jsRequire('@material-ui/lab/TreeView/TreeView.js')
+@:jsRequire('@mui/lab/TreeView/TreeView.js')
 extern class TreeViewStyles {
 	static var styles:ClassesDef<TreeViewClassKey>;
 }

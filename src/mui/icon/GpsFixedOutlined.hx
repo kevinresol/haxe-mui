@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GpsFixedOutlined')
+@:jsRequire('@mui/icons-material', 'GpsFixedOutlined')
 extern class GpsFixedOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatIndentIncreaseOutlined')
+@:jsRequire('@mui/icons-material', 'FormatIndentIncreaseOutlined')
 extern class FormatIndentIncreaseOutlined extends ReactComponentOfProps<IconProps> {}

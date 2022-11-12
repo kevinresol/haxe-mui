@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BlurLinearTwoTone')
+@:jsRequire('@mui/icons-material', 'BlurLinearTwoTone')
 extern class BlurLinearTwoTone extends ReactComponentOfProps<IconProps> {}

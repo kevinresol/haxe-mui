@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RingVolumeSharp')
+@:jsRequire('@mui/icons-material', 'RingVolumeSharp')
 extern class RingVolumeSharp extends ReactComponentOfProps<IconProps> {}

@@ -13,13 +13,13 @@ typedef ToolbarProps = {
 	@:optional var variant:ToolbarVariant;
 }
 
-@:jsRequire('@material-ui/core', 'Toolbar')
+@:jsRequire('@mui/material', 'Toolbar')
 extern class Toolbar extends ReactComponentOfProps<ToolbarProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<ToolbarClassKey>
 		return ToolbarStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Toolbar/Toolbar.js')
+@:jsRequire('@mui/material/Toolbar/Toolbar.js')
 extern class ToolbarStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<ToolbarClassKey>;
 }

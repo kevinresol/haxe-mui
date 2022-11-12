@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FileCopySharp')
+@:jsRequire('@mui/icons-material', 'FileCopySharp')
 extern class FileCopySharp extends ReactComponentOfProps<IconProps> {}

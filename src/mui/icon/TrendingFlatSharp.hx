@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TrendingFlatSharp')
+@:jsRequire('@mui/icons-material', 'TrendingFlatSharp')
 extern class TrendingFlatSharp extends ReactComponentOfProps<IconProps> {}

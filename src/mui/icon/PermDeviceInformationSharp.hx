@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PermDeviceInformationSharp')
+@:jsRequire('@mui/icons-material', 'PermDeviceInformationSharp')
 extern class PermDeviceInformationSharp extends ReactComponentOfProps<IconProps> {}

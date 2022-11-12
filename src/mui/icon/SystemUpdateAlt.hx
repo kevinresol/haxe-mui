@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SystemUpdateAlt')
+@:jsRequire('@mui/icons-material', 'SystemUpdateAlt')
 extern class SystemUpdateAlt extends ReactComponentOfProps<IconProps> {}

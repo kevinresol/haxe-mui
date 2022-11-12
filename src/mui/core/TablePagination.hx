@@ -30,13 +30,13 @@ typedef TablePaginationProps = ForcedOverride<TableCellProps, {
 	@:optional var SelectProps:Partial<SelectProps<Int>>;
 }>;
 
-@:jsRequire('@material-ui/core', 'TablePagination')
+@:jsRequire('@mui/material', 'TablePagination')
 extern class TablePagination extends ReactComponentOfProps<TablePaginationProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<TablePaginationClassKey>
 		return TablePaginationStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/TablePagination/TablePagination.js')
+@:jsRequire('@mui/material/TablePagination/TablePagination.js')
 extern class TablePaginationStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<TablePaginationClassKey>;
 }

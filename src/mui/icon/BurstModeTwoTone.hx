@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BurstModeTwoTone')
+@:jsRequire('@mui/icons-material', 'BurstModeTwoTone')
 extern class BurstModeTwoTone extends ReactComponentOfProps<IconProps> {}

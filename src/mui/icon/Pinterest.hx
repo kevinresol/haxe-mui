@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Pinterest')
+@:jsRequire('@mui/icons-material', 'Pinterest')
 extern class Pinterest extends ReactComponentOfProps<IconProps> {}

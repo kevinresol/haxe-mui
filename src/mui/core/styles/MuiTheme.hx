@@ -31,7 +31,7 @@ class MuiTheme {
 	}
 }
 
-@:jsRequire('@material-ui/core/styles')
+@:jsRequire('@mui/material/styles')
 extern class MuiThemeExtern {
 	#if !macro
 	public static function createMuiTheme<

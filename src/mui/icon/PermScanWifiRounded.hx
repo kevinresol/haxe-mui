@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PermScanWifiRounded')
+@:jsRequire('@mui/icons-material', 'PermScanWifiRounded')
 extern class PermScanWifiRounded extends ReactComponentOfProps<IconProps> {}

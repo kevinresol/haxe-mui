@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ThumbUp')
+@:jsRequire('@mui/icons-material', 'ThumbUp')
 extern class ThumbUp extends ReactComponentOfProps<IconProps> {}

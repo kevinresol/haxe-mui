@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatBoldOutlined')
+@:jsRequire('@mui/icons-material', 'FormatBoldOutlined')
 extern class FormatBoldOutlined extends ReactComponentOfProps<IconProps> {}

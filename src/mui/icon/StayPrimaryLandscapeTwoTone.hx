@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'StayPrimaryLandscapeTwoTone')
+@:jsRequire('@mui/icons-material', 'StayPrimaryLandscapeTwoTone')
 extern class StayPrimaryLandscapeTwoTone extends ReactComponentOfProps<IconProps> {}

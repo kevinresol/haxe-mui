@@ -13,13 +13,13 @@ typedef AvatarGroupProps = {
 	@:optional var spacing:AvatarGroupSpacing;
 }
 
-@:jsRequire('@material-ui/lab', 'AvatarGroup')
+@:jsRequire('@mui/lab', 'AvatarGroup')
 extern class AvatarGroup extends ReactComponentOfProps<AvatarGroupProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<AvatarGroupClassKey>
 		return AvatarGroupStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/lab/AvatarGroup/AvatarGroup.js')
+@:jsRequire('@mui/lab/AvatarGroup/AvatarGroup.js')
 extern class AvatarGroupStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<AvatarGroupClassKey>;
 }

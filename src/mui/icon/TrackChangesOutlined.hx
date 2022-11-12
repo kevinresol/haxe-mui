@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TrackChangesOutlined')
+@:jsRequire('@mui/icons-material', 'TrackChangesOutlined')
 extern class TrackChangesOutlined extends ReactComponentOfProps<IconProps> {}

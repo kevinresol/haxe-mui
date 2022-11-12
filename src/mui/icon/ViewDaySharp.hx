@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ViewDaySharp')
+@:jsRequire('@mui/icons-material', 'ViewDaySharp')
 extern class ViewDaySharp extends ReactComponentOfProps<IconProps> {}

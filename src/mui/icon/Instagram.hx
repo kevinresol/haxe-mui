@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Instagram')
+@:jsRequire('@mui/icons-material', 'Instagram')
 extern class Instagram extends ReactComponentOfProps<IconProps> {}

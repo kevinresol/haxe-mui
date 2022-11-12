@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ViewCompact')
+@:jsRequire('@mui/icons-material', 'ViewCompact')
 extern class ViewCompact extends ReactComponentOfProps<IconProps> {}

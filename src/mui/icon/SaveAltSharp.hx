@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SaveAltSharp')
+@:jsRequire('@mui/icons-material', 'SaveAltSharp')
 extern class SaveAltSharp extends ReactComponentOfProps<IconProps> {}

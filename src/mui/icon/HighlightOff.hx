@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HighlightOff')
+@:jsRequire('@mui/icons-material', 'HighlightOff')
 extern class HighlightOff extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AttachMoneySharp')
+@:jsRequire('@mui/icons-material', 'AttachMoneySharp')
 extern class AttachMoneySharp extends ReactComponentOfProps<IconProps> {}

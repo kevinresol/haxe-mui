@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Navigation')
+@:jsRequire('@mui/icons-material', 'Navigation')
 extern class Navigation extends ReactComponentOfProps<IconProps> {}

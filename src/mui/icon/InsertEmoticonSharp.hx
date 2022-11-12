@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'InsertEmoticonSharp')
+@:jsRequire('@mui/icons-material', 'InsertEmoticonSharp')
 extern class InsertEmoticonSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddToHomeScreenTwoTone')
+@:jsRequire('@mui/icons-material', 'AddToHomeScreenTwoTone')
 extern class AddToHomeScreenTwoTone extends ReactComponentOfProps<IconProps> {}

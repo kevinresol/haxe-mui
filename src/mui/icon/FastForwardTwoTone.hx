@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FastForwardTwoTone')
+@:jsRequire('@mui/icons-material', 'FastForwardTwoTone')
 extern class FastForwardTwoTone extends ReactComponentOfProps<IconProps> {}

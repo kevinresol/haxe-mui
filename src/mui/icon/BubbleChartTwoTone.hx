@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BubbleChartTwoTone')
+@:jsRequire('@mui/icons-material', 'BubbleChartTwoTone')
 extern class BubbleChartTwoTone extends ReactComponentOfProps<IconProps> {}

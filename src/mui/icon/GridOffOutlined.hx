@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GridOffOutlined')
+@:jsRequire('@mui/icons-material', 'GridOffOutlined')
 extern class GridOffOutlined extends ReactComponentOfProps<IconProps> {}

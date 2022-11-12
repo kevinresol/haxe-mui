@@ -9,5 +9,5 @@ private typedef Props = {
 	@:optional var onRendered:Void->Void;
 }
 
-@:jsRequire('@material-ui/core', 'Portal')
+@:jsRequire('@mui/material', 'Portal')
 extern class Portal extends ReactComponentOfProps<Props> {}

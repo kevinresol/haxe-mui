@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Rotate90DegreesCcwOutlined')
+@:jsRequire('@mui/icons-material', 'Rotate90DegreesCcwOutlined')
 extern class Rotate90DegreesCcwOutlined extends ReactComponentOfProps<IconProps> {}

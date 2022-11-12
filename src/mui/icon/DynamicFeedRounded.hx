@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DynamicFeedRounded')
+@:jsRequire('@mui/icons-material', 'DynamicFeedRounded')
 extern class DynamicFeedRounded extends ReactComponentOfProps<IconProps> {}

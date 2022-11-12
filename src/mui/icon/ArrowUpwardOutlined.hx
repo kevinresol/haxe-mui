@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ArrowUpwardOutlined')
+@:jsRequire('@mui/icons-material', 'ArrowUpwardOutlined')
 extern class ArrowUpwardOutlined extends ReactComponentOfProps<IconProps> {}

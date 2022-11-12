@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BorderBottom')
+@:jsRequire('@mui/icons-material', 'BorderBottom')
 extern class BorderBottom extends ReactComponentOfProps<IconProps> {}

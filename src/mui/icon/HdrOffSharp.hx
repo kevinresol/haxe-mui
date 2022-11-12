@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HdrOffSharp')
+@:jsRequire('@mui/icons-material', 'HdrOffSharp')
 extern class HdrOffSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsInputSvideo')
+@:jsRequire('@mui/icons-material', 'SettingsInputSvideo')
 extern class SettingsInputSvideo extends ReactComponentOfProps<IconProps> {}

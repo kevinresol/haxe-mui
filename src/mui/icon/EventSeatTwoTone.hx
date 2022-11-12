@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EventSeatTwoTone')
+@:jsRequire('@mui/icons-material', 'EventSeatTwoTone')
 extern class EventSeatTwoTone extends ReactComponentOfProps<IconProps> {}

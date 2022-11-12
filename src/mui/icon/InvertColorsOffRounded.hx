@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'InvertColorsOffRounded')
+@:jsRequire('@mui/icons-material', 'InvertColorsOffRounded')
 extern class InvertColorsOffRounded extends ReactComponentOfProps<IconProps> {}

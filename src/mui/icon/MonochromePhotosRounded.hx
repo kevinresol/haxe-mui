@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MonochromePhotosRounded')
+@:jsRequire('@mui/icons-material', 'MonochromePhotosRounded')
 extern class MonochromePhotosRounded extends ReactComponentOfProps<IconProps> {}

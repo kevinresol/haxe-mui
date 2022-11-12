@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlashOffTwoTone')
+@:jsRequire('@mui/icons-material', 'FlashOffTwoTone')
 extern class FlashOffTwoTone extends ReactComponentOfProps<IconProps> {}

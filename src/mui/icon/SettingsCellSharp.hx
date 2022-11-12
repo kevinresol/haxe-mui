@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsCellSharp')
+@:jsRequire('@mui/icons-material', 'SettingsCellSharp')
 extern class SettingsCellSharp extends ReactComponentOfProps<IconProps> {}

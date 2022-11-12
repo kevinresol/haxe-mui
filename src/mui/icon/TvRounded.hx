@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TvRounded')
+@:jsRequire('@mui/icons-material', 'TvRounded')
 extern class TvRounded extends ReactComponentOfProps<IconProps> {}

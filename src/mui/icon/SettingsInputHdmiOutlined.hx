@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsInputHdmiOutlined')
+@:jsRequire('@mui/icons-material', 'SettingsInputHdmiOutlined')
 extern class SettingsInputHdmiOutlined extends ReactComponentOfProps<IconProps> {}

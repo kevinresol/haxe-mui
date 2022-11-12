@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'InsertDriveFileRounded')
+@:jsRequire('@mui/icons-material', 'InsertDriveFileRounded')
 extern class InsertDriveFileRounded extends ReactComponentOfProps<IconProps> {}

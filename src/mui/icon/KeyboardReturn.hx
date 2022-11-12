@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'KeyboardReturn')
+@:jsRequire('@mui/icons-material', 'KeyboardReturn')
 extern class KeyboardReturn extends ReactComponentOfProps<IconProps> {}

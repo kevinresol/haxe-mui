@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalPlaySharp')
+@:jsRequire('@mui/icons-material', 'LocalPlaySharp')
 extern class LocalPlaySharp extends ReactComponentOfProps<IconProps> {}

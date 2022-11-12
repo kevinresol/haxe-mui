@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DashboardTwoTone')
+@:jsRequire('@mui/icons-material', 'DashboardTwoTone')
 extern class DashboardTwoTone extends ReactComponentOfProps<IconProps> {}

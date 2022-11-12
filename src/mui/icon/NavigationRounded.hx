@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NavigationRounded')
+@:jsRequire('@mui/icons-material', 'NavigationRounded')
 extern class NavigationRounded extends ReactComponentOfProps<IconProps> {}

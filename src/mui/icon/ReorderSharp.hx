@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ReorderSharp')
+@:jsRequire('@mui/icons-material', 'ReorderSharp')
 extern class ReorderSharp extends ReactComponentOfProps<IconProps> {}

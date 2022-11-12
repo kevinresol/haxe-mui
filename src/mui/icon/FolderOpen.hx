@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FolderOpen')
+@:jsRequire('@mui/icons-material', 'FolderOpen')
 extern class FolderOpen extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CheckCircleOutlineTwoTone')
+@:jsRequire('@mui/icons-material', 'CheckCircleOutlineTwoTone')
 extern class CheckCircleOutlineTwoTone extends ReactComponentOfProps<IconProps> {}

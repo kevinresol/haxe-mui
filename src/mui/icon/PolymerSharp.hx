@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PolymerSharp')
+@:jsRequire('@mui/icons-material', 'PolymerSharp')
 extern class PolymerSharp extends ReactComponentOfProps<IconProps> {}

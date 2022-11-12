@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HotTubOutlined')
+@:jsRequire('@mui/icons-material', 'HotTubOutlined')
 extern class HotTubOutlined extends ReactComponentOfProps<IconProps> {}

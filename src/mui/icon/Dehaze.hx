@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Dehaze')
+@:jsRequire('@mui/icons-material', 'Dehaze')
 extern class Dehaze extends ReactComponentOfProps<IconProps> {}

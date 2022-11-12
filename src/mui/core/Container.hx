@@ -15,13 +15,13 @@ typedef ContainerProps = {
 	@:optional var maxWidth:BreakpointOrFalse;
 };
 
-@:jsRequire('@material-ui/core', 'Container')
+@:jsRequire('@mui/material', 'Container')
 extern class Container extends ReactComponentOfProps<ContainerProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<ContainerClassKey>
 		return ContainerStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Container/Container.js')
+@:jsRequire('@mui/material/Container/Container.js')
 extern class ContainerStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<ContainerClassKey>;
 }

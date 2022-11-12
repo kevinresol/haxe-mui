@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'KingBed')
+@:jsRequire('@mui/icons-material', 'KingBed')
 extern class KingBed extends ReactComponentOfProps<IconProps> {}

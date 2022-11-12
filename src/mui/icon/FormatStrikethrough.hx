@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatStrikethrough')
+@:jsRequire('@mui/icons-material', 'FormatStrikethrough')
 extern class FormatStrikethrough extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BlurOffRounded')
+@:jsRequire('@mui/icons-material', 'BlurOffRounded')
 extern class BlurOffRounded extends ReactComponentOfProps<IconProps> {}

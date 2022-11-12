@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DoneSharp')
+@:jsRequire('@mui/icons-material', 'DoneSharp')
 extern class DoneSharp extends ReactComponentOfProps<IconProps> {}

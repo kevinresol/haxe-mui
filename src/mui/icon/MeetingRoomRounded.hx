@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MeetingRoomRounded')
+@:jsRequire('@mui/icons-material', 'MeetingRoomRounded')
 extern class MeetingRoomRounded extends ReactComponentOfProps<IconProps> {}

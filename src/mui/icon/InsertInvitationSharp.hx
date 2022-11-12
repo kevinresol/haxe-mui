@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'InsertInvitationSharp')
+@:jsRequire('@mui/icons-material', 'InsertInvitationSharp')
 extern class InsertInvitationSharp extends ReactComponentOfProps<IconProps> {}

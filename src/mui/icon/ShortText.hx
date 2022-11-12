@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ShortText')
+@:jsRequire('@mui/icons-material', 'ShortText')
 extern class ShortText extends ReactComponentOfProps<IconProps> {}

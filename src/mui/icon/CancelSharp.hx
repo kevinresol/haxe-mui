@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CancelSharp')
+@:jsRequire('@mui/icons-material', 'CancelSharp')
 extern class CancelSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalHotelSharp')
+@:jsRequire('@mui/icons-material', 'LocalHotelSharp')
 extern class LocalHotelSharp extends ReactComponentOfProps<IconProps> {}

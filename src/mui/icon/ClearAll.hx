@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ClearAll')
+@:jsRequire('@mui/icons-material', 'ClearAll')
 extern class ClearAll extends ReactComponentOfProps<IconProps> {}

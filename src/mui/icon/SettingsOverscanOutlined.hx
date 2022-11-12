@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsOverscanOutlined')
+@:jsRequire('@mui/icons-material', 'SettingsOverscanOutlined')
 extern class SettingsOverscanOutlined extends ReactComponentOfProps<IconProps> {}

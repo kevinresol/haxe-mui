@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ViewModuleSharp')
+@:jsRequire('@mui/icons-material', 'ViewModuleSharp')
 extern class ViewModuleSharp extends ReactComponentOfProps<IconProps> {}

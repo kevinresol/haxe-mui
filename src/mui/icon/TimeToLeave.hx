@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TimeToLeave')
+@:jsRequire('@mui/icons-material', 'TimeToLeave')
 extern class TimeToLeave extends ReactComponentOfProps<IconProps> {}

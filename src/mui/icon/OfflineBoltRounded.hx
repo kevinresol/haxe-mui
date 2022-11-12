@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'OfflineBoltRounded')
+@:jsRequire('@mui/icons-material', 'OfflineBoltRounded')
 extern class OfflineBoltRounded extends ReactComponentOfProps<IconProps> {}

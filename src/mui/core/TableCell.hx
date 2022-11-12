@@ -25,13 +25,13 @@ typedef TableCellProps = {
 	@:optional var rowSpan:Int;
 }
 
-@:jsRequire('@material-ui/core', 'TableCell')
+@:jsRequire('@mui/material', 'TableCell')
 extern class TableCell extends ReactComponentOfProps<TableCellProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<TableCellClassKey>
 		return TableCellStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/TableCell/TableCell.js')
+@:jsRequire('@mui/material/TableCell/TableCell.js')
 extern class TableCellStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<TableCellClassKey>;
 }

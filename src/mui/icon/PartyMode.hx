@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PartyMode')
+@:jsRequire('@mui/icons-material', 'PartyMode')
 extern class PartyMode extends ReactComponentOfProps<IconProps> {}

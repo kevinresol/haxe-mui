@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CloudDownloadOutlined')
+@:jsRequire('@mui/icons-material', 'CloudDownloadOutlined')
 extern class CloudDownloadOutlined extends ReactComponentOfProps<IconProps> {}

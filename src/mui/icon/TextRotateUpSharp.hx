@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TextRotateUpSharp')
+@:jsRequire('@mui/icons-material', 'TextRotateUpSharp')
 extern class TextRotateUpSharp extends ReactComponentOfProps<IconProps> {}

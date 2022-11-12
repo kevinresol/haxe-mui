@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PauseSharp')
+@:jsRequire('@mui/icons-material', 'PauseSharp')
 extern class PauseSharp extends ReactComponentOfProps<IconProps> {}

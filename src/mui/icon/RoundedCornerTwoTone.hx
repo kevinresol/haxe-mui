@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RoundedCornerTwoTone')
+@:jsRequire('@mui/icons-material', 'RoundedCornerTwoTone')
 extern class RoundedCornerTwoTone extends ReactComponentOfProps<IconProps> {}

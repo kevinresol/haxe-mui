@@ -12,7 +12,7 @@ import haxe.macro.Context;
 import haxe.macro.Expr;
 #end
 
-@:jsRequire('@material-ui/core/styles')
+@:jsRequire('@mui/material/styles')
 extern class Styles {
 	public static inline macro function jss(styles:Expr) {
 		return switch (styles.expr) {

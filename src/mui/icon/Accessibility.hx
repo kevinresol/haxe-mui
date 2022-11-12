@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Accessibility')
+@:jsRequire('@mui/icons-material', 'Accessibility')
 extern class Accessibility extends ReactComponentOfProps<IconProps> {}

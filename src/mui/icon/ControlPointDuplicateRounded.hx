@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ControlPointDuplicateRounded')
+@:jsRequire('@mui/icons-material', 'ControlPointDuplicateRounded')
 extern class ControlPointDuplicateRounded extends ReactComponentOfProps<IconProps> {}

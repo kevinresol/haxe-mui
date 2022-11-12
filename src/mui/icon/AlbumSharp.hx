@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AlbumSharp')
+@:jsRequire('@mui/icons-material', 'AlbumSharp')
 extern class AlbumSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VolumeMuteSharp')
+@:jsRequire('@mui/icons-material', 'VolumeMuteSharp')
 extern class VolumeMuteSharp extends ReactComponentOfProps<IconProps> {}

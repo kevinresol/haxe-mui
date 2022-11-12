@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VerticalSplitRounded')
+@:jsRequire('@mui/icons-material', 'VerticalSplitRounded')
 extern class VerticalSplitRounded extends ReactComponentOfProps<IconProps> {}

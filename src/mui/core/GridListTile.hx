@@ -13,13 +13,13 @@ typedef GridListTileProps = {
 	@:optional var rows:Int;
 }
 
-@:jsRequire('@material-ui/core', 'GridListTile')
+@:jsRequire('@mui/material', 'GridListTile')
 extern class GridListTile extends ReactComponentOfProps<GridListTileProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<GridListTileClassKey>
 		return GridListTileStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/GridListTile/GridListTile.js')
+@:jsRequire('@mui/material/GridListTile/GridListTile.js')
 extern class GridListTileStyles {
 	static var styles:ClassesDef<GridListTileClassKey>;
 }

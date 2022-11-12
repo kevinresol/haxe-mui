@@ -11,5 +11,5 @@ typedef SlideProps = {
 }
 
 @:acceptsMoreProps('react.transition.Transition')
-@:jsRequire('@material-ui/core', 'Slide')
+@:jsRequire('@mui/material', 'Slide')
 extern class Slide extends ReactComponentOfProps<SlideProps> {}

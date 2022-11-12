@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GraphicEqOutlined')
+@:jsRequire('@mui/icons-material', 'GraphicEqOutlined')
 extern class GraphicEqOutlined extends ReactComponentOfProps<IconProps> {}

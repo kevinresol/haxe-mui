@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LockOpenOutlined')
+@:jsRequire('@mui/icons-material', 'LockOpenOutlined')
 extern class LockOpenOutlined extends ReactComponentOfProps<IconProps> {}

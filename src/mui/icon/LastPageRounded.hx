@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LastPageRounded')
+@:jsRequire('@mui/icons-material', 'LastPageRounded')
 extern class LastPageRounded extends ReactComponentOfProps<IconProps> {}

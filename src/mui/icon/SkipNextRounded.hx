@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SkipNextRounded')
+@:jsRequire('@mui/icons-material', 'SkipNextRounded')
 extern class SkipNextRounded extends ReactComponentOfProps<IconProps> {}

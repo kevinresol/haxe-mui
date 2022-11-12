@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TabUnselected')
+@:jsRequire('@mui/icons-material', 'TabUnselected')
 extern class TabUnselected extends ReactComponentOfProps<IconProps> {}

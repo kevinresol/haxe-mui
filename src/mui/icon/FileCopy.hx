@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FileCopy')
+@:jsRequire('@mui/icons-material', 'FileCopy')
 extern class FileCopy extends ReactComponentOfProps<IconProps> {}

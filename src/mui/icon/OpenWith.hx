@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'OpenWith')
+@:jsRequire('@mui/icons-material', 'OpenWith')
 extern class OpenWith extends ReactComponentOfProps<IconProps> {}

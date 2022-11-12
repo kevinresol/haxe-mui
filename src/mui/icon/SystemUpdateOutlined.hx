@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SystemUpdateOutlined')
+@:jsRequire('@mui/icons-material', 'SystemUpdateOutlined')
 extern class SystemUpdateOutlined extends ReactComponentOfProps<IconProps> {}

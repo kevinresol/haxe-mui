@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DeleteSweep')
+@:jsRequire('@mui/icons-material', 'DeleteSweep')
 extern class DeleteSweep extends ReactComponentOfProps<IconProps> {}

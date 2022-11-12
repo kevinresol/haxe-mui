@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CasinoSharp')
+@:jsRequire('@mui/icons-material', 'CasinoSharp')
 extern class CasinoSharp extends ReactComponentOfProps<IconProps> {}

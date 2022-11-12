@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddRounded')
+@:jsRequire('@mui/icons-material', 'AddRounded')
 extern class AddRounded extends ReactComponentOfProps<IconProps> {}

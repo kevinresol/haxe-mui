@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ArrowDropDownCircleOutlined')
+@:jsRequire('@mui/icons-material', 'ArrowDropDownCircleOutlined')
 extern class ArrowDropDownCircleOutlined extends ReactComponentOfProps<IconProps> {}

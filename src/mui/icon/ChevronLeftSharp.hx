@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ChevronLeftSharp')
+@:jsRequire('@mui/icons-material', 'ChevronLeftSharp')
 extern class ChevronLeftSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NearMeRounded')
+@:jsRequire('@mui/icons-material', 'NearMeRounded')
 extern class NearMeRounded extends ReactComponentOfProps<IconProps> {}

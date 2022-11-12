@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FullscreenExitTwoTone')
+@:jsRequire('@mui/icons-material', 'FullscreenExitTwoTone')
 extern class FullscreenExitTwoTone extends ReactComponentOfProps<IconProps> {}

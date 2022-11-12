@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatItalicSharp')
+@:jsRequire('@mui/icons-material', 'FormatItalicSharp')
 extern class FormatItalicSharp extends ReactComponentOfProps<IconProps> {}

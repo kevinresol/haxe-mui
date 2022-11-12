@@ -11,13 +11,13 @@ typedef CardContentProps = {
 	@:optional var component:ReactType;
 }
 
-@:jsRequire('@material-ui/core', 'CardContent')
+@:jsRequire('@mui/material', 'CardContent')
 extern class CardContent extends ReactComponentOfProps<CardContentProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<CardContentClassKey>
 		return CardContentStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/CardContent/CardContent.js')
+@:jsRequire('@mui/material/CardContent/CardContent.js')
 extern class CardContentStyles {
 	static var styles:ClassesDef<CardContentClassKey>;
 }

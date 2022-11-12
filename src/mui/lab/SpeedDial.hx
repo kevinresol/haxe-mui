@@ -26,13 +26,13 @@ typedef SpeedDialProps = {
 	@:optional var TransitionProps:TransitionProps<Any>;
 }
 
-@:jsRequire('@material-ui/lab', 'SpeedDial')
+@:jsRequire('@mui/lab', 'SpeedDial')
 extern class SpeedDial extends ReactComponentOfProps<SpeedDialProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<SpeedDialClassKey>
 		return SpeedDialStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/lab/SpeedDial/SpeedDial.js')
+@:jsRequire('@mui/lab/SpeedDial/SpeedDial.js')
 extern class SpeedDialStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<SpeedDialClassKey>;
 }

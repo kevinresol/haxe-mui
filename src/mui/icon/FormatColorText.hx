@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatColorText')
+@:jsRequire('@mui/icons-material', 'FormatColorText')
 extern class FormatColorText extends ReactComponentOfProps<IconProps> {}

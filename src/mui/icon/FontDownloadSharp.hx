@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FontDownloadSharp')
+@:jsRequire('@mui/icons-material', 'FontDownloadSharp')
 extern class FontDownloadSharp extends ReactComponentOfProps<IconProps> {}

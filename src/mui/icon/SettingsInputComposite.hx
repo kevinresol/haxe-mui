@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsInputComposite')
+@:jsRequire('@mui/icons-material', 'SettingsInputComposite')
 extern class SettingsInputComposite extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlashOn')
+@:jsRequire('@mui/icons-material', 'FlashOn')
 extern class FlashOn extends ReactComponentOfProps<IconProps> {}

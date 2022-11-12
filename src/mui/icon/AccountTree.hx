@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AccountTree')
+@:jsRequire('@mui/icons-material', 'AccountTree')
 extern class AccountTree extends ReactComponentOfProps<IconProps> {}

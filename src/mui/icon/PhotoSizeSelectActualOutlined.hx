@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PhotoSizeSelectActualOutlined')
+@:jsRequire('@mui/icons-material', 'PhotoSizeSelectActualOutlined')
 extern class PhotoSizeSelectActualOutlined extends ReactComponentOfProps<IconProps> {}

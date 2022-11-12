@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SupervisedUserCircleOutlined')
+@:jsRequire('@mui/icons-material', 'SupervisedUserCircleOutlined')
 extern class SupervisedUserCircleOutlined extends ReactComponentOfProps<IconProps> {}

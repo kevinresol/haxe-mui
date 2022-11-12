@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PanoramaHorizontalSharp')
+@:jsRequire('@mui/icons-material', 'PanoramaHorizontalSharp')
 extern class PanoramaHorizontalSharp extends ReactComponentOfProps<IconProps> {}

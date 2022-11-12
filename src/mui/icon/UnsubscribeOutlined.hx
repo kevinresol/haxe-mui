@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'UnsubscribeOutlined')
+@:jsRequire('@mui/icons-material', 'UnsubscribeOutlined')
 extern class UnsubscribeOutlined extends ReactComponentOfProps<IconProps> {}

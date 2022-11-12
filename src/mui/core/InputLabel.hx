@@ -16,13 +16,13 @@ typedef InputLabelProps = ForcedOverride<FormLabelProps, {
 	@:optional var variant:FormControlVariant;
 }>;
 
-@:jsRequire('@material-ui/core', 'InputLabel')
+@:jsRequire('@mui/material', 'InputLabel')
 extern class InputLabel extends ReactComponentOfProps<InputLabelProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<InputLabelClassKey>
 		return InputLabelStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/InputLabel/InputLabel.js')
+@:jsRequire('@mui/material/InputLabel/InputLabel.js')
 extern class InputLabelStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<InputLabelClassKey>;
 }

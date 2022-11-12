@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FindInPageRounded')
+@:jsRequire('@mui/icons-material', 'FindInPageRounded')
 extern class FindInPageRounded extends ReactComponentOfProps<IconProps> {}

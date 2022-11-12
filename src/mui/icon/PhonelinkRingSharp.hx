@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PhonelinkRingSharp')
+@:jsRequire('@mui/icons-material', 'PhonelinkRingSharp')
 extern class PhonelinkRingSharp extends ReactComponentOfProps<IconProps> {}

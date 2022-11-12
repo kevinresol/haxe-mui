@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SingleBedSharp')
+@:jsRequire('@mui/icons-material', 'SingleBedSharp')
 extern class SingleBedSharp extends ReactComponentOfProps<IconProps> {}

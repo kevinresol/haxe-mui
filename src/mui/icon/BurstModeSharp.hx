@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BurstModeSharp')
+@:jsRequire('@mui/icons-material', 'BurstModeSharp')
 extern class BurstModeSharp extends ReactComponentOfProps<IconProps> {}

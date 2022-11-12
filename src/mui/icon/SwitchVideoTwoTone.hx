@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SwitchVideoTwoTone')
+@:jsRequire('@mui/icons-material', 'SwitchVideoTwoTone')
 extern class SwitchVideoTwoTone extends ReactComponentOfProps<IconProps> {}

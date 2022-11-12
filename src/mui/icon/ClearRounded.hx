@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ClearRounded')
+@:jsRequire('@mui/icons-material', 'ClearRounded')
 extern class ClearRounded extends ReactComponentOfProps<IconProps> {}

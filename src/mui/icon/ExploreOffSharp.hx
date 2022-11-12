@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ExploreOffSharp')
+@:jsRequire('@mui/icons-material', 'ExploreOffSharp')
 extern class ExploreOffSharp extends ReactComponentOfProps<IconProps> {}

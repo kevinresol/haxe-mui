@@ -15,13 +15,13 @@ typedef TableSortLabelProps = {
 	@:optional var IconComponent:ReactType;
 }
 
-@:jsRequire('@material-ui/core', 'TableSortLabel')
+@:jsRequire('@mui/material', 'TableSortLabel')
 extern class TableSortLabel extends ReactComponentOfProps<TableSortLabelProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<TableSortLabelClassKey>
 		return TableSortLabelStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/TableSortLabel/TableSortLabel.js')
+@:jsRequire('@mui/material/TableSortLabel/TableSortLabel.js')
 extern class TableSortLabelStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<TableSortLabelClassKey>;
 }

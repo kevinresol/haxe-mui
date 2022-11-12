@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RadioButtonCheckedSharp')
+@:jsRequire('@mui/icons-material', 'RadioButtonCheckedSharp')
 extern class RadioButtonCheckedSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VerifiedUser')
+@:jsRequire('@mui/icons-material', 'VerifiedUser')
 extern class VerifiedUser extends ReactComponentOfProps<IconProps> {}

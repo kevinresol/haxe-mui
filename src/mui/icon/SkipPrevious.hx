@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SkipPrevious')
+@:jsRequire('@mui/icons-material', 'SkipPrevious')
 extern class SkipPrevious extends ReactComponentOfProps<IconProps> {}

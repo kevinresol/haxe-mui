@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SendSharp')
+@:jsRequire('@mui/icons-material', 'SendSharp')
 extern class SendSharp extends ReactComponentOfProps<IconProps> {}

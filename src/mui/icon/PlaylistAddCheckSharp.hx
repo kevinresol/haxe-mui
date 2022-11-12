@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PlaylistAddCheckSharp')
+@:jsRequire('@mui/icons-material', 'PlaylistAddCheckSharp')
 extern class PlaylistAddCheckSharp extends ReactComponentOfProps<IconProps> {}

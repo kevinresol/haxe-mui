@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BusinessCenterRounded')
+@:jsRequire('@mui/icons-material', 'BusinessCenterRounded')
 extern class BusinessCenterRounded extends ReactComponentOfProps<IconProps> {}

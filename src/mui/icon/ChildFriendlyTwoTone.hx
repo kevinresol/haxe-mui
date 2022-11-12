@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ChildFriendlyTwoTone')
+@:jsRequire('@mui/icons-material', 'ChildFriendlyTwoTone')
 extern class ChildFriendlyTwoTone extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TabOutlined')
+@:jsRequire('@mui/icons-material', 'TabOutlined')
 extern class TabOutlined extends ReactComponentOfProps<IconProps> {}

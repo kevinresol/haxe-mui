@@ -2,7 +2,7 @@ package mui.core.styles;
 
 import mui.Colors;
 
-@:jsRequire('@material-ui/core/styles')
+@:jsRequire('@mui/material/styles')
 extern class ColorManipulator {
 	public static function getContrastRatio(fg:ColorString, bg:ColorString):Float;
 	public static function getLuminance(color:ColorString):Float;

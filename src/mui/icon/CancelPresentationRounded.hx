@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CancelPresentationRounded')
+@:jsRequire('@mui/icons-material', 'CancelPresentationRounded')
 extern class CancelPresentationRounded extends ReactComponentOfProps<IconProps> {}

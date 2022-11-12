@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CancelPresentationTwoTone')
+@:jsRequire('@mui/icons-material', 'CancelPresentationTwoTone')
 extern class CancelPresentationTwoTone extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AllInclusiveOutlined')
+@:jsRequire('@mui/icons-material', 'AllInclusiveOutlined')
 extern class AllInclusiveOutlined extends ReactComponentOfProps<IconProps> {}

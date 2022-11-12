@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'OpenWithRounded')
+@:jsRequire('@mui/icons-material', 'OpenWithRounded')
 extern class OpenWithRounded extends ReactComponentOfProps<IconProps> {}

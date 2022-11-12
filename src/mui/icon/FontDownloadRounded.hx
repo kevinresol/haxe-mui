@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FontDownloadRounded')
+@:jsRequire('@mui/icons-material', 'FontDownloadRounded')
 extern class FontDownloadRounded extends ReactComponentOfProps<IconProps> {}

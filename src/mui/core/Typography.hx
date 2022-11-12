@@ -25,13 +25,13 @@ typedef TypographyProps = {
 	@:optional var variantMapping:TypographyVariantMapping;
 }
 
-@:jsRequire('@material-ui/core', 'Typography')
+@:jsRequire('@mui/material', 'Typography')
 extern class Typography extends ReactComponentOfProps<TypographyProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<TypographyClassKey>
 		return TypographyStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Typography/Typography.js')
+@:jsRequire('@mui/material/Typography/Typography.js')
 extern class TypographyStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<TypographyClassKey>;
 }

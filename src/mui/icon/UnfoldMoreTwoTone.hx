@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'UnfoldMoreTwoTone')
+@:jsRequire('@mui/icons-material', 'UnfoldMoreTwoTone')
 extern class UnfoldMoreTwoTone extends ReactComponentOfProps<IconProps> {}

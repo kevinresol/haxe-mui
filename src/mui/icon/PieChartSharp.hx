@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PieChartSharp')
+@:jsRequire('@mui/icons-material', 'PieChartSharp')
 extern class PieChartSharp extends ReactComponentOfProps<IconProps> {}

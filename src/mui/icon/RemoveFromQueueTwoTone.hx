@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RemoveFromQueueTwoTone')
+@:jsRequire('@mui/icons-material', 'RemoveFromQueueTwoTone')
 extern class RemoveFromQueueTwoTone extends ReactComponentOfProps<IconProps> {}

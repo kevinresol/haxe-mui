@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'KeyboardBackspaceOutlined')
+@:jsRequire('@mui/icons-material', 'KeyboardBackspaceOutlined')
 extern class KeyboardBackspaceOutlined extends ReactComponentOfProps<IconProps> {}

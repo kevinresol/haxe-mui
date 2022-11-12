@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RvHookupOutlined')
+@:jsRequire('@mui/icons-material', 'RvHookupOutlined')
 extern class RvHookupOutlined extends ReactComponentOfProps<IconProps> {}

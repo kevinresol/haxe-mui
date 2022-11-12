@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsInputCompositeRounded')
+@:jsRequire('@mui/icons-material', 'SettingsInputCompositeRounded')
 extern class SettingsInputCompositeRounded extends ReactComponentOfProps<IconProps> {}

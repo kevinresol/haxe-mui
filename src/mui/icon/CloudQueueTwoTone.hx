@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CloudQueueTwoTone')
+@:jsRequire('@mui/icons-material', 'CloudQueueTwoTone')
 extern class CloudQueueTwoTone extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SignalCellular4BarOutlined')
+@:jsRequire('@mui/icons-material', 'SignalCellular4BarOutlined')
 extern class SignalCellular4BarOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AmpStoriesSharp')
+@:jsRequire('@mui/icons-material', 'AmpStoriesSharp')
 extern class AmpStoriesSharp extends ReactComponentOfProps<IconProps> {}

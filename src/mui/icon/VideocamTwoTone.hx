@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VideocamTwoTone')
+@:jsRequire('@mui/icons-material', 'VideocamTwoTone')
 extern class VideocamTwoTone extends ReactComponentOfProps<IconProps> {}

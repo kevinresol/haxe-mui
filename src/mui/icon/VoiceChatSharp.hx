@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VoiceChatSharp')
+@:jsRequire('@mui/icons-material', 'VoiceChatSharp')
 extern class VoiceChatSharp extends ReactComponentOfProps<IconProps> {}

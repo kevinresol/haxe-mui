@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HeightSharp')
+@:jsRequire('@mui/icons-material', 'HeightSharp')
 extern class HeightSharp extends ReactComponentOfProps<IconProps> {}

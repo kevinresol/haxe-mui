@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalFloristSharp')
+@:jsRequire('@mui/icons-material', 'LocalFloristSharp')
 extern class LocalFloristSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsApplicationsOutlined')
+@:jsRequire('@mui/icons-material', 'SettingsApplicationsOutlined')
 extern class SettingsApplicationsOutlined extends ReactComponentOfProps<IconProps> {}

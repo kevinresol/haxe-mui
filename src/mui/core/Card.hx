@@ -9,13 +9,13 @@ typedef CardProps = ForcedOverride<PaperProps, {
 	@:optional var raised:Bool;
 }>;
 
-@:jsRequire('@material-ui/core', 'Card')
+@:jsRequire('@mui/material', 'Card')
 extern class Card extends ReactComponentOfProps<CardProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<CardClassKey>
 		return CardStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/Card/Card.js')
+@:jsRequire('@mui/material/Card/Card.js')
 extern class CardStyles {
 	static var styles:ClassesDef<CardClassKey>;
 }

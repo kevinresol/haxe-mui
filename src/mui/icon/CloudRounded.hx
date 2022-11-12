@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CloudRounded')
+@:jsRequire('@mui/icons-material', 'CloudRounded')
 extern class CloudRounded extends ReactComponentOfProps<IconProps> {}

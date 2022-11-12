@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NfcOutlined')
+@:jsRequire('@mui/icons-material', 'NfcOutlined')
 extern class NfcOutlined extends ReactComponentOfProps<IconProps> {}

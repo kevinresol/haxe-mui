@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ArtTrack')
+@:jsRequire('@mui/icons-material', 'ArtTrack')
 extern class ArtTrack extends ReactComponentOfProps<IconProps> {}

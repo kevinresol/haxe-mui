@@ -24,13 +24,13 @@ typedef BadgeProps = {
 	@:optional var variant:BadgeVariant;
 }
 
-@:jsRequire('@material-ui/core', 'Badge')
+@:jsRequire('@mui/material', 'Badge')
 extern class Badge extends ReactComponentOfProps<BadgeProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<BadgeClassKey>
 		return BadgeStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Badge/Badge.js')
+@:jsRequire('@mui/material/Badge/Badge.js')
 extern class BadgeStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<BadgeClassKey>;
 }

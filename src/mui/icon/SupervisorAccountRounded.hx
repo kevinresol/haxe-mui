@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SupervisorAccountRounded')
+@:jsRequire('@mui/icons-material', 'SupervisorAccountRounded')
 extern class SupervisorAccountRounded extends ReactComponentOfProps<IconProps> {}

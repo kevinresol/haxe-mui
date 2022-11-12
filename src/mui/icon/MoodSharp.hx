@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MoodSharp')
+@:jsRequire('@mui/icons-material', 'MoodSharp')
 extern class MoodSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlipToBackTwoTone')
+@:jsRequire('@mui/icons-material', 'FlipToBackTwoTone')
 extern class FlipToBackTwoTone extends ReactComponentOfProps<IconProps> {}

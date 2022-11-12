@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ForwardOutlined')
+@:jsRequire('@mui/icons-material', 'ForwardOutlined')
 extern class ForwardOutlined extends ReactComponentOfProps<IconProps> {}

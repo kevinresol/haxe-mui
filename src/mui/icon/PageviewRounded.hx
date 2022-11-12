@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PageviewRounded')
+@:jsRequire('@mui/icons-material', 'PageviewRounded')
 extern class PageviewRounded extends ReactComponentOfProps<IconProps> {}

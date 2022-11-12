@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WbCloudyOutlined')
+@:jsRequire('@mui/icons-material', 'WbCloudyOutlined')
 extern class WbCloudyOutlined extends ReactComponentOfProps<IconProps> {}

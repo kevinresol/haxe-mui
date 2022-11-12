@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TextRotationAngleupSharp')
+@:jsRequire('@mui/icons-material', 'TextRotationAngleupSharp')
 extern class TextRotationAngleupSharp extends ReactComponentOfProps<IconProps> {}

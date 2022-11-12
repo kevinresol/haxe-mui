@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AccessibleForwardTwoTone')
+@:jsRequire('@mui/icons-material', 'AccessibleForwardTwoTone')
 extern class AccessibleForwardTwoTone extends ReactComponentOfProps<IconProps> {}

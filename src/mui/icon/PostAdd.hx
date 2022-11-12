@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PostAdd')
+@:jsRequire('@mui/icons-material', 'PostAdd')
 extern class PostAdd extends ReactComponentOfProps<IconProps> {}

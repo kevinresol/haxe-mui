@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SyncDisabledOutlined')
+@:jsRequire('@mui/icons-material', 'SyncDisabledOutlined')
 extern class SyncDisabledOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PermDataSettingTwoTone')
+@:jsRequire('@mui/icons-material', 'PermDataSettingTwoTone')
 extern class PermDataSettingTwoTone extends ReactComponentOfProps<IconProps> {}

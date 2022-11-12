@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DragHandleTwoTone')
+@:jsRequire('@mui/icons-material', 'DragHandleTwoTone')
 extern class DragHandleTwoTone extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SpaceBar')
+@:jsRequire('@mui/icons-material', 'SpaceBar')
 extern class SpaceBar extends ReactComponentOfProps<IconProps> {}

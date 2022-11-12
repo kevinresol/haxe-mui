@@ -11,13 +11,13 @@ typedef ExpansionPanelActionsProps = {
 	@:optional var disableSpacing:Bool;
 }
 
-@:jsRequire('@material-ui/core', 'ExpansionPanelActions')
+@:jsRequire('@mui/material', 'ExpansionPanelActions')
 extern class ExpansionPanelActions extends ReactComponentOfProps<ExpansionPanelActionsProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<ExpansionPanelActionsClassKey>
 		return ExpansionPanelActionsStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/ExpansionPanelActions/ExpansionPanelActions.js')
+@:jsRequire('@mui/material/ExpansionPanelActions/ExpansionPanelActions.js')
 extern class ExpansionPanelActionsStyles {
 	static var styles:ClassesDef<ExpansionPanelActionsClassKey>;
 }

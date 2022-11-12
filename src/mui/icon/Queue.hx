@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Queue')
+@:jsRequire('@mui/icons-material', 'Queue')
 extern class Queue extends ReactComponentOfProps<IconProps> {}

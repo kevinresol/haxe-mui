@@ -17,13 +17,13 @@ typedef InputAdornmentProps = {
 	@:optional var variant:FormControlVariant;
 }
 
-@:jsRequire('@material-ui/core', 'InputAdornment')
+@:jsRequire('@mui/material', 'InputAdornment')
 extern class InputAdornment extends ReactComponentOfProps<InputAdornmentProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<InputAdornmentClassKey>
 		return InputAdornmentStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/InputAdornment/InputAdornment.js')
+@:jsRequire('@mui/material/InputAdornment/InputAdornment.js')
 extern class InputAdornmentStyles {
 	static var styles:ClassesDef<InputAdornmentClassKey>;
 }

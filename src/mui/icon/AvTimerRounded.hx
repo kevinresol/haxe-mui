@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AvTimerRounded')
+@:jsRequire('@mui/icons-material', 'AvTimerRounded')
 extern class AvTimerRounded extends ReactComponentOfProps<IconProps> {}

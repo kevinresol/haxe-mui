@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NetworkCheckTwoTone')
+@:jsRequire('@mui/icons-material', 'NetworkCheckTwoTone')
 extern class NetworkCheckTwoTone extends ReactComponentOfProps<IconProps> {}

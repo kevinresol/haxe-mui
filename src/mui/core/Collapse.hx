@@ -18,13 +18,13 @@ typedef CollapseProps = ForcedOverride<TransitionProps<Any>, {
 }>;
 
 @:acceptsMoreProps('react.transition.Transition')
-@:jsRequire('@material-ui/core', 'Collapse')
+@:jsRequire('@mui/material', 'Collapse')
 extern class Collapse extends ReactComponentOfProps<CollapseProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<CollapseClassKey>
 		return CollapseStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Collapse/Collapse.js')
+@:jsRequire('@mui/material/Collapse/Collapse.js')
 extern class CollapseStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<CollapseClassKey>;
 }

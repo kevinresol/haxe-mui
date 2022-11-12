@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LiveHelpTwoTone')
+@:jsRequire('@mui/icons-material', 'LiveHelpTwoTone')
 extern class LiveHelpTwoTone extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CloudUploadSharp')
+@:jsRequire('@mui/icons-material', 'CloudUploadSharp')
 extern class CloudUploadSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FiberPinOutlined')
+@:jsRequire('@mui/icons-material', 'FiberPinOutlined')
 extern class FiberPinOutlined extends ReactComponentOfProps<IconProps> {}

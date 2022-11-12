@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RedoSharp')
+@:jsRequire('@mui/icons-material', 'RedoSharp')
 extern class RedoSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Undo')
+@:jsRequire('@mui/icons-material', 'Undo')
 extern class Undo extends ReactComponentOfProps<IconProps> {}

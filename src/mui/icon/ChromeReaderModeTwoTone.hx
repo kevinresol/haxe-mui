@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ChromeReaderModeTwoTone')
+@:jsRequire('@mui/icons-material', 'ChromeReaderModeTwoTone')
 extern class ChromeReaderModeTwoTone extends ReactComponentOfProps<IconProps> {}

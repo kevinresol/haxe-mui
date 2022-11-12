@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PanToolSharp')
+@:jsRequire('@mui/icons-material', 'PanToolSharp')
 extern class PanToolSharp extends ReactComponentOfProps<IconProps> {}

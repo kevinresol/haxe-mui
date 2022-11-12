@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GridOnSharp')
+@:jsRequire('@mui/icons-material', 'GridOnSharp')
 extern class GridOnSharp extends ReactComponentOfProps<IconProps> {}

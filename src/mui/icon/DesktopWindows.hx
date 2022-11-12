@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DesktopWindows')
+@:jsRequire('@mui/icons-material', 'DesktopWindows')
 extern class DesktopWindows extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ControlPointDuplicate')
+@:jsRequire('@mui/icons-material', 'ControlPointDuplicate')
 extern class ControlPointDuplicate extends ReactComponentOfProps<IconProps> {}

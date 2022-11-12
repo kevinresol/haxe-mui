@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SwapCallsOutlined')
+@:jsRequire('@mui/icons-material', 'SwapCallsOutlined')
 extern class SwapCallsOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AndroidSharp')
+@:jsRequire('@mui/icons-material', 'AndroidSharp')
 extern class AndroidSharp extends ReactComponentOfProps<IconProps> {}

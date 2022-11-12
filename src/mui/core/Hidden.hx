@@ -22,5 +22,5 @@ private typedef Props = {
 	@:optional var className:String;
 }
 
-@:jsRequire('@material-ui/core', 'Hidden')
+@:jsRequire('@mui/material', 'Hidden')
 extern class Hidden extends ReactComponentOfProps<Props> {}

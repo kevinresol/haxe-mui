@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DonutLargeOutlined')
+@:jsRequire('@mui/icons-material', 'DonutLargeOutlined')
 extern class DonutLargeOutlined extends ReactComponentOfProps<IconProps> {}

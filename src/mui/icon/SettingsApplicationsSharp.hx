@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsApplicationsSharp')
+@:jsRequire('@mui/icons-material', 'SettingsApplicationsSharp')
 extern class SettingsApplicationsSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CallToAction')
+@:jsRequire('@mui/icons-material', 'CallToAction')
 extern class CallToAction extends ReactComponentOfProps<IconProps> {}

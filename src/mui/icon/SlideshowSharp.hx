@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SlideshowSharp')
+@:jsRequire('@mui/icons-material', 'SlideshowSharp')
 extern class SlideshowSharp extends ReactComponentOfProps<IconProps> {}

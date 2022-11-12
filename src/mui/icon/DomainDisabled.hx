@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DomainDisabled')
+@:jsRequire('@mui/icons-material', 'DomainDisabled')
 extern class DomainDisabled extends ReactComponentOfProps<IconProps> {}

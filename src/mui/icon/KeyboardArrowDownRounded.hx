@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'KeyboardArrowDownRounded')
+@:jsRequire('@mui/icons-material', 'KeyboardArrowDownRounded')
 extern class KeyboardArrowDownRounded extends ReactComponentOfProps<IconProps> {}

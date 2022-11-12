@@ -16,13 +16,13 @@ typedef ListSubheaderProps = {
 	@:optional var inset:Bool;
 }
 
-@:jsRequire('@material-ui/core', 'ListSubheader')
+@:jsRequire('@mui/material', 'ListSubheader')
 extern class ListSubheader extends ReactComponentOfProps<ListSubheaderProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<ListSubheaderClassKey>
 		return ListSubheaderStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/ListSubheader/ListSubheader.js')
+@:jsRequire('@mui/material/ListSubheader/ListSubheader.js')
 extern class ListSubheaderStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<ListSubheaderClassKey>;
 }

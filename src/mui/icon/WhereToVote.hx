@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WhereToVote')
+@:jsRequire('@mui/icons-material', 'WhereToVote')
 extern class WhereToVote extends ReactComponentOfProps<IconProps> {}

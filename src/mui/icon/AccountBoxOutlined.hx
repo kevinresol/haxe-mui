@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AccountBoxOutlined')
+@:jsRequire('@mui/icons-material', 'AccountBoxOutlined')
 extern class AccountBoxOutlined extends ReactComponentOfProps<IconProps> {}

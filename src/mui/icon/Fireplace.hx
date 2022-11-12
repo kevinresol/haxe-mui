@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Fireplace')
+@:jsRequire('@mui/icons-material', 'Fireplace')
 extern class Fireplace extends ReactComponentOfProps<IconProps> {}

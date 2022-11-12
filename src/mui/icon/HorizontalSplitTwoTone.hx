@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HorizontalSplitTwoTone')
+@:jsRequire('@mui/icons-material', 'HorizontalSplitTwoTone')
 extern class HorizontalSplitTwoTone extends ReactComponentOfProps<IconProps> {}

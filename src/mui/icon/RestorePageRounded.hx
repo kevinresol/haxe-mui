@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RestorePageRounded')
+@:jsRequire('@mui/icons-material', 'RestorePageRounded')
 extern class RestorePageRounded extends ReactComponentOfProps<IconProps> {}

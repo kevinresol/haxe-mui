@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DirectionsBikeSharp')
+@:jsRequire('@mui/icons-material', 'DirectionsBikeSharp')
 extern class DirectionsBikeSharp extends ReactComponentOfProps<IconProps> {}

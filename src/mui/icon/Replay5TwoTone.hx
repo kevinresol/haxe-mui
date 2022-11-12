@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Replay5TwoTone')
+@:jsRequire('@mui/icons-material', 'Replay5TwoTone')
 extern class Replay5TwoTone extends ReactComponentOfProps<IconProps> {}

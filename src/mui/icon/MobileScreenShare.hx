@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MobileScreenShare')
+@:jsRequire('@mui/icons-material', 'MobileScreenShare')
 extern class MobileScreenShare extends ReactComponentOfProps<IconProps> {}

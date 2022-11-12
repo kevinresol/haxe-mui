@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SyncSharp')
+@:jsRequire('@mui/icons-material', 'SyncSharp')
 extern class SyncSharp extends ReactComponentOfProps<IconProps> {}

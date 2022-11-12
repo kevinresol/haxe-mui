@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FindInPage')
+@:jsRequire('@mui/icons-material', 'FindInPage')
 extern class FindInPage extends ReactComponentOfProps<IconProps> {}

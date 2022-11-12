@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GroupRounded')
+@:jsRequire('@mui/icons-material', 'GroupRounded')
 extern class GroupRounded extends ReactComponentOfProps<IconProps> {}

@@ -16,13 +16,13 @@ typedef TableProps = {
 	@:optional var stickyHeader:Bool;
 }
 
-@:jsRequire('@material-ui/core', 'Table')
+@:jsRequire('@mui/material', 'Table')
 extern class Table extends ReactComponentOfProps<TableProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<TableClassKey>
 		return TableStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Table/Table.js')
+@:jsRequire('@mui/material/Table/Table.js')
 extern class TableStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<TableClassKey>;
 }

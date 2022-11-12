@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PauseRounded')
+@:jsRequire('@mui/icons-material', 'PauseRounded')
 extern class PauseRounded extends ReactComponentOfProps<IconProps> {}

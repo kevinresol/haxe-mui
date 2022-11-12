@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FindReplace')
+@:jsRequire('@mui/icons-material', 'FindReplace')
 extern class FindReplace extends ReactComponentOfProps<IconProps> {}

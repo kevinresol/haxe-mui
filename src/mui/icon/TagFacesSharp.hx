@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TagFacesSharp')
+@:jsRequire('@mui/icons-material', 'TagFacesSharp')
 extern class TagFacesSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NoSimRounded')
+@:jsRequire('@mui/icons-material', 'NoSimRounded')
 extern class NoSimRounded extends ReactComponentOfProps<IconProps> {}

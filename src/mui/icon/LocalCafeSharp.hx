@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalCafeSharp')
+@:jsRequire('@mui/icons-material', 'LocalCafeSharp')
 extern class LocalCafeSharp extends ReactComponentOfProps<IconProps> {}

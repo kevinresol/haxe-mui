@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ControlCameraRounded')
+@:jsRequire('@mui/icons-material', 'ControlCameraRounded')
 extern class ControlCameraRounded extends ReactComponentOfProps<IconProps> {}

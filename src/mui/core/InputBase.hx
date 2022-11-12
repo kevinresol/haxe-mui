@@ -45,13 +45,13 @@ typedef InputBaseCommonProps = {
 	@:optional var value:InputValue;
 }
 
-@:jsRequire('@material-ui/core', 'InputBase')
+@:jsRequire('@mui/material', 'InputBase')
 extern class InputBase extends ReactComponentOfProps<InputBaseProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<InputBaseClassKey>
 		return InputBaseStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/InputBase/InputBase.js')
+@:jsRequire('@mui/material/InputBase/InputBase.js')
 extern class InputBaseStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<InputBaseClassKey>;
 }

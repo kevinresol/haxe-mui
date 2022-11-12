@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NotificationsNone')
+@:jsRequire('@mui/icons-material', 'NotificationsNone')
 extern class NotificationsNone extends ReactComponentOfProps<IconProps> {}

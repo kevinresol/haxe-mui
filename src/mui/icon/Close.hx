@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Close')
+@:jsRequire('@mui/icons-material', 'Close')
 extern class Close extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LayersClear')
+@:jsRequire('@mui/icons-material', 'LayersClear')
 extern class LayersClear extends ReactComponentOfProps<IconProps> {}

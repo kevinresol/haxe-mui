@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PrintSharp')
+@:jsRequire('@mui/icons-material', 'PrintSharp')
 extern class PrintSharp extends ReactComponentOfProps<IconProps> {}

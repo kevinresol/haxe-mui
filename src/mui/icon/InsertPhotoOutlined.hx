@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'InsertPhotoOutlined')
+@:jsRequire('@mui/icons-material', 'InsertPhotoOutlined')
 extern class InsertPhotoOutlined extends ReactComponentOfProps<IconProps> {}

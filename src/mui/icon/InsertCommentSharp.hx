@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'InsertCommentSharp')
+@:jsRequire('@mui/icons-material', 'InsertCommentSharp')
 extern class InsertCommentSharp extends ReactComponentOfProps<IconProps> {}

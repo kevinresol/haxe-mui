@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ToggleOnRounded')
+@:jsRequire('@mui/icons-material', 'ToggleOnRounded')
 extern class ToggleOnRounded extends ReactComponentOfProps<IconProps> {}

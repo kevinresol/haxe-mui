@@ -18,13 +18,13 @@ typedef SkeletonProps = {
 	@:optional var width:StringOrInt;
 }
 
-@:jsRequire('@material-ui/lab', 'Skeleton')
+@:jsRequire('@mui/lab', 'Skeleton')
 extern class Skeleton extends ReactComponentOfProps<SkeletonProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<SkeletonClassKey>
 		return SkeletonStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/lab/Skeleton/Skeleton.js')
+@:jsRequire('@mui/lab/Skeleton/Skeleton.js')
 extern class SkeletonStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<SkeletonClassKey>;
 }

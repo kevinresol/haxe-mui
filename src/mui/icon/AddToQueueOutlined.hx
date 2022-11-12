@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddToQueueOutlined')
+@:jsRequire('@mui/icons-material', 'AddToQueueOutlined')
 extern class AddToQueueOutlined extends ReactComponentOfProps<IconProps> {}

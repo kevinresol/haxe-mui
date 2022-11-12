@@ -10,13 +10,13 @@ typedef ListItemAvatarProps = {
 	@:optional var classes:Record<ListItemAvatarClassKey>;
 }
 
-@:jsRequire('@material-ui/core', 'ListItemAvatar')
+@:jsRequire('@mui/material', 'ListItemAvatar')
 extern class ListItemAvatar extends ReactComponentOfProps<ListItemAvatarProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<ListItemAvatarClassKey>
 		return ListItemAvatarStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/ListItemAvatar/ListItemAvatar.js')
+@:jsRequire('@mui/material/ListItemAvatar/ListItemAvatar.js')
 extern class ListItemAvatarStyles {
 	static var styles:ClassesDef<ListItemAvatarClassKey>;
 }

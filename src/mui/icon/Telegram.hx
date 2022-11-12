@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Telegram')
+@:jsRequire('@mui/icons-material', 'Telegram')
 extern class Telegram extends ReactComponentOfProps<IconProps> {}

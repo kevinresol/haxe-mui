@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TimerOff')
+@:jsRequire('@mui/icons-material', 'TimerOff')
 extern class TimerOff extends ReactComponentOfProps<IconProps> {}

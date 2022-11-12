@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatUnderlinedSharp')
+@:jsRequire('@mui/icons-material', 'FormatUnderlinedSharp')
 extern class FormatUnderlinedSharp extends ReactComponentOfProps<IconProps> {}

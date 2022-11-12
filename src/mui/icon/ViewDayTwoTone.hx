@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ViewDayTwoTone')
+@:jsRequire('@mui/icons-material', 'ViewDayTwoTone')
 extern class ViewDayTwoTone extends ReactComponentOfProps<IconProps> {}

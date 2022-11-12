@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GridOffTwoTone')
+@:jsRequire('@mui/icons-material', 'GridOffTwoTone')
 extern class GridOffTwoTone extends ReactComponentOfProps<IconProps> {}

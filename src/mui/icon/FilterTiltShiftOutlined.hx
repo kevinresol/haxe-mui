@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FilterTiltShiftOutlined')
+@:jsRequire('@mui/icons-material', 'FilterTiltShiftOutlined')
 extern class FilterTiltShiftOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NotificationsActiveOutlined')
+@:jsRequire('@mui/icons-material', 'NotificationsActiveOutlined')
 extern class NotificationsActiveOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ModeCommentTwoTone')
+@:jsRequire('@mui/icons-material', 'ModeCommentTwoTone')
 extern class ModeCommentTwoTone extends ReactComponentOfProps<IconProps> {}

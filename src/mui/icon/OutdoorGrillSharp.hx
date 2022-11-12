@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'OutdoorGrillSharp')
+@:jsRequire('@mui/icons-material', 'OutdoorGrillSharp')
 extern class OutdoorGrillSharp extends ReactComponentOfProps<IconProps> {}

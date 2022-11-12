@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsBackupRestore')
+@:jsRequire('@mui/icons-material', 'SettingsBackupRestore')
 extern class SettingsBackupRestore extends ReactComponentOfProps<IconProps> {}

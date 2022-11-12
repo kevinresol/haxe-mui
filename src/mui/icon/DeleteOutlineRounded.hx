@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DeleteOutlineRounded')
+@:jsRequire('@mui/icons-material', 'DeleteOutlineRounded')
 extern class DeleteOutlineRounded extends ReactComponentOfProps<IconProps> {}

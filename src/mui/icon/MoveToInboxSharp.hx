@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MoveToInboxSharp')
+@:jsRequire('@mui/icons-material', 'MoveToInboxSharp')
 extern class MoveToInboxSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PoolRounded')
+@:jsRequire('@mui/icons-material', 'PoolRounded')
 extern class PoolRounded extends ReactComponentOfProps<IconProps> {}

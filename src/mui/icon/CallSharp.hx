@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CallSharp')
+@:jsRequire('@mui/icons-material', 'CallSharp')
 extern class CallSharp extends ReactComponentOfProps<IconProps> {}

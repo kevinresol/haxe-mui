@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NoEncryptionTwoTone')
+@:jsRequire('@mui/icons-material', 'NoEncryptionTwoTone')
 extern class NoEncryptionTwoTone extends ReactComponentOfProps<IconProps> {}

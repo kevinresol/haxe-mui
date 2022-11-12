@@ -22,13 +22,13 @@ typedef RatingProps = ForcedOverride<StandardDOMAttributes, {
 	@:optional var value:Float;
 }>;
 
-@:jsRequire('@material-ui/lab', 'Rating')
+@:jsRequire('@mui/lab', 'Rating')
 extern class Rating extends ReactComponentOfProps<RatingProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<RatingClassKey>
 		return RatingStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/lab/Rating/Rating.js')
+@:jsRequire('@mui/lab/Rating/Rating.js')
 extern class RatingStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<RatingClassKey>;
 }

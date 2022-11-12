@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'StayPrimaryPortraitSharp')
+@:jsRequire('@mui/icons-material', 'StayPrimaryPortraitSharp')
 extern class StayPrimaryPortraitSharp extends ReactComponentOfProps<IconProps> {}

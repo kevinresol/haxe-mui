@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ChangeHistoryRounded')
+@:jsRequire('@mui/icons-material', 'ChangeHistoryRounded')
 extern class ChangeHistoryRounded extends ReactComponentOfProps<IconProps> {}

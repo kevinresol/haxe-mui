@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PeopleAltSharp')
+@:jsRequire('@mui/icons-material', 'PeopleAltSharp')
 extern class PeopleAltSharp extends ReactComponentOfProps<IconProps> {}

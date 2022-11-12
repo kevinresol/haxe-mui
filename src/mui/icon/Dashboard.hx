@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Dashboard')
+@:jsRequire('@mui/icons-material', 'Dashboard')
 extern class Dashboard extends ReactComponentOfProps<IconProps> {}

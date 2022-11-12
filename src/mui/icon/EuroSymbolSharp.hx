@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EuroSymbolSharp')
+@:jsRequire('@mui/icons-material', 'EuroSymbolSharp')
 extern class EuroSymbolSharp extends ReactComponentOfProps<IconProps> {}

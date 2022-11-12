@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'InsertChartSharp')
+@:jsRequire('@mui/icons-material', 'InsertChartSharp')
 extern class InsertChartSharp extends ReactComponentOfProps<IconProps> {}

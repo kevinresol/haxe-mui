@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CreateNewFolderSharp')
+@:jsRequire('@mui/icons-material', 'CreateNewFolderSharp')
 extern class CreateNewFolderSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AllOut')
+@:jsRequire('@mui/icons-material', 'AllOut')
 extern class AllOut extends ReactComponentOfProps<IconProps> {}

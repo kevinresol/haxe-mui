@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatListNumberedRtlTwoTone')
+@:jsRequire('@mui/icons-material', 'FormatListNumberedRtlTwoTone')
 extern class FormatListNumberedRtlTwoTone extends ReactComponentOfProps<IconProps> {}

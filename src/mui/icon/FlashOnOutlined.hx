@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlashOnOutlined')
+@:jsRequire('@mui/icons-material', 'FlashOnOutlined')
 extern class FlashOnOutlined extends ReactComponentOfProps<IconProps> {}

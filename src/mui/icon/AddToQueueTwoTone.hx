@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddToQueueTwoTone')
+@:jsRequire('@mui/icons-material', 'AddToQueueTwoTone')
 extern class AddToQueueTwoTone extends ReactComponentOfProps<IconProps> {}

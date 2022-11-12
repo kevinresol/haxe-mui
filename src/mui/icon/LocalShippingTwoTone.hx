@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalShippingTwoTone')
+@:jsRequire('@mui/icons-material', 'LocalShippingTwoTone')
 extern class LocalShippingTwoTone extends ReactComponentOfProps<IconProps> {}

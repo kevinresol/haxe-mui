@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'StraightenOutlined')
+@:jsRequire('@mui/icons-material', 'StraightenOutlined')
 extern class StraightenOutlined extends ReactComponentOfProps<IconProps> {}

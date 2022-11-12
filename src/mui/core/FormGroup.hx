@@ -11,13 +11,13 @@ typedef FormGroupProps = {
 	@:optional var row:Bool;
 }
 
-@:jsRequire('@material-ui/core', 'FormGroup')
+@:jsRequire('@mui/material', 'FormGroup')
 extern class FormGroup extends ReactComponentOfProps<FormGroupProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<FormGroupClassKey>
 		return FormGroupStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/FormGroup/FormGroup.js')
+@:jsRequire('@mui/material/FormGroup/FormGroup.js')
 extern class FormGroupStyles {
 	static var styles:ClassesDef<FormGroupClassKey>;
 }

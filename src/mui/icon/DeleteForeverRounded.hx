@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DeleteForeverRounded')
+@:jsRequire('@mui/icons-material', 'DeleteForeverRounded')
 extern class DeleteForeverRounded extends ReactComponentOfProps<IconProps> {}

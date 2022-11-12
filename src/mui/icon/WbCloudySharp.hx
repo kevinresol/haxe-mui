@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WbCloudySharp')
+@:jsRequire('@mui/icons-material', 'WbCloudySharp')
 extern class WbCloudySharp extends ReactComponentOfProps<IconProps> {}

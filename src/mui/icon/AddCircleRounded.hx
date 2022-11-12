@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddCircleRounded')
+@:jsRequire('@mui/icons-material', 'AddCircleRounded')
 extern class AddCircleRounded extends ReactComponentOfProps<IconProps> {}

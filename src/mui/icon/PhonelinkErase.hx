@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PhonelinkErase')
+@:jsRequire('@mui/icons-material', 'PhonelinkErase')
 extern class PhonelinkErase extends ReactComponentOfProps<IconProps> {}

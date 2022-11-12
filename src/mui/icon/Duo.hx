@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Duo')
+@:jsRequire('@mui/icons-material', 'Duo')
 extern class Duo extends ReactComponentOfProps<IconProps> {}

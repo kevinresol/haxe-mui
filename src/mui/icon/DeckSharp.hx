@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DeckSharp')
+@:jsRequire('@mui/icons-material', 'DeckSharp')
 extern class DeckSharp extends ReactComponentOfProps<IconProps> {}

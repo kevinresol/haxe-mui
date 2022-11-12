@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ExposureNeg1Outlined')
+@:jsRequire('@mui/icons-material', 'ExposureNeg1Outlined')
 extern class ExposureNeg1Outlined extends ReactComponentOfProps<IconProps> {}

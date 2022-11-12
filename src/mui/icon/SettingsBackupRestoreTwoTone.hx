@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsBackupRestoreTwoTone')
+@:jsRequire('@mui/icons-material', 'SettingsBackupRestoreTwoTone')
 extern class SettingsBackupRestoreTwoTone extends ReactComponentOfProps<IconProps> {}

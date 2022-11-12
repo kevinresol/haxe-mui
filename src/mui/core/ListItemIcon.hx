@@ -10,13 +10,13 @@ typedef ListItemIconProps = {
 	@:optional var classes:Record<ListItemIconClassKey>;
 }
 
-@:jsRequire('@material-ui/core', 'ListItemIcon')
+@:jsRequire('@mui/material', 'ListItemIcon')
 extern class ListItemIcon extends ReactComponentOfProps<ListItemIconProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<ListItemIconClassKey>
 		return ListItemIconStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/ListItemIcon/ListItemIcon.js')
+@:jsRequire('@mui/material/ListItemIcon/ListItemIcon.js')
 extern class ListItemIconStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<ListItemIconClassKey>;
 }

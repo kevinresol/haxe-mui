@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CommuteRounded')
+@:jsRequire('@mui/icons-material', 'CommuteRounded')
 extern class CommuteRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CategorySharp')
+@:jsRequire('@mui/icons-material', 'CategorySharp')
 extern class CategorySharp extends ReactComponentOfProps<IconProps> {}

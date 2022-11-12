@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LoopSharp')
+@:jsRequire('@mui/icons-material', 'LoopSharp')
 extern class LoopSharp extends ReactComponentOfProps<IconProps> {}

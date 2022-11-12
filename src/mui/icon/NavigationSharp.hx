@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NavigationSharp')
+@:jsRequire('@mui/icons-material', 'NavigationSharp')
 extern class NavigationSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TuneSharp')
+@:jsRequire('@mui/icons-material', 'TuneSharp')
 extern class TuneSharp extends ReactComponentOfProps<IconProps> {}

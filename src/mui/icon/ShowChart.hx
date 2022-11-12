@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ShowChart')
+@:jsRequire('@mui/icons-material', 'ShowChart')
 extern class ShowChart extends ReactComponentOfProps<IconProps> {}

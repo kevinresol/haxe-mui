@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AirportShuttleTwoTone')
+@:jsRequire('@mui/icons-material', 'AirportShuttleTwoTone')
 extern class AirportShuttleTwoTone extends ReactComponentOfProps<IconProps> {}

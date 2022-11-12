@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RepeatSharp')
+@:jsRequire('@mui/icons-material', 'RepeatSharp')
 extern class RepeatSharp extends ReactComponentOfProps<IconProps> {}

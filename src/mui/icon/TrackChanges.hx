@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TrackChanges')
+@:jsRequire('@mui/icons-material', 'TrackChanges')
 extern class TrackChanges extends ReactComponentOfProps<IconProps> {}

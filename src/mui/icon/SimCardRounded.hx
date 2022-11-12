@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SimCardRounded')
+@:jsRequire('@mui/icons-material', 'SimCardRounded')
 extern class SimCardRounded extends ReactComponentOfProps<IconProps> {}

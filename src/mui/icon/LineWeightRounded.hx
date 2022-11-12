@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LineWeightRounded')
+@:jsRequire('@mui/icons-material', 'LineWeightRounded')
 extern class LineWeightRounded extends ReactComponentOfProps<IconProps> {}

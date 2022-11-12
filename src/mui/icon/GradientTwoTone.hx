@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GradientTwoTone')
+@:jsRequire('@mui/icons-material', 'GradientTwoTone')
 extern class GradientTwoTone extends ReactComponentOfProps<IconProps> {}

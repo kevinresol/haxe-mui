@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatQuoteTwoTone')
+@:jsRequire('@mui/icons-material', 'FormatQuoteTwoTone')
 extern class FormatQuoteTwoTone extends ReactComponentOfProps<IconProps> {}

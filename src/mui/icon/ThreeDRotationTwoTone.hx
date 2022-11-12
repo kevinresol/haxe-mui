@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ThreeDRotationTwoTone')
+@:jsRequire('@mui/icons-material', 'ThreeDRotationTwoTone')
 extern class ThreeDRotationTwoTone extends ReactComponentOfProps<IconProps> {}

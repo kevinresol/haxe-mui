@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BluetoothAudioRounded')
+@:jsRequire('@mui/icons-material', 'BluetoothAudioRounded')
 extern class BluetoothAudioRounded extends ReactComponentOfProps<IconProps> {}

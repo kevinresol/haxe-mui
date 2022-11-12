@@ -11,13 +11,13 @@ typedef DialogTitleProps = {
 	@:optional var disableTypography:Bool;
 }
 
-@:jsRequire('@material-ui/core', 'DialogTitle')
+@:jsRequire('@mui/material', 'DialogTitle')
 extern class DialogTitle extends ReactComponentOfProps<DialogTitleProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<DialogTitleClassKey>
 		return DialogTitleStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/DialogTitle/DialogTitle.js')
+@:jsRequire('@mui/material/DialogTitle/DialogTitle.js')
 extern class DialogTitleStyles {
 	static var styles:ClassesDef<DialogTitleClassKey>;
 }

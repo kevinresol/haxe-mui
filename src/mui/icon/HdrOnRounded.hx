@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HdrOnRounded')
+@:jsRequire('@mui/icons-material', 'HdrOnRounded')
 extern class HdrOnRounded extends ReactComponentOfProps<IconProps> {}

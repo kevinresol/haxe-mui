@@ -19,5 +19,5 @@ typedef SwipeableDrawerProps = {
 	@:optional var transitionDuration:TransitionDuration;
 }
 
-@:jsRequire('@material-ui/core', 'SwipeableDrawer')
+@:jsRequire('@mui/material', 'SwipeableDrawer')
 extern class SwipeableDrawer extends ReactComponentOfProps<SwipeableDrawerProps> {}

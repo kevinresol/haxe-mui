@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Maximize')
+@:jsRequire('@mui/icons-material', 'Maximize')
 extern class Maximize extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PinDropRounded')
+@:jsRequire('@mui/icons-material', 'PinDropRounded')
 extern class PinDropRounded extends ReactComponentOfProps<IconProps> {}

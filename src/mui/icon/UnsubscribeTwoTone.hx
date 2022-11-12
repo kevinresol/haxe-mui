@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'UnsubscribeTwoTone')
+@:jsRequire('@mui/icons-material', 'UnsubscribeTwoTone')
 extern class UnsubscribeTwoTone extends ReactComponentOfProps<IconProps> {}

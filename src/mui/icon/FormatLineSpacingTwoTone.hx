@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatLineSpacingTwoTone')
+@:jsRequire('@mui/icons-material', 'FormatLineSpacingTwoTone')
 extern class FormatLineSpacingTwoTone extends ReactComponentOfProps<IconProps> {}

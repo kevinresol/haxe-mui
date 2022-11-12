@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NoEncryptionSharp')
+@:jsRequire('@mui/icons-material', 'NoEncryptionSharp')
 extern class NoEncryptionSharp extends ReactComponentOfProps<IconProps> {}

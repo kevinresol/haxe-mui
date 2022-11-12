@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BatteryAlertRounded')
+@:jsRequire('@mui/icons-material', 'BatteryAlertRounded')
 extern class BatteryAlertRounded extends ReactComponentOfProps<IconProps> {}

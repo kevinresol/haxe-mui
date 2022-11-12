@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WifiOffOutlined')
+@:jsRequire('@mui/icons-material', 'WifiOffOutlined')
 extern class WifiOffOutlined extends ReactComponentOfProps<IconProps> {}

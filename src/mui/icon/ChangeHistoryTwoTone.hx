@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ChangeHistoryTwoTone')
+@:jsRequire('@mui/icons-material', 'ChangeHistoryTwoTone')
 extern class ChangeHistoryTwoTone extends ReactComponentOfProps<IconProps> {}

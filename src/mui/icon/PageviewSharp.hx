@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PageviewSharp')
+@:jsRequire('@mui/icons-material', 'PageviewSharp')
 extern class PageviewSharp extends ReactComponentOfProps<IconProps> {}

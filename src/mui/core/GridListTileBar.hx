@@ -14,13 +14,13 @@ typedef GridListTileBarProps = ForcedOverride<StandardDOMAttributes, {
 	@:optional var titlePosition:TopOrBottom;
 }>;
 
-@:jsRequire('@material-ui/core', 'GridListTileBar')
+@:jsRequire('@mui/material', 'GridListTileBar')
 extern class GridListTileBar extends ReactComponentOfProps<GridListTileBarProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<GridListTileBarClassKey>
 		return GridListTileBarStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/GridListTileBar/GridListTileBar.js')
+@:jsRequire('@mui/material/GridListTileBar/GridListTileBar.js')
 extern class GridListTileBarStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<GridListTileBarClassKey>;
 }

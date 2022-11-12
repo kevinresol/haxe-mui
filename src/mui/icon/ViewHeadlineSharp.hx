@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ViewHeadlineSharp')
+@:jsRequire('@mui/icons-material', 'ViewHeadlineSharp')
 extern class ViewHeadlineSharp extends ReactComponentOfProps<IconProps> {}

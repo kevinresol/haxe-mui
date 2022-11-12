@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RssFeedSharp')
+@:jsRequire('@mui/icons-material', 'RssFeedSharp')
 extern class RssFeedSharp extends ReactComponentOfProps<IconProps> {}

@@ -12,13 +12,13 @@ typedef SnackbarContentProps = ForcedOverride<PaperProps, {
 	@:optional var role:SnackbarContentRole;
 }>;
 
-@:jsRequire('@material-ui/core', 'SnackbarContent')
+@:jsRequire('@mui/material', 'SnackbarContent')
 extern class SnackbarContent extends ReactComponentOfProps<SnackbarContentProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<SnackbarContentClassKey>
 		return SnackbarContentStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/SnackbarContent/SnackbarContent.js')
+@:jsRequire('@mui/material/SnackbarContent/SnackbarContent.js')
 extern class SnackbarContentStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<SnackbarContentClassKey>;
 }

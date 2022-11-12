@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MailOutlineSharp')
+@:jsRequire('@mui/icons-material', 'MailOutlineSharp')
 extern class MailOutlineSharp extends ReactComponentOfProps<IconProps> {}

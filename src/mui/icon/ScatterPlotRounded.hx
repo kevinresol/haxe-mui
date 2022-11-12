@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ScatterPlotRounded')
+@:jsRequire('@mui/icons-material', 'ScatterPlotRounded')
 extern class ScatterPlotRounded extends ReactComponentOfProps<IconProps> {}

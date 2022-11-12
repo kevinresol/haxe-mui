@@ -17,13 +17,13 @@ typedef DividerProps = {
 	@:optional var variant:DividerVariant;
 }
 
-@:jsRequire('@material-ui/core', 'Divider')
+@:jsRequire('@mui/material', 'Divider')
 extern class Divider extends ReactComponentOfProps<DividerProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<DividerClassKey>
 		return DividerStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Divider/Divider.js')
+@:jsRequire('@mui/material/Divider/Divider.js')
 extern class DividerStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<DividerClassKey>;
 }

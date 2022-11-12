@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SyncAltSharp')
+@:jsRequire('@mui/icons-material', 'SyncAltSharp')
 extern class SyncAltSharp extends ReactComponentOfProps<IconProps> {}

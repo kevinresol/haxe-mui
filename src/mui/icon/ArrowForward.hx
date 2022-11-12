@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ArrowForward')
+@:jsRequire('@mui/icons-material', 'ArrowForward')
 extern class ArrowForward extends ReactComponentOfProps<IconProps> {}

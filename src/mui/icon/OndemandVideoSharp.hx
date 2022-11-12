@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'OndemandVideoSharp')
+@:jsRequire('@mui/icons-material', 'OndemandVideoSharp')
 extern class OndemandVideoSharp extends ReactComponentOfProps<IconProps> {}

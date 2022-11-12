@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SignalCellularAlt')
+@:jsRequire('@mui/icons-material', 'SignalCellularAlt')
 extern class SignalCellularAlt extends ReactComponentOfProps<IconProps> {}

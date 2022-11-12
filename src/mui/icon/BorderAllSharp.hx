@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BorderAllSharp')
+@:jsRequire('@mui/icons-material', 'BorderAllSharp')
 extern class BorderAllSharp extends ReactComponentOfProps<IconProps> {}

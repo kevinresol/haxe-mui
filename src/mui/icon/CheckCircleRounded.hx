@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CheckCircleRounded')
+@:jsRequire('@mui/icons-material', 'CheckCircleRounded')
 extern class CheckCircleRounded extends ReactComponentOfProps<IconProps> {}

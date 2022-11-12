@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SupervisedUserCircleSharp')
+@:jsRequire('@mui/icons-material', 'SupervisedUserCircleSharp')
 extern class SupervisedUserCircleSharp extends ReactComponentOfProps<IconProps> {}

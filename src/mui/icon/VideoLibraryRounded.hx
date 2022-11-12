@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VideoLibraryRounded')
+@:jsRequire('@mui/icons-material', 'VideoLibraryRounded')
 extern class VideoLibraryRounded extends ReactComponentOfProps<IconProps> {}

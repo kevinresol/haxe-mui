@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'StayCurrentPortraitTwoTone')
+@:jsRequire('@mui/icons-material', 'StayCurrentPortraitTwoTone')
 extern class StayCurrentPortraitTwoTone extends ReactComponentOfProps<IconProps> {}

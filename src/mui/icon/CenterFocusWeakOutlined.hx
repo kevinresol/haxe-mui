@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CenterFocusWeakOutlined')
+@:jsRequire('@mui/icons-material', 'CenterFocusWeakOutlined')
 extern class CenterFocusWeakOutlined extends ReactComponentOfProps<IconProps> {}

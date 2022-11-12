@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TextRotateUpTwoTone')
+@:jsRequire('@mui/icons-material', 'TextRotateUpTwoTone')
 extern class TextRotateUpTwoTone extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MoveToInboxOutlined')
+@:jsRequire('@mui/icons-material', 'MoveToInboxOutlined')
 extern class MoveToInboxOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AdjustSharp')
+@:jsRequire('@mui/icons-material', 'AdjustSharp')
 extern class AdjustSharp extends ReactComponentOfProps<IconProps> {}

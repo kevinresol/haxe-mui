@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MobileFriendly')
+@:jsRequire('@mui/icons-material', 'MobileFriendly')
 extern class MobileFriendly extends ReactComponentOfProps<IconProps> {}

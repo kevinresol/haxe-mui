@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddToHomeScreenOutlined')
+@:jsRequire('@mui/icons-material', 'AddToHomeScreenOutlined')
 extern class AddToHomeScreenOutlined extends ReactComponentOfProps<IconProps> {}

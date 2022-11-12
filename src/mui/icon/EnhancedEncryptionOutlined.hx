@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EnhancedEncryptionOutlined')
+@:jsRequire('@mui/icons-material', 'EnhancedEncryptionOutlined')
 extern class EnhancedEncryptionOutlined extends ReactComponentOfProps<IconProps> {}

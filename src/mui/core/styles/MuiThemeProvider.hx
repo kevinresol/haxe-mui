@@ -11,6 +11,6 @@ typedef MuiThemeProviderProps = {
 }
 
 // Note: ThemeProvider for mui v5
-@:jsRequire('@material-ui/core/styles', 'MuiThemeProvider')
+@:jsRequire('@mui/material/styles', 'MuiThemeProvider')
 extern class MuiThemeProvider extends ReactComponentOfProps<MuiThemeProviderProps> {}
 

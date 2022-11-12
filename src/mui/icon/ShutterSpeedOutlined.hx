@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ShutterSpeedOutlined')
+@:jsRequire('@mui/icons-material', 'ShutterSpeedOutlined')
 extern class ShutterSpeedOutlined extends ReactComponentOfProps<IconProps> {}

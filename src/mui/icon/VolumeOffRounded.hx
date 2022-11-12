@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VolumeOffRounded')
+@:jsRequire('@mui/icons-material', 'VolumeOffRounded')
 extern class VolumeOffRounded extends ReactComponentOfProps<IconProps> {}

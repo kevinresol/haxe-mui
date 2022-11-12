@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatIndentIncreaseTwoTone')
+@:jsRequire('@mui/icons-material', 'FormatIndentIncreaseTwoTone')
 extern class FormatIndentIncreaseTwoTone extends ReactComponentOfProps<IconProps> {}

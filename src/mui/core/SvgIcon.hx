@@ -18,13 +18,13 @@ typedef SvgIconProps = {
 	@:optional var viewBox:String;
 }
 
-@:jsRequire('@material-ui/core', 'SvgIcon')
+@:jsRequire('@mui/material', 'SvgIcon')
 extern class SvgIcon extends ReactComponentOfProps<SvgIconProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<SvgIconClassKey>
 		return SvgIconStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/SvgIcon/SvgIcon.js')
+@:jsRequire('@mui/material/SvgIcon/SvgIcon.js')
 extern class SvgIconStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<SvgIconClassKey>;
 }

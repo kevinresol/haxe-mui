@@ -16,13 +16,13 @@ typedef FabProps = ForcedOverride<ButtonBaseProps, {
 	@:optional var variant:FabVariant;
 }>;
 
-@:jsRequire('@material-ui/core', 'Fab')
+@:jsRequire('@mui/material', 'Fab')
 extern class Fab extends ReactComponentOfProps<FabProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<FabClassKey>
 		return FabStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Fab/Fab.js')
+@:jsRequire('@mui/material/Fab/Fab.js')
 extern class FabStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<FabClassKey>;
 }

@@ -14,13 +14,13 @@ typedef StepIconProps = {
 	@:optional var error:Bool;
 }
 
-@:jsRequire('@material-ui/core', 'StepIcon')
+@:jsRequire('@mui/material', 'StepIcon')
 extern class StepIcon extends ReactComponentOfProps<StepIconProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<StepIconClassKey>
 		return StepIconStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/StepIcon/StepIcon.js')
+@:jsRequire('@mui/material/StepIcon/StepIcon.js')
 extern class StepIconStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<StepIconClassKey>;
 }

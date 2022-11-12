@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AttachFileRounded')
+@:jsRequire('@mui/icons-material', 'AttachFileRounded')
 extern class AttachFileRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsBackupRestoreRounded')
+@:jsRequire('@mui/icons-material', 'SettingsBackupRestoreRounded')
 extern class SettingsBackupRestoreRounded extends ReactComponentOfProps<IconProps> {}

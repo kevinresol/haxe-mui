@@ -12,13 +12,13 @@ typedef SpeedDialIconProps = {
 	@:optional var classes:Record<SpeedDialIconClassKey>;
 }
 
-@:jsRequire('@material-ui/lab', 'SpeedDialIcon')
+@:jsRequire('@mui/lab', 'SpeedDialIcon')
 extern class SpeedDialIcon extends ReactComponentOfProps<SpeedDialIconProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<SpeedDialIconClassKey>
 		return SpeedDialIconStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/lab/SpeedDialIcon/SpeedDialIcon.js')
+@:jsRequire('@mui/lab/SpeedDialIcon/SpeedDialIcon.js')
 extern class SpeedDialIconStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<SpeedDialIconClassKey>;
 }

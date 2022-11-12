@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PermCameraMicTwoTone')
+@:jsRequire('@mui/icons-material', 'PermCameraMicTwoTone')
 extern class PermCameraMicTwoTone extends ReactComponentOfProps<IconProps> {}

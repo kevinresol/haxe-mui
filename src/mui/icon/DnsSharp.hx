@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DnsSharp')
+@:jsRequire('@mui/icons-material', 'DnsSharp')
 extern class DnsSharp extends ReactComponentOfProps<IconProps> {}

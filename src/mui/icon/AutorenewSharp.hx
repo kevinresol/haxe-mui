@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AutorenewSharp')
+@:jsRequire('@mui/icons-material', 'AutorenewSharp')
 extern class AutorenewSharp extends ReactComponentOfProps<IconProps> {}

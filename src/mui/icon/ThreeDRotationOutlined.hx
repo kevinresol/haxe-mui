@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ThreeDRotationOutlined')
+@:jsRequire('@mui/icons-material', 'ThreeDRotationOutlined')
 extern class ThreeDRotationOutlined extends ReactComponentOfProps<IconProps> {}

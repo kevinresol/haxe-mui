@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SquareFootOutlined')
+@:jsRequire('@mui/icons-material', 'SquareFootOutlined')
 extern class SquareFootOutlined extends ReactComponentOfProps<IconProps> {}

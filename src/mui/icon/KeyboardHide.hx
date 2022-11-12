@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'KeyboardHide')
+@:jsRequire('@mui/icons-material', 'KeyboardHide')
 extern class KeyboardHide extends ReactComponentOfProps<IconProps> {}

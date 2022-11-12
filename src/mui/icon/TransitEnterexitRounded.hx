@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TransitEnterexitRounded')
+@:jsRequire('@mui/icons-material', 'TransitEnterexitRounded')
 extern class TransitEnterexitRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EqualizerTwoTone')
+@:jsRequire('@mui/icons-material', 'EqualizerTwoTone')
 extern class EqualizerTwoTone extends ReactComponentOfProps<IconProps> {}

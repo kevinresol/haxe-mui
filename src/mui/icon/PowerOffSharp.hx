@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PowerOffSharp')
+@:jsRequire('@mui/icons-material', 'PowerOffSharp')
 extern class PowerOffSharp extends ReactComponentOfProps<IconProps> {}

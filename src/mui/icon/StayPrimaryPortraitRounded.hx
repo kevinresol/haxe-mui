@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'StayPrimaryPortraitRounded')
+@:jsRequire('@mui/icons-material', 'StayPrimaryPortraitRounded')
 extern class StayPrimaryPortraitRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WifiSharp')
+@:jsRequire('@mui/icons-material', 'WifiSharp')
 extern class WifiSharp extends ReactComponentOfProps<IconProps> {}

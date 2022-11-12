@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AccountBoxRounded')
+@:jsRequire('@mui/icons-material', 'AccountBoxRounded')
 extern class AccountBoxRounded extends ReactComponentOfProps<IconProps> {}

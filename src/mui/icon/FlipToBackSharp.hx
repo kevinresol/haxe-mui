@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlipToBackSharp')
+@:jsRequire('@mui/icons-material', 'FlipToBackSharp')
 extern class FlipToBackSharp extends ReactComponentOfProps<IconProps> {}

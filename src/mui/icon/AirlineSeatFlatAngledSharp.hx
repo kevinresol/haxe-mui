@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AirlineSeatFlatAngledSharp')
+@:jsRequire('@mui/icons-material', 'AirlineSeatFlatAngledSharp')
 extern class AirlineSeatFlatAngledSharp extends ReactComponentOfProps<IconProps> {}

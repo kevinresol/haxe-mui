@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LiveTvSharp')
+@:jsRequire('@mui/icons-material', 'LiveTvSharp')
 extern class LiveTvSharp extends ReactComponentOfProps<IconProps> {}

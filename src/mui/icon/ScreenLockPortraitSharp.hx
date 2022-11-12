@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ScreenLockPortraitSharp')
+@:jsRequire('@mui/icons-material', 'ScreenLockPortraitSharp')
 extern class ScreenLockPortraitSharp extends ReactComponentOfProps<IconProps> {}

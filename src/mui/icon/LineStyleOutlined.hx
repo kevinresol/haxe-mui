@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LineStyleOutlined')
+@:jsRequire('@mui/icons-material', 'LineStyleOutlined')
 extern class LineStyleOutlined extends ReactComponentOfProps<IconProps> {}

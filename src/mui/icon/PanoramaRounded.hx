@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PanoramaRounded')
+@:jsRequire('@mui/icons-material', 'PanoramaRounded')
 extern class PanoramaRounded extends ReactComponentOfProps<IconProps> {}

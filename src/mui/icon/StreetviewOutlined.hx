@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'StreetviewOutlined')
+@:jsRequire('@mui/icons-material', 'StreetviewOutlined')
 extern class StreetviewOutlined extends ReactComponentOfProps<IconProps> {}

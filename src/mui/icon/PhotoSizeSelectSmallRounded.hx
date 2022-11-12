@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PhotoSizeSelectSmallRounded')
+@:jsRequire('@mui/icons-material', 'PhotoSizeSelectSmallRounded')
 extern class PhotoSizeSelectSmallRounded extends ReactComponentOfProps<IconProps> {}

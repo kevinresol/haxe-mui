@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Dock')
+@:jsRequire('@mui/icons-material', 'Dock')
 extern class Dock extends ReactComponentOfProps<IconProps> {}

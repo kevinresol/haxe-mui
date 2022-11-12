@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PermIdentityRounded')
+@:jsRequire('@mui/icons-material', 'PermIdentityRounded')
 extern class PermIdentityRounded extends ReactComponentOfProps<IconProps> {}

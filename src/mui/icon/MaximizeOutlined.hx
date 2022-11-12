@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MaximizeOutlined')
+@:jsRequire('@mui/icons-material', 'MaximizeOutlined')
 extern class MaximizeOutlined extends ReactComponentOfProps<IconProps> {}

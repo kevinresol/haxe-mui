@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Highlight')
+@:jsRequire('@mui/icons-material', 'Highlight')
 extern class Highlight extends ReactComponentOfProps<IconProps> {}

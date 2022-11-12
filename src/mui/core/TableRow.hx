@@ -13,13 +13,13 @@ typedef TableRowProps = {
 	@:optional var component:ReactType;
 }
 
-@:jsRequire('@material-ui/core', 'TableRow')
+@:jsRequire('@mui/material', 'TableRow')
 extern class TableRow extends ReactComponentOfProps<TableRowProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<TableRowClassKey>
 		return TableRowStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/TableRow/TableRow.js')
+@:jsRequire('@mui/material/TableRow/TableRow.js')
 extern class TableRowStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<TableRowClassKey>;
 }

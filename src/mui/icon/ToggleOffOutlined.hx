@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ToggleOffOutlined')
+@:jsRequire('@mui/icons-material', 'ToggleOffOutlined')
 extern class ToggleOffOutlined extends ReactComponentOfProps<IconProps> {}

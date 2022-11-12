@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlipRounded')
+@:jsRequire('@mui/icons-material', 'FlipRounded')
 extern class FlipRounded extends ReactComponentOfProps<IconProps> {}

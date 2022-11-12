@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlashAuto')
+@:jsRequire('@mui/icons-material', 'FlashAuto')
 extern class FlashAuto extends ReactComponentOfProps<IconProps> {}

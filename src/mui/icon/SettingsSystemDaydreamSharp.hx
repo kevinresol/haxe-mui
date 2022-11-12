@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsSystemDaydreamSharp')
+@:jsRequire('@mui/icons-material', 'SettingsSystemDaydreamSharp')
 extern class SettingsSystemDaydreamSharp extends ReactComponentOfProps<IconProps> {}

@@ -6,11 +6,11 @@
     "test": "haxe test.hxml"
   },
   "dependencies": {
-    "@material-ui/core": "4.7.2",
-    "@material-ui/icons": "4.5.1",
-    "@material-ui/lab": "4.0.0-alpha.35",
+    "@mui/icons-material": "^5.10.9",
+    "@mui/lab": "^5.0.0-alpha.107",
+    "@mui/material": "^5.10.13",
     "jsdom": "15.2.1",
-    "react": "16.8.0",
-    "react-dom": "16.8.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }

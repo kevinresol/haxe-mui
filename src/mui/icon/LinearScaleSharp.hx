@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LinearScaleSharp')
+@:jsRequire('@mui/icons-material', 'LinearScaleSharp')
 extern class LinearScaleSharp extends ReactComponentOfProps<IconProps> {}

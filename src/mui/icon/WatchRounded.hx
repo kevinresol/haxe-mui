@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WatchRounded')
+@:jsRequire('@mui/icons-material', 'WatchRounded')
 extern class WatchRounded extends ReactComponentOfProps<IconProps> {}

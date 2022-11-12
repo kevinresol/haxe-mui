@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ImageSearchTwoTone')
+@:jsRequire('@mui/icons-material', 'ImageSearchTwoTone')
 extern class ImageSearchTwoTone extends ReactComponentOfProps<IconProps> {}

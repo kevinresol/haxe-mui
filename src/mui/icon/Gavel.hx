@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Gavel')
+@:jsRequire('@mui/icons-material', 'Gavel')
 extern class Gavel extends ReactComponentOfProps<IconProps> {}

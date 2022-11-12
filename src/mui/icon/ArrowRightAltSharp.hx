@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ArrowRightAltSharp')
+@:jsRequire('@mui/icons-material', 'ArrowRightAltSharp')
 extern class ArrowRightAltSharp extends ReactComponentOfProps<IconProps> {}

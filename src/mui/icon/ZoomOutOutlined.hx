@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ZoomOutOutlined')
+@:jsRequire('@mui/icons-material', 'ZoomOutOutlined')
 extern class ZoomOutOutlined extends ReactComponentOfProps<IconProps> {}

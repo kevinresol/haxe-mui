@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CheckBoxRounded')
+@:jsRequire('@mui/icons-material', 'CheckBoxRounded')
 extern class CheckBoxRounded extends ReactComponentOfProps<IconProps> {}

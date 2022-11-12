@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CachedSharp')
+@:jsRequire('@mui/icons-material', 'CachedSharp')
 extern class CachedSharp extends ReactComponentOfProps<IconProps> {}

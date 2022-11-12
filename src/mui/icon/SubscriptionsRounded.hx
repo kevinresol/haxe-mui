@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SubscriptionsRounded')
+@:jsRequire('@mui/icons-material', 'SubscriptionsRounded')
 extern class SubscriptionsRounded extends ReactComponentOfProps<IconProps> {}

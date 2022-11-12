@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CloudOff')
+@:jsRequire('@mui/icons-material', 'CloudOff')
 extern class CloudOff extends ReactComponentOfProps<IconProps> {}

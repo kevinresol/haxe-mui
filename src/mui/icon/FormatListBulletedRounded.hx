@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatListBulletedRounded')
+@:jsRequire('@mui/icons-material', 'FormatListBulletedRounded')
 extern class FormatListBulletedRounded extends ReactComponentOfProps<IconProps> {}

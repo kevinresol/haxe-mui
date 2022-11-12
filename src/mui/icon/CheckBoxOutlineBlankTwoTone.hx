@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CheckBoxOutlineBlankTwoTone')
+@:jsRequire('@mui/icons-material', 'CheckBoxOutlineBlankTwoTone')
 extern class CheckBoxOutlineBlankTwoTone extends ReactComponentOfProps<IconProps> {}

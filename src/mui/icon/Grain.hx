@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Grain')
+@:jsRequire('@mui/icons-material', 'Grain')
 extern class Grain extends ReactComponentOfProps<IconProps> {}

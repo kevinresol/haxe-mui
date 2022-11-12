@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EventNote')
+@:jsRequire('@mui/icons-material', 'EventNote')
 extern class EventNote extends ReactComponentOfProps<IconProps> {}

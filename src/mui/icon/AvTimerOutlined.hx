@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AvTimerOutlined')
+@:jsRequire('@mui/icons-material', 'AvTimerOutlined')
 extern class AvTimerOutlined extends ReactComponentOfProps<IconProps> {}

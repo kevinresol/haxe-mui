@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DialerSipOutlined')
+@:jsRequire('@mui/icons-material', 'DialerSipOutlined')
 extern class DialerSipOutlined extends ReactComponentOfProps<IconProps> {}

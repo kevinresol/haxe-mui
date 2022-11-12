@@ -12,13 +12,13 @@ typedef AppBarProps = ForcedOverride<PaperProps, {
 	@:optional var position:CSSPosition;
 }>;
 
-@:jsRequire('@material-ui/core', 'AppBar')
+@:jsRequire('@mui/material', 'AppBar')
 extern class AppBar extends ReactComponentOfProps<AppBarProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<AppBarClassKey>
 		return AppBarStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/AppBar/AppBar.js')
+@:jsRequire('@mui/material/AppBar/AppBar.js')
 extern class AppBarStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<AppBarClassKey>;
 }

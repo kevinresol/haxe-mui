@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ViewArrayOutlined')
+@:jsRequire('@mui/icons-material', 'ViewArrayOutlined')
 extern class ViewArrayOutlined extends ReactComponentOfProps<IconProps> {}

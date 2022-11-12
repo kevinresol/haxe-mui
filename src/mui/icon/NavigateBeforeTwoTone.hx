@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NavigateBeforeTwoTone')
+@:jsRequire('@mui/icons-material', 'NavigateBeforeTwoTone')
 extern class NavigateBeforeTwoTone extends ReactComponentOfProps<IconProps> {}

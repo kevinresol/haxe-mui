@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AlarmOnRounded')
+@:jsRequire('@mui/icons-material', 'AlarmOnRounded')
 extern class AlarmOnRounded extends ReactComponentOfProps<IconProps> {}

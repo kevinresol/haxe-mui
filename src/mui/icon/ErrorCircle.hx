@@ -2,6 +2,6 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Error')
+@:jsRequire('@mui/icons-material', 'Error')
 extern class ErrorCircle extends ReactComponentOfProps<IconProps> {}
 

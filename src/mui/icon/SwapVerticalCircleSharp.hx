@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SwapVerticalCircleSharp')
+@:jsRequire('@mui/icons-material', 'SwapVerticalCircleSharp')
 extern class SwapVerticalCircleSharp extends ReactComponentOfProps<IconProps> {}

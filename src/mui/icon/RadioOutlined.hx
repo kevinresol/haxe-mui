@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RadioOutlined')
+@:jsRequire('@mui/icons-material', 'RadioOutlined')
 extern class RadioOutlined extends ReactComponentOfProps<IconProps> {}

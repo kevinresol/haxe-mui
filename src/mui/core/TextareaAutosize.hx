@@ -12,5 +12,5 @@ typedef TextareaAutosizeProps = ForcedOverride<StandardDOMAttributes, {
 	@:optional var value:InputValue;
 }>;
 
-@:jsRequire('@material-ui/core', 'TextareaAutosize')
+@:jsRequire('@mui/material', 'TextareaAutosize')
 extern class TextareaAutosize extends ReactComponentOfProps<TextareaAutosizeProps> {}

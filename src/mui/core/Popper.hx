@@ -33,5 +33,5 @@ typedef PopperProps = {
 	@:optional var transition:Bool;
 }
 
-@:jsRequire('@material-ui/core', 'Popper')
+@:jsRequire('@mui/material', 'Popper')
 extern class Popper extends ReactComponentOfProps<PopperProps> {}

@@ -16,13 +16,13 @@ typedef PaperProps = {
 	
 }
 
-@:jsRequire('@material-ui/core', 'Paper')
+@:jsRequire('@mui/material', 'Paper')
 extern class Paper extends ReactComponentOfProps<PaperProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<PaperClassKey>
 		return PaperStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Paper/Paper.js')
+@:jsRequire('@mui/material/Paper/Paper.js')
 extern class PaperStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<PaperClassKey>;
 }

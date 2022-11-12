@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsInputAntennaRounded')
+@:jsRequire('@mui/icons-material', 'SettingsInputAntennaRounded')
 extern class SettingsInputAntennaRounded extends ReactComponentOfProps<IconProps> {}

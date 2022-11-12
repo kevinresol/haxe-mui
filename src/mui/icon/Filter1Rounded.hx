@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Filter1Rounded')
+@:jsRequire('@mui/icons-material', 'Filter1Rounded')
 extern class Filter1Rounded extends ReactComponentOfProps<IconProps> {}

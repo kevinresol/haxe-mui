@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TextFields')
+@:jsRequire('@mui/icons-material', 'TextFields')
 extern class TextFields extends ReactComponentOfProps<IconProps> {}

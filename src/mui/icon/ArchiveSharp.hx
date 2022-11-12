@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ArchiveSharp')
+@:jsRequire('@mui/icons-material', 'ArchiveSharp')
 extern class ArchiveSharp extends ReactComponentOfProps<IconProps> {}

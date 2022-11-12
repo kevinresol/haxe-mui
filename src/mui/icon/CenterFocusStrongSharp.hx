@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CenterFocusStrongSharp')
+@:jsRequire('@mui/icons-material', 'CenterFocusStrongSharp')
 extern class CenterFocusStrongSharp extends ReactComponentOfProps<IconProps> {}

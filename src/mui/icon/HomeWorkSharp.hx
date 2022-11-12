@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HomeWorkSharp')
+@:jsRequire('@mui/icons-material', 'HomeWorkSharp')
 extern class HomeWorkSharp extends ReactComponentOfProps<IconProps> {}

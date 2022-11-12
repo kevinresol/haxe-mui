@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MarkunreadMailboxRounded')
+@:jsRequire('@mui/icons-material', 'MarkunreadMailboxRounded')
 extern class MarkunreadMailboxRounded extends ReactComponentOfProps<IconProps> {}

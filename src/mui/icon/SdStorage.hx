@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SdStorage')
+@:jsRequire('@mui/icons-material', 'SdStorage')
 extern class SdStorage extends ReactComponentOfProps<IconProps> {}

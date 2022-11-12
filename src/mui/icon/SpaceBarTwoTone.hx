@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SpaceBarTwoTone')
+@:jsRequire('@mui/icons-material', 'SpaceBarTwoTone')
 extern class SpaceBarTwoTone extends ReactComponentOfProps<IconProps> {}

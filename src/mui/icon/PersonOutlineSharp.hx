@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PersonOutlineSharp')
+@:jsRequire('@mui/icons-material', 'PersonOutlineSharp')
 extern class PersonOutlineSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GradientSharp')
+@:jsRequire('@mui/icons-material', 'GradientSharp')
 extern class GradientSharp extends ReactComponentOfProps<IconProps> {}

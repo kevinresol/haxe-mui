@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlightSharp')
+@:jsRequire('@mui/icons-material', 'FlightSharp')
 extern class FlightSharp extends ReactComponentOfProps<IconProps> {}

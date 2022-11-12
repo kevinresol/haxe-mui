@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CallMergeRounded')
+@:jsRequire('@mui/icons-material', 'CallMergeRounded')
 extern class CallMergeRounded extends ReactComponentOfProps<IconProps> {}

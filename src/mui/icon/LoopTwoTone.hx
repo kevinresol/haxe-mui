@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LoopTwoTone')
+@:jsRequire('@mui/icons-material', 'LoopTwoTone')
 extern class LoopTwoTone extends ReactComponentOfProps<IconProps> {}

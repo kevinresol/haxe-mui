@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VerticalAlignTopRounded')
+@:jsRequire('@mui/icons-material', 'VerticalAlignTopRounded')
 extern class VerticalAlignTopRounded extends ReactComponentOfProps<IconProps> {}

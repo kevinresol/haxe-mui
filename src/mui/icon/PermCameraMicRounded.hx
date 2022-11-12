@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PermCameraMicRounded')
+@:jsRequire('@mui/icons-material', 'PermCameraMicRounded')
 extern class PermCameraMicRounded extends ReactComponentOfProps<IconProps> {}

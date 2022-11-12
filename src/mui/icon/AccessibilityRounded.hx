@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AccessibilityRounded')
+@:jsRequire('@mui/icons-material', 'AccessibilityRounded')
 extern class AccessibilityRounded extends ReactComponentOfProps<IconProps> {}

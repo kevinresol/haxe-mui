@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ErrorOutlineSharp')
+@:jsRequire('@mui/icons-material', 'ErrorOutlineSharp')
 extern class ErrorOutlineSharp extends ReactComponentOfProps<IconProps> {}

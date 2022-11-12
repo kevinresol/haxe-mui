@@ -29,13 +29,13 @@ typedef RadioProps = ForcedOverride<IconButtonProps, {
 	@:optional var value:RadioValue;
 }>;
 
-@:jsRequire('@material-ui/core', 'Radio')
+@:jsRequire('@mui/material', 'Radio')
 extern class Radio extends ReactComponentOfProps<RadioProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<RadioClassKey>
 		return RadioStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Radio/Radio.js')
+@:jsRequire('@mui/material/Radio/Radio.js')
 extern class RadioStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<RadioClassKey>;
 }

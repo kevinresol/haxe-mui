@@ -20,13 +20,13 @@ typedef FormHelperTextProps = {
 	@:optional var variant:FormControlVariant;
 }
 
-@:jsRequire('@material-ui/core', 'FormHelperText')
+@:jsRequire('@mui/material', 'FormHelperText')
 extern class FormHelperText extends ReactComponentOfProps<FormHelperTextProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<FormHelperTextClassKey>
 		return FormHelperTextStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/FormHelperText/FormHelperText.js')
+@:jsRequire('@mui/material/FormHelperText/FormHelperText.js')
 extern class FormHelperTextStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<FormHelperTextClassKey>;
 }

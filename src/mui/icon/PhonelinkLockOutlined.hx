@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PhonelinkLockOutlined')
+@:jsRequire('@mui/icons-material', 'PhonelinkLockOutlined')
 extern class PhonelinkLockOutlined extends ReactComponentOfProps<IconProps> {}

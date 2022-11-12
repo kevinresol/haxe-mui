@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DomainDisabledTwoTone')
+@:jsRequire('@mui/icons-material', 'DomainDisabledTwoTone')
 extern class DomainDisabledTwoTone extends ReactComponentOfProps<IconProps> {}

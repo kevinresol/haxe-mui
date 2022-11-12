@@ -24,13 +24,13 @@ typedef FormControlProps = {
 	@:optional var variant:FormControlVariant;
 }
 
-@:jsRequire('@material-ui/core', 'FormControl')
+@:jsRequire('@mui/material', 'FormControl')
 extern class FormControl extends ReactComponentOfProps<FormControlProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<FormControlClassKey>
 		return FormControlStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/FormControl/FormControl.js')
+@:jsRequire('@mui/material/FormControl/FormControl.js')
 extern class FormControlStyles {
 	static var styles:ClassesDef<FormControlClassKey>;
 }

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BrandingWatermarkOutlined')
+@:jsRequire('@mui/icons-material', 'BrandingWatermarkOutlined')
 extern class BrandingWatermarkOutlined extends ReactComponentOfProps<IconProps> {}

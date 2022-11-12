@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ChangeHistorySharp')
+@:jsRequire('@mui/icons-material', 'ChangeHistorySharp')
 extern class ChangeHistorySharp extends ReactComponentOfProps<IconProps> {}

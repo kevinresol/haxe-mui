@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SdCardRounded')
+@:jsRequire('@mui/icons-material', 'SdCardRounded')
 extern class SdCardRounded extends ReactComponentOfProps<IconProps> {}

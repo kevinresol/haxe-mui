@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Twitter')
+@:jsRequire('@mui/icons-material', 'Twitter')
 extern class Twitter extends ReactComponentOfProps<IconProps> {}

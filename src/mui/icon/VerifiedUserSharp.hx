@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VerifiedUserSharp')
+@:jsRequire('@mui/icons-material', 'VerifiedUserSharp')
 extern class VerifiedUserSharp extends ReactComponentOfProps<IconProps> {}

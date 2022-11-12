@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatAlignCenter')
+@:jsRequire('@mui/icons-material', 'FormatAlignCenter')
 extern class FormatAlignCenter extends ReactComponentOfProps<IconProps> {}

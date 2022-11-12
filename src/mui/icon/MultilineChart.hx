@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MultilineChart')
+@:jsRequire('@mui/icons-material', 'MultilineChart')
 extern class MultilineChart extends ReactComponentOfProps<IconProps> {}

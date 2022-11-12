@@ -8,13 +8,13 @@ typedef CardActionAreaProps = ForcedOverride<ButtonBaseProps, {
 	@:optional var classes:Record<CardActionAreaClassKey>;
 }>;
 
-@:jsRequire('@material-ui/core', 'CardActionArea')
+@:jsRequire('@mui/material', 'CardActionArea')
 extern class CardActionArea extends ReactComponentOfProps<CardActionAreaProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<CardActionAreaClassKey>
 		return CardActionAreaStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/CardActionArea/CardActionArea.js')
+@:jsRequire('@mui/material/CardActionArea/CardActionArea.js')
 extern class CardActionAreaStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<CardActionAreaClassKey>;
 }

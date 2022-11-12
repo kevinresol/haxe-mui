@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WbAutoSharp')
+@:jsRequire('@mui/icons-material', 'WbAutoSharp')
 extern class WbAutoSharp extends ReactComponentOfProps<IconProps> {}

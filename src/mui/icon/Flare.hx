@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Flare')
+@:jsRequire('@mui/icons-material', 'Flare')
 extern class Flare extends ReactComponentOfProps<IconProps> {}

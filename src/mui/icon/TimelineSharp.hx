@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TimelineSharp')
+@:jsRequire('@mui/icons-material', 'TimelineSharp')
 extern class TimelineSharp extends ReactComponentOfProps<IconProps> {}

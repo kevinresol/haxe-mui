@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SubtitlesRounded')
+@:jsRequire('@mui/icons-material', 'SubtitlesRounded')
 extern class SubtitlesRounded extends ReactComponentOfProps<IconProps> {}

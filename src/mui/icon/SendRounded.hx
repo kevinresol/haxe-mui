@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SendRounded')
+@:jsRequire('@mui/icons-material', 'SendRounded')
 extern class SendRounded extends ReactComponentOfProps<IconProps> {}

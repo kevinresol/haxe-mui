@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ZoomOutMap')
+@:jsRequire('@mui/icons-material', 'ZoomOutMap')
 extern class ZoomOutMap extends ReactComponentOfProps<IconProps> {}

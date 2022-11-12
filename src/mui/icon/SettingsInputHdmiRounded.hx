@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsInputHdmiRounded')
+@:jsRequire('@mui/icons-material', 'SettingsInputHdmiRounded')
 extern class SettingsInputHdmiRounded extends ReactComponentOfProps<IconProps> {}

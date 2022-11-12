@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsBrightnessSharp')
+@:jsRequire('@mui/icons-material', 'SettingsBrightnessSharp')
 extern class SettingsBrightnessSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PauseCircleFilledSharp')
+@:jsRequire('@mui/icons-material', 'PauseCircleFilledSharp')
 extern class PauseCircleFilledSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CallEnd')
+@:jsRequire('@mui/icons-material', 'CallEnd')
 extern class CallEnd extends ReactComponentOfProps<IconProps> {}

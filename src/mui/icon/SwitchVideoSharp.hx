@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SwitchVideoSharp')
+@:jsRequire('@mui/icons-material', 'SwitchVideoSharp')
 extern class SwitchVideoSharp extends ReactComponentOfProps<IconProps> {}

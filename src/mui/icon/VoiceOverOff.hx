@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VoiceOverOff')
+@:jsRequire('@mui/icons-material', 'VoiceOverOff')
 extern class VoiceOverOff extends ReactComponentOfProps<IconProps> {}

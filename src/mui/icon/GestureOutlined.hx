@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GestureOutlined')
+@:jsRequire('@mui/icons-material', 'GestureOutlined')
 extern class GestureOutlined extends ReactComponentOfProps<IconProps> {}

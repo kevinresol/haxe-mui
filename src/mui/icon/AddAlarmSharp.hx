@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddAlarmSharp')
+@:jsRequire('@mui/icons-material', 'AddAlarmSharp')
 extern class AddAlarmSharp extends ReactComponentOfProps<IconProps> {}

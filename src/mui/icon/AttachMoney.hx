@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AttachMoney')
+@:jsRequire('@mui/icons-material', 'AttachMoney')
 extern class AttachMoney extends ReactComponentOfProps<IconProps> {}

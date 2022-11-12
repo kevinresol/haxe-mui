@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DateRangeOutlined')
+@:jsRequire('@mui/icons-material', 'DateRangeOutlined')
 extern class DateRangeOutlined extends ReactComponentOfProps<IconProps> {}

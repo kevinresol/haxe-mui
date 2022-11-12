@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'UnarchiveRounded')
+@:jsRequire('@mui/icons-material', 'UnarchiveRounded')
 extern class UnarchiveRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatTextdirectionLToRTwoTone')
+@:jsRequire('@mui/icons-material', 'FormatTextdirectionLToRTwoTone')
 extern class FormatTextdirectionLToRTwoTone extends ReactComponentOfProps<IconProps> {}

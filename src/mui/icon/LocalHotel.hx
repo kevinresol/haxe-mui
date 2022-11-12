@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalHotel')
+@:jsRequire('@mui/icons-material', 'LocalHotel')
 extern class LocalHotel extends ReactComponentOfProps<IconProps> {}

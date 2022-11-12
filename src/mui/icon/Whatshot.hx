@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Whatshot')
+@:jsRequire('@mui/icons-material', 'Whatshot')
 extern class Whatshot extends ReactComponentOfProps<IconProps> {}

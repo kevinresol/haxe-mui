@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FreeBreakfast')
+@:jsRequire('@mui/icons-material', 'FreeBreakfast')
 extern class FreeBreakfast extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BookRounded')
+@:jsRequire('@mui/icons-material', 'BookRounded')
 extern class BookRounded extends ReactComponentOfProps<IconProps> {}

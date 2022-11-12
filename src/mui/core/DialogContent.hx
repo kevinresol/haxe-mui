@@ -11,13 +11,13 @@ typedef DialogContentProps = {
 	@:optional var dividers:Bool;
 }
 
-@:jsRequire('@material-ui/core', 'DialogContent')
+@:jsRequire('@mui/material', 'DialogContent')
 extern class DialogContent extends ReactComponentOfProps<DialogContentProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<DialogContentClassKey>
 		return DialogContentStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/DialogContent/DialogContent.js')
+@:jsRequire('@mui/material/DialogContent/DialogContent.js')
 extern class DialogContentStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<DialogContentClassKey>;
 }

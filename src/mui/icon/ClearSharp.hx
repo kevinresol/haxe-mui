@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ClearSharp')
+@:jsRequire('@mui/icons-material', 'ClearSharp')
 extern class ClearSharp extends ReactComponentOfProps<IconProps> {}

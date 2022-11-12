@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HourglassEmptyRounded')
+@:jsRequire('@mui/icons-material', 'HourglassEmptyRounded')
 extern class HourglassEmptyRounded extends ReactComponentOfProps<IconProps> {}

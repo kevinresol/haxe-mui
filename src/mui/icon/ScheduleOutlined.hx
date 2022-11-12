@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ScheduleOutlined')
+@:jsRequire('@mui/icons-material', 'ScheduleOutlined')
 extern class ScheduleOutlined extends ReactComponentOfProps<IconProps> {}

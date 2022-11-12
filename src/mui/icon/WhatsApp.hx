@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WhatsApp')
+@:jsRequire('@mui/icons-material', 'WhatsApp')
 extern class WhatsApp extends ReactComponentOfProps<IconProps> {}

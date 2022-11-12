@@ -19,13 +19,13 @@ typedef FormLabelProps = {
 	@:optional var htmlFor:String;
 }
 
-@:jsRequire('@material-ui/core', 'FormLabel')
+@:jsRequire('@mui/material', 'FormLabel')
 extern class FormLabel extends ReactComponentOfProps<FormLabelProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<FormLabelClassKey>
 		return FormLabelStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/FormLabel/FormLabel.js')
+@:jsRequire('@mui/material/FormLabel/FormLabel.js')
 extern class FormLabelStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<FormLabelClassKey>;
 }

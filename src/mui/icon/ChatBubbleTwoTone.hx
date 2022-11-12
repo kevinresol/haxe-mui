@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ChatBubbleTwoTone')
+@:jsRequire('@mui/icons-material', 'ChatBubbleTwoTone')
 extern class ChatBubbleTwoTone extends ReactComponentOfProps<IconProps> {}

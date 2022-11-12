@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WrapTextRounded')
+@:jsRequire('@mui/icons-material', 'WrapTextRounded')
 extern class WrapTextRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EqualizerSharp')
+@:jsRequire('@mui/icons-material', 'EqualizerSharp')
 extern class EqualizerSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RemoveCircle')
+@:jsRequire('@mui/icons-material', 'RemoveCircle')
 extern class RemoveCircle extends ReactComponentOfProps<IconProps> {}

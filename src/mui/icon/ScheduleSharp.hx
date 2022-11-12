@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ScheduleSharp')
+@:jsRequire('@mui/icons-material', 'ScheduleSharp')
 extern class ScheduleSharp extends ReactComponentOfProps<IconProps> {}

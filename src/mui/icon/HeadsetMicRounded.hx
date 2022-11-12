@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HeadsetMicRounded')
+@:jsRequire('@mui/icons-material', 'HeadsetMicRounded')
 extern class HeadsetMicRounded extends ReactComponentOfProps<IconProps> {}

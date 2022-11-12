@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FolderSpecialRounded')
+@:jsRequire('@mui/icons-material', 'FolderSpecialRounded')
 extern class FolderSpecialRounded extends ReactComponentOfProps<IconProps> {}

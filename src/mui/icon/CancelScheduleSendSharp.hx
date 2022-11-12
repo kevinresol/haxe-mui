@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CancelScheduleSendSharp')
+@:jsRequire('@mui/icons-material', 'CancelScheduleSendSharp')
 extern class CancelScheduleSendSharp extends ReactComponentOfProps<IconProps> {}

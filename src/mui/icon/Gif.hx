@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Gif')
+@:jsRequire('@mui/icons-material', 'Gif')
 extern class Gif extends ReactComponentOfProps<IconProps> {}

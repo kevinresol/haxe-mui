@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CameraAltSharp')
+@:jsRequire('@mui/icons-material', 'CameraAltSharp')
 extern class CameraAltSharp extends ReactComponentOfProps<IconProps> {}

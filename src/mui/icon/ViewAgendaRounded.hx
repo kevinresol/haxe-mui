@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ViewAgendaRounded')
+@:jsRequire('@mui/icons-material', 'ViewAgendaRounded')
 extern class ViewAgendaRounded extends ReactComponentOfProps<IconProps> {}

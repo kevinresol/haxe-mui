@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'QueryBuilderSharp')
+@:jsRequire('@mui/icons-material', 'QueryBuilderSharp')
 extern class QueryBuilderSharp extends ReactComponentOfProps<IconProps> {}

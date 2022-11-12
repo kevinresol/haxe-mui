@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DeleteSweepRounded')
+@:jsRequire('@mui/icons-material', 'DeleteSweepRounded')
 extern class DeleteSweepRounded extends ReactComponentOfProps<IconProps> {}

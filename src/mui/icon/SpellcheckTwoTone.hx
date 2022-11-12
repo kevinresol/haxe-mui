@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SpellcheckTwoTone')
+@:jsRequire('@mui/icons-material', 'SpellcheckTwoTone')
 extern class SpellcheckTwoTone extends ReactComponentOfProps<IconProps> {}

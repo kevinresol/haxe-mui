@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VoicemailSharp')
+@:jsRequire('@mui/icons-material', 'VoicemailSharp')
 extern class VoicemailSharp extends ReactComponentOfProps<IconProps> {}

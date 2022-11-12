@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FullscreenSharp')
+@:jsRequire('@mui/icons-material', 'FullscreenSharp')
 extern class FullscreenSharp extends ReactComponentOfProps<IconProps> {}

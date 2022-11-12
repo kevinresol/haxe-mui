@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'EuroSymbol')
+@:jsRequire('@mui/icons-material', 'EuroSymbol')
 extern class EuroSymbol extends ReactComponentOfProps<IconProps> {}

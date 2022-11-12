@@ -23,13 +23,13 @@ typedef ChipProps = ForcedOverride<StandardDOMAttributes, {
 	@:optional var variant:ChipVariant;
 }>;
 
-@:jsRequire('@material-ui/core', 'Chip')
+@:jsRequire('@mui/material', 'Chip')
 extern class Chip extends ReactComponentOfProps<ChipProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<ChipClassKey>
 		return ChipStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Chip/Chip.js')
+@:jsRequire('@mui/material/Chip/Chip.js')
 extern class ChipStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<ChipClassKey>;
 }

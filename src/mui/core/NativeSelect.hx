@@ -14,13 +14,13 @@ typedef NativeSelectProps = ForcedOverride<InputProps, {
 	@:optional var variant:FormControlVariant;
 }>;
 
-@:jsRequire('@material-ui/core', 'NativeSelect')
+@:jsRequire('@mui/material', 'NativeSelect')
 extern class NativeSelect extends ReactComponentOfProps<NativeSelectProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<NativeSelectClassKey>
 		return NativeSelectStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/NativeSelect/NativeSelect.js')
+@:jsRequire('@mui/material/NativeSelect/NativeSelect.js')
 extern class NativeSelectStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<NativeSelectClassKey>;
 }

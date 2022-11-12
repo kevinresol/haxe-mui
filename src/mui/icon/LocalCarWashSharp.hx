@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalCarWashSharp')
+@:jsRequire('@mui/icons-material', 'LocalCarWashSharp')
 extern class LocalCarWashSharp extends ReactComponentOfProps<IconProps> {}

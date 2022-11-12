@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PersonalVideo')
+@:jsRequire('@mui/icons-material', 'PersonalVideo')
 extern class PersonalVideo extends ReactComponentOfProps<IconProps> {}

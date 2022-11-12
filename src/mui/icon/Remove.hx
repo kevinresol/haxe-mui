@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Remove')
+@:jsRequire('@mui/icons-material', 'Remove')
 extern class Remove extends ReactComponentOfProps<IconProps> {}

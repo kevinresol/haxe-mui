@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RemoveCircleSharp')
+@:jsRequire('@mui/icons-material', 'RemoveCircleSharp')
 extern class RemoveCircleSharp extends ReactComponentOfProps<IconProps> {}

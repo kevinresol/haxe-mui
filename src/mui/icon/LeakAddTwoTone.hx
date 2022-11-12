@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LeakAddTwoTone')
+@:jsRequire('@mui/icons-material', 'LeakAddTwoTone')
 extern class LeakAddTwoTone extends ReactComponentOfProps<IconProps> {}

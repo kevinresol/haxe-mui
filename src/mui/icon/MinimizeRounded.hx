@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MinimizeRounded')
+@:jsRequire('@mui/icons-material', 'MinimizeRounded')
 extern class MinimizeRounded extends ReactComponentOfProps<IconProps> {}

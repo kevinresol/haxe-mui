@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Crop')
+@:jsRequire('@mui/icons-material', 'Crop')
 extern class Crop extends ReactComponentOfProps<IconProps> {}

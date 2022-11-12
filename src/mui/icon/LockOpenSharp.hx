@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LockOpenSharp')
+@:jsRequire('@mui/icons-material', 'LockOpenSharp')
 extern class LockOpenSharp extends ReactComponentOfProps<IconProps> {}

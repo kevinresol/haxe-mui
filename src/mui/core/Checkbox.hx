@@ -29,13 +29,13 @@ typedef CheckboxProps = ForcedOverride<IconButtonProps, {
 	@:optional var value:String;
 }>;
 
-@:jsRequire('@material-ui/core', 'Checkbox')
+@:jsRequire('@mui/material', 'Checkbox')
 extern class Checkbox extends ReactComponentOfProps<CheckboxProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<CheckboxClassKey>
 		return CheckboxStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Checkbox/Checkbox.js')
+@:jsRequire('@mui/material/Checkbox/Checkbox.js')
 extern class CheckboxStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<CheckboxClassKey>;
 }

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VisibilityOffSharp')
+@:jsRequire('@mui/icons-material', 'VisibilityOffSharp')
 extern class VisibilityOffSharp extends ReactComponentOfProps<IconProps> {}

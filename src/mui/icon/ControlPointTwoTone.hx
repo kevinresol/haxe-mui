@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ControlPointTwoTone')
+@:jsRequire('@mui/icons-material', 'ControlPointTwoTone')
 extern class ControlPointTwoTone extends ReactComponentOfProps<IconProps> {}

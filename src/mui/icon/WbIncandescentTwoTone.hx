@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WbIncandescentTwoTone')
+@:jsRequire('@mui/icons-material', 'WbIncandescentTwoTone')
 extern class WbIncandescentTwoTone extends ReactComponentOfProps<IconProps> {}

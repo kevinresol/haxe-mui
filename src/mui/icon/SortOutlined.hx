@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SortOutlined')
+@:jsRequire('@mui/icons-material', 'SortOutlined')
 extern class SortOutlined extends ReactComponentOfProps<IconProps> {}

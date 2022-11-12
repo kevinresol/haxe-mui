@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlipCameraIosSharp')
+@:jsRequire('@mui/icons-material', 'FlipCameraIosSharp')
 extern class FlipCameraIosSharp extends ReactComponentOfProps<IconProps> {}

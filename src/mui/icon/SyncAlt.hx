@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SyncAlt')
+@:jsRequire('@mui/icons-material', 'SyncAlt')
 extern class SyncAlt extends ReactComponentOfProps<IconProps> {}

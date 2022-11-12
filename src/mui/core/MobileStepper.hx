@@ -18,13 +18,13 @@ typedef MobileStepperProps = ForcedOverride<PaperProps, {
 	@:optional var variant:MobileStepperVariant;
 }>;
 
-@:jsRequire('@material-ui/core', 'MobileStepper')
+@:jsRequire('@mui/material', 'MobileStepper')
 extern class MobileStepper extends ReactComponentOfProps<MobileStepperProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<MobileStepperClassKey>
 		return MobileStepperStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/MobileStepper/MobileStepper.js')
+@:jsRequire('@mui/material/MobileStepper/MobileStepper.js')
 extern class MobileStepperStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<MobileStepperClassKey>;
 }

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PersonPinCircleTwoTone')
+@:jsRequire('@mui/icons-material', 'PersonPinCircleTwoTone')
 extern class PersonPinCircleTwoTone extends ReactComponentOfProps<IconProps> {}

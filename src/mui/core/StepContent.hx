@@ -16,13 +16,13 @@ typedef StepContentProps = {
 	@:optional var TransitionProps:TransitionProps<Any>;
 }
 
-@:jsRequire('@material-ui/core', 'StepContent')
+@:jsRequire('@mui/material', 'StepContent')
 extern class StepContent extends ReactComponentOfProps<StepContentProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<StepContentClassKey>
 		return StepContentStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/StepContent/StepContent.js')
+@:jsRequire('@mui/material/StepContent/StepContent.js')
 extern class StepContentStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<StepContentClassKey>;
 }

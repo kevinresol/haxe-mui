@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WebSharp')
+@:jsRequire('@mui/icons-material', 'WebSharp')
 extern class WebSharp extends ReactComponentOfProps<IconProps> {}

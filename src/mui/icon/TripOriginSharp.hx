@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TripOriginSharp')
+@:jsRequire('@mui/icons-material', 'TripOriginSharp')
 extern class TripOriginSharp extends ReactComponentOfProps<IconProps> {}

@@ -11,13 +11,13 @@ typedef TableBodyProps = {
 	@:optional var component:ReactType;
 }
 
-@:jsRequire('@material-ui/core', 'TableBody')
+@:jsRequire('@mui/material', 'TableBody')
 extern class TableBody extends ReactComponentOfProps<TableBodyProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<TableBodyClassKey>
 		return TableBodyStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/TableBody/TableBody.js')
+@:jsRequire('@mui/material/TableBody/TableBody.js')
 extern class TableBodyStyles {
 	static var styles:ClassesDef<TableBodyClassKey>;
 }

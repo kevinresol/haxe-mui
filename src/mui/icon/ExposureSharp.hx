@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ExposureSharp')
+@:jsRequire('@mui/icons-material', 'ExposureSharp')
 extern class ExposureSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BookmarkBorderRounded')
+@:jsRequire('@mui/icons-material', 'BookmarkBorderRounded')
 extern class BookmarkBorderRounded extends ReactComponentOfProps<IconProps> {}

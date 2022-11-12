@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VolumeUpOutlined')
+@:jsRequire('@mui/icons-material', 'VolumeUpOutlined')
 extern class VolumeUpOutlined extends ReactComponentOfProps<IconProps> {}

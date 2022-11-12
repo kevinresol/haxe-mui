@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ZoomIn')
+@:jsRequire('@mui/icons-material', 'ZoomIn')
 extern class ZoomIn extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FormatAlignJustify')
+@:jsRequire('@mui/icons-material', 'FormatAlignJustify')
 extern class FormatAlignJustify extends ReactComponentOfProps<IconProps> {}

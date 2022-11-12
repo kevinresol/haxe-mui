@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FilterCenterFocusSharp')
+@:jsRequire('@mui/icons-material', 'FilterCenterFocusSharp')
 extern class FilterCenterFocusSharp extends ReactComponentOfProps<IconProps> {}

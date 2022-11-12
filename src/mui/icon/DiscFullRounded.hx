@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DiscFullRounded')
+@:jsRequire('@mui/icons-material', 'DiscFullRounded')
 extern class DiscFullRounded extends ReactComponentOfProps<IconProps> {}

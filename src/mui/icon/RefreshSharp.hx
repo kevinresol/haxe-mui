@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RefreshSharp')
+@:jsRequire('@mui/icons-material', 'RefreshSharp')
 extern class RefreshSharp extends ReactComponentOfProps<IconProps> {}

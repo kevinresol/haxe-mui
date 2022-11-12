@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalPostOfficeOutlined')
+@:jsRequire('@mui/icons-material', 'LocalPostOfficeOutlined')
 extern class LocalPostOfficeOutlined extends ReactComponentOfProps<IconProps> {}

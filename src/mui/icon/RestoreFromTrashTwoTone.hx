@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RestoreFromTrashTwoTone')
+@:jsRequire('@mui/icons-material', 'RestoreFromTrashTwoTone')
 extern class RestoreFromTrashTwoTone extends ReactComponentOfProps<IconProps> {}

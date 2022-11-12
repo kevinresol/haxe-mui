@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PortableWifiOff')
+@:jsRequire('@mui/icons-material', 'PortableWifiOff')
 extern class PortableWifiOff extends ReactComponentOfProps<IconProps> {}

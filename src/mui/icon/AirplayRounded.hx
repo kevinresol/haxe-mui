@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AirplayRounded')
+@:jsRequire('@mui/icons-material', 'AirplayRounded')
 extern class AirplayRounded extends ReactComponentOfProps<IconProps> {}

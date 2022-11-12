@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsOverscanTwoTone')
+@:jsRequire('@mui/icons-material', 'SettingsOverscanTwoTone')
 extern class SettingsOverscanTwoTone extends ReactComponentOfProps<IconProps> {}

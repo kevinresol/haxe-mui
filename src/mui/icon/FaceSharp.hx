@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FaceSharp')
+@:jsRequire('@mui/icons-material', 'FaceSharp')
 extern class FaceSharp extends ReactComponentOfProps<IconProps> {}

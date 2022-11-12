@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CropDinSharp')
+@:jsRequire('@mui/icons-material', 'CropDinSharp')
 extern class CropDinSharp extends ReactComponentOfProps<IconProps> {}

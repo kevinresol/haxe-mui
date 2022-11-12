@@ -41,13 +41,13 @@ typedef ButtonProps = {
 	@:optional var tabIndex:Int;
 }
 
-@:jsRequire('@material-ui/core', 'Button')
+@:jsRequire('@mui/material', 'Button')
 extern class Button extends ReactComponentOfProps<ButtonProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<ButtonClassKey>
 		return ButtonStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Button/Button.js')
+@:jsRequire('@mui/material/Button/Button.js')
 extern class ButtonStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<ButtonClassKey>;
 }

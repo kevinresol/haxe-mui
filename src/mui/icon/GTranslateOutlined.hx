@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GTranslateOutlined')
+@:jsRequire('@mui/icons-material', 'GTranslateOutlined')
 extern class GTranslateOutlined extends ReactComponentOfProps<IconProps> {}

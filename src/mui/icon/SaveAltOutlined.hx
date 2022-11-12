@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SaveAltOutlined')
+@:jsRequire('@mui/icons-material', 'SaveAltOutlined')
 extern class SaveAltOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'KeyboardCapslock')
+@:jsRequire('@mui/icons-material', 'KeyboardCapslock')
 extern class KeyboardCapslock extends ReactComponentOfProps<IconProps> {}

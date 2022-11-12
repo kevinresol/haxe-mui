@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SlowMotionVideoTwoTone')
+@:jsRequire('@mui/icons-material', 'SlowMotionVideoTwoTone')
 extern class SlowMotionVideoTwoTone extends ReactComponentOfProps<IconProps> {}

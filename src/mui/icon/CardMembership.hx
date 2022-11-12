@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CardMembership')
+@:jsRequire('@mui/icons-material', 'CardMembership')
 extern class CardMembership extends ReactComponentOfProps<IconProps> {}

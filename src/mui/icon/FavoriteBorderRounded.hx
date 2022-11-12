@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FavoriteBorderRounded')
+@:jsRequire('@mui/icons-material', 'FavoriteBorderRounded')
 extern class FavoriteBorderRounded extends ReactComponentOfProps<IconProps> {}

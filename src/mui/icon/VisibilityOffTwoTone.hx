@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VisibilityOffTwoTone')
+@:jsRequire('@mui/icons-material', 'VisibilityOffTwoTone')
 extern class VisibilityOffTwoTone extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CallMissedOutgoingSharp')
+@:jsRequire('@mui/icons-material', 'CallMissedOutgoingSharp')
 extern class CallMissedOutgoingSharp extends ReactComponentOfProps<IconProps> {}

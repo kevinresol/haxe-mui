@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SdCard')
+@:jsRequire('@mui/icons-material', 'SdCard')
 extern class SdCard extends ReactComponentOfProps<IconProps> {}

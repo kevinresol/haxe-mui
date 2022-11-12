@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocationSearching')
+@:jsRequire('@mui/icons-material', 'LocationSearching')
 extern class LocationSearching extends ReactComponentOfProps<IconProps> {}

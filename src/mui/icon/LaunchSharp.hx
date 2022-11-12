@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LaunchSharp')
+@:jsRequire('@mui/icons-material', 'LaunchSharp')
 extern class LaunchSharp extends ReactComponentOfProps<IconProps> {}

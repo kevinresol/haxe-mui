@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ReplyAll')
+@:jsRequire('@mui/icons-material', 'ReplyAll')
 extern class ReplyAll extends ReactComponentOfProps<IconProps> {}

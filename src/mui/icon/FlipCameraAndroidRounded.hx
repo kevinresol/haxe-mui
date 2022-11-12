@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlipCameraAndroidRounded')
+@:jsRequire('@mui/icons-material', 'FlipCameraAndroidRounded')
 extern class FlipCameraAndroidRounded extends ReactComponentOfProps<IconProps> {}

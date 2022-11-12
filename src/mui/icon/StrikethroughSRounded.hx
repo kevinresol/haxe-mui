@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'StrikethroughSRounded')
+@:jsRequire('@mui/icons-material', 'StrikethroughSRounded')
 extern class StrikethroughSRounded extends ReactComponentOfProps<IconProps> {}

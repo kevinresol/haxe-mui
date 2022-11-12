@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DynamicFeedTwoTone')
+@:jsRequire('@mui/icons-material', 'DynamicFeedTwoTone')
 extern class DynamicFeedTwoTone extends ReactComponentOfProps<IconProps> {}

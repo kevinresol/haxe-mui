@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SyncRounded')
+@:jsRequire('@mui/icons-material', 'SyncRounded')
 extern class SyncRounded extends ReactComponentOfProps<IconProps> {}

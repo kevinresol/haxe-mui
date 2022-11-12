@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BathtubRounded')
+@:jsRequire('@mui/icons-material', 'BathtubRounded')
 extern class BathtubRounded extends ReactComponentOfProps<IconProps> {}

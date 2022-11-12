@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PowerSharp')
+@:jsRequire('@mui/icons-material', 'PowerSharp')
 extern class PowerSharp extends ReactComponentOfProps<IconProps> {}

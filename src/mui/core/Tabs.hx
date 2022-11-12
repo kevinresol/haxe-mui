@@ -25,13 +25,13 @@ typedef TabsProps<Data> = ForcedOverride<StandardDOMAttributes, {
 	@:optional var variant:TabsVariant;
 }>;
 
-@:jsRequire('@material-ui/core', 'Tabs')
+@:jsRequire('@mui/material', 'Tabs')
 extern class Tabs<Data> extends ReactComponentOfProps<TabsProps<Data>> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<TabsClassKey>
 		return TabsStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Tabs/Tabs.js')
+@:jsRequire('@mui/material/Tabs/Tabs.js')
 extern class TabsStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<TabsClassKey>;
 }

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ScreenRotationOutlined')
+@:jsRequire('@mui/icons-material', 'ScreenRotationOutlined')
 extern class ScreenRotationOutlined extends ReactComponentOfProps<IconProps> {}

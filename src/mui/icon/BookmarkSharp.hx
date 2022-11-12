@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BookmarkSharp')
+@:jsRequire('@mui/icons-material', 'BookmarkSharp')
 extern class BookmarkSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NotListedLocationRounded')
+@:jsRequire('@mui/icons-material', 'NotListedLocationRounded')
 extern class NotListedLocationRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SubjectSharp')
+@:jsRequire('@mui/icons-material', 'SubjectSharp')
 extern class SubjectSharp extends ReactComponentOfProps<IconProps> {}

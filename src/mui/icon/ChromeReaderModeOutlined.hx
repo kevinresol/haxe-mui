@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ChromeReaderModeOutlined')
+@:jsRequire('@mui/icons-material', 'ChromeReaderModeOutlined')
 extern class ChromeReaderModeOutlined extends ReactComponentOfProps<IconProps> {}

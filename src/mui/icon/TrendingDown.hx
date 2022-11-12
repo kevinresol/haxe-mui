@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TrendingDown')
+@:jsRequire('@mui/icons-material', 'TrendingDown')
 extern class TrendingDown extends ReactComponentOfProps<IconProps> {}

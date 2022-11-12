@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MapSharp')
+@:jsRequire('@mui/icons-material', 'MapSharp')
 extern class MapSharp extends ReactComponentOfProps<IconProps> {}

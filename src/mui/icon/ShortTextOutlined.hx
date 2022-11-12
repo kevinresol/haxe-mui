@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ShortTextOutlined')
+@:jsRequire('@mui/icons-material', 'ShortTextOutlined')
 extern class ShortTextOutlined extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'MovieFilterSharp')
+@:jsRequire('@mui/icons-material', 'MovieFilterSharp')
 extern class MovieFilterSharp extends ReactComponentOfProps<IconProps> {}

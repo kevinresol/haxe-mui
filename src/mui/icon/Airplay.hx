@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Airplay')
+@:jsRequire('@mui/icons-material', 'Airplay')
 extern class Airplay extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PlayCircleFilledWhiteTwoTone')
+@:jsRequire('@mui/icons-material', 'PlayCircleFilledWhiteTwoTone')
 extern class PlayCircleFilledWhiteTwoTone extends ReactComponentOfProps<IconProps> {}

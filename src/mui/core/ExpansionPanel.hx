@@ -17,13 +17,13 @@ typedef ExpansionPanelProps = ForcedOverride<PaperProps, {
 	@:optional var TransitionProps:TransitionProps<Any>;
 }>;
 
-@:jsRequire('@material-ui/core', 'ExpansionPanel')
+@:jsRequire('@mui/material', 'ExpansionPanel')
 extern class ExpansionPanel extends ReactComponentOfProps<ExpansionPanelProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<ExpansionPanelClassKey>
 		return ExpansionPanelStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/ExpansionPanel/ExpansionPanel.js')
+@:jsRequire('@mui/material/ExpansionPanel/ExpansionPanel.js')
 extern class ExpansionPanelStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<ExpansionPanelClassKey>;
 }

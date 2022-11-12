@@ -36,13 +36,13 @@ typedef SnackbarProps = {
 	@:optional var TransitionProps:TransitionProps<Any>;
 }
 
-@:jsRequire('@material-ui/core', 'Snackbar')
+@:jsRequire('@mui/material', 'Snackbar')
 extern class Snackbar extends ReactComponentOfProps<SnackbarProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<SnackbarClassKey>
 		return SnackbarStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Snackbar/Snackbar.js')
+@:jsRequire('@mui/material/Snackbar/Snackbar.js')
 extern class SnackbarStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<SnackbarClassKey>;
 }

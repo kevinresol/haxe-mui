@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PowerOffRounded')
+@:jsRequire('@mui/icons-material', 'PowerOffRounded')
 extern class PowerOffRounded extends ReactComponentOfProps<IconProps> {}

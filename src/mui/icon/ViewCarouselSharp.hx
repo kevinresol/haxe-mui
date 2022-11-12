@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ViewCarouselSharp')
+@:jsRequire('@mui/icons-material', 'ViewCarouselSharp')
 extern class ViewCarouselSharp extends ReactComponentOfProps<IconProps> {}

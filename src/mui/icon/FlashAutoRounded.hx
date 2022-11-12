@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlashAutoRounded')
+@:jsRequire('@mui/icons-material', 'FlashAutoRounded')
 extern class FlashAutoRounded extends ReactComponentOfProps<IconProps> {}

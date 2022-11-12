@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ToggleOffTwoTone')
+@:jsRequire('@mui/icons-material', 'ToggleOffTwoTone')
 extern class ToggleOffTwoTone extends ReactComponentOfProps<IconProps> {}

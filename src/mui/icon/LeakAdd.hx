@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LeakAdd')
+@:jsRequire('@mui/icons-material', 'LeakAdd')
 extern class LeakAdd extends ReactComponentOfProps<IconProps> {}

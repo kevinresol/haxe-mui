@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GifRounded')
+@:jsRequire('@mui/icons-material', 'GifRounded')
 extern class GifRounded extends ReactComponentOfProps<IconProps> {}

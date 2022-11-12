@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'GraphicEqSharp')
+@:jsRequire('@mui/icons-material', 'GraphicEqSharp')
 extern class GraphicEqSharp extends ReactComponentOfProps<IconProps> {}

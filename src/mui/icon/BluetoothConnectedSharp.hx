@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BluetoothConnectedSharp')
+@:jsRequire('@mui/icons-material', 'BluetoothConnectedSharp')
 extern class BluetoothConnectedSharp extends ReactComponentOfProps<IconProps> {}

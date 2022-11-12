@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ImportContactsSharp')
+@:jsRequire('@mui/icons-material', 'ImportContactsSharp')
 extern class ImportContactsSharp extends ReactComponentOfProps<IconProps> {}

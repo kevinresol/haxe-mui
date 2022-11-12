@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CallMade')
+@:jsRequire('@mui/icons-material', 'CallMade')
 extern class CallMade extends ReactComponentOfProps<IconProps> {}

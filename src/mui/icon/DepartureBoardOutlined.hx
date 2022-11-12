@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'DepartureBoardOutlined')
+@:jsRequire('@mui/icons-material', 'DepartureBoardOutlined')
 extern class DepartureBoardOutlined extends ReactComponentOfProps<IconProps> {}

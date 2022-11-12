@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SubdirectoryArrowLeftRounded')
+@:jsRequire('@mui/icons-material', 'SubdirectoryArrowLeftRounded')
 extern class SubdirectoryArrowLeftRounded extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CallSplitOutlined')
+@:jsRequire('@mui/icons-material', 'CallSplitOutlined')
 extern class CallSplitOutlined extends ReactComponentOfProps<IconProps> {}

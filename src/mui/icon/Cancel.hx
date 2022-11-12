@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Cancel')
+@:jsRequire('@mui/icons-material', 'Cancel')
 extern class Cancel extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ChildFriendlyOutlined')
+@:jsRequire('@mui/icons-material', 'ChildFriendlyOutlined')
 extern class ChildFriendlyOutlined extends ReactComponentOfProps<IconProps> {}

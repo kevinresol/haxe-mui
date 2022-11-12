@@ -18,13 +18,13 @@ typedef AvatarProps = {
 	@:optional var variant:AvatarVariant;
 }
 
-@:jsRequire('@material-ui/core', 'Avatar')
+@:jsRequire('@mui/material', 'Avatar')
 extern class Avatar extends ReactComponentOfProps<AvatarProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<AvatarClassKey>
 		return AvatarStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/Avatar/Avatar.js')
+@:jsRequire('@mui/material/Avatar/Avatar.js')
 extern class AvatarStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<AvatarClassKey>;
 }

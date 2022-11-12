@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LocalAirport')
+@:jsRequire('@mui/icons-material', 'LocalAirport')
 extern class LocalAirport extends ReactComponentOfProps<IconProps> {}

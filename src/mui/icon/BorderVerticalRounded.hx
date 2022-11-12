@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BorderVerticalRounded')
+@:jsRequire('@mui/icons-material', 'BorderVerticalRounded')
 extern class BorderVerticalRounded extends ReactComponentOfProps<IconProps> {}

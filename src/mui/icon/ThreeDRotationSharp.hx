@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ThreeDRotationSharp')
+@:jsRequire('@mui/icons-material', 'ThreeDRotationSharp')
 extern class ThreeDRotationSharp extends ReactComponentOfProps<IconProps> {}

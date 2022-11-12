@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SystemUpdateAltTwoTone')
+@:jsRequire('@mui/icons-material', 'SystemUpdateAltTwoTone')
 extern class SystemUpdateAltTwoTone extends ReactComponentOfProps<IconProps> {}

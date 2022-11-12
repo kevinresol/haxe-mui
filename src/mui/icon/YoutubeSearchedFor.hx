@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'YoutubeSearchedFor')
+@:jsRequire('@mui/icons-material', 'YoutubeSearchedFor')
 extern class YoutubeSearchedFor extends ReactComponentOfProps<IconProps> {}

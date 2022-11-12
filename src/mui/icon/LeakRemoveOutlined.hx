@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LeakRemoveOutlined')
+@:jsRequire('@mui/icons-material', 'LeakRemoveOutlined')
 extern class LeakRemoveOutlined extends ReactComponentOfProps<IconProps> {}

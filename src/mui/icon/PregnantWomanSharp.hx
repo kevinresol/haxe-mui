@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PregnantWomanSharp')
+@:jsRequire('@mui/icons-material', 'PregnantWomanSharp')
 extern class PregnantWomanSharp extends ReactComponentOfProps<IconProps> {}

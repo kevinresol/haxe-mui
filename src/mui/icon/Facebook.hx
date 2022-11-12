@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Facebook')
+@:jsRequire('@mui/icons-material', 'Facebook')
 extern class Facebook extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SelectAllRounded')
+@:jsRequire('@mui/icons-material', 'SelectAllRounded')
 extern class SelectAllRounded extends ReactComponentOfProps<IconProps> {}

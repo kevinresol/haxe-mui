@@ -17,13 +17,13 @@ typedef CardHeaderProps = ForcedOverride<StandardDOMAttributes, {
 	@:optional var titleTypographyProps:Partial<TypographyProps>;
 }>;
 
-@:jsRequire('@material-ui/core', 'CardHeader')
+@:jsRequire('@mui/material', 'CardHeader')
 extern class CardHeader extends ReactComponentOfProps<CardHeaderProps> {
 	static inline function styles<TTheme>(?_:TTheme):ClassesDef<CardHeaderClassKey>
 		return CardHeaderStyles.styles;
 }
 
-@:jsRequire('@material-ui/core/CardHeader/CardHeader.js')
+@:jsRequire('@mui/material/CardHeader/CardHeader.js')
 extern class CardHeaderStyles {
 	static var styles:ClassesDef<CardHeaderClassKey>;
 }

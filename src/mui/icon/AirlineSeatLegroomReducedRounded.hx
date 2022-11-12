@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AirlineSeatLegroomReducedRounded')
+@:jsRequire('@mui/icons-material', 'AirlineSeatLegroomReducedRounded')
 extern class AirlineSeatLegroomReducedRounded extends ReactComponentOfProps<IconProps> {}

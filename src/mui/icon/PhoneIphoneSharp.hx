@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PhoneIphoneSharp')
+@:jsRequire('@mui/icons-material', 'PhoneIphoneSharp')
 extern class PhoneIphoneSharp extends ReactComponentOfProps<IconProps> {}

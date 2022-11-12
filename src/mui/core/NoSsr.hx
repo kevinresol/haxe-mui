@@ -8,5 +8,5 @@ private typedef Props = {
 	@:optional var fallback:ReactFragment;
 }
 
-@:jsRequire('@material-ui/core', 'NoSsr')
+@:jsRequire('@mui/material', 'NoSsr')
 extern class NoSsr extends ReactComponentOfProps<Props> {}

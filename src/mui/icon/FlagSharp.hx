@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'FlagSharp')
+@:jsRequire('@mui/icons-material', 'FlagSharp')
 extern class FlagSharp extends ReactComponentOfProps<IconProps> {}

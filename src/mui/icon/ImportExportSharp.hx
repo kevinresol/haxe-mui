@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'ImportExportSharp')
+@:jsRequire('@mui/icons-material', 'ImportExportSharp')
 extern class ImportExportSharp extends ReactComponentOfProps<IconProps> {}

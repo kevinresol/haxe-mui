@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LayersClearTwoTone')
+@:jsRequire('@mui/icons-material', 'LayersClearTwoTone')
 extern class LayersClearTwoTone extends ReactComponentOfProps<IconProps> {}

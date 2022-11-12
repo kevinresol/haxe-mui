@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'NotificationsPausedRounded')
+@:jsRequire('@mui/icons-material', 'NotificationsPausedRounded')
 extern class NotificationsPausedRounded extends ReactComponentOfProps<IconProps> {}

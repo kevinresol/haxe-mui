@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SwapVertTwoTone')
+@:jsRequire('@mui/icons-material', 'SwapVertTwoTone')
 extern class SwapVertTwoTone extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PowerSettingsNew')
+@:jsRequire('@mui/icons-material', 'PowerSettingsNew')
 extern class PowerSettingsNew extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SyncProblemTwoTone')
+@:jsRequire('@mui/icons-material', 'SyncProblemTwoTone')
 extern class SyncProblemTwoTone extends ReactComponentOfProps<IconProps> {}

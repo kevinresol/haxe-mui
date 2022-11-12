@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'CakeSharp')
+@:jsRequire('@mui/icons-material', 'CakeSharp')
 extern class CakeSharp extends ReactComponentOfProps<IconProps> {}

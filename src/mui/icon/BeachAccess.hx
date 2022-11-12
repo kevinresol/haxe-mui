@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BeachAccess')
+@:jsRequire('@mui/icons-material', 'BeachAccess')
 extern class BeachAccess extends ReactComponentOfProps<IconProps> {}

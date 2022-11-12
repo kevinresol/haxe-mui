@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TextFormatRounded')
+@:jsRequire('@mui/icons-material', 'TextFormatRounded')
 extern class TextFormatRounded extends ReactComponentOfProps<IconProps> {}

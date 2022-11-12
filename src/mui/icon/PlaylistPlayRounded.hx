@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PlaylistPlayRounded')
+@:jsRequire('@mui/icons-material', 'PlaylistPlayRounded')
 extern class PlaylistPlayRounded extends ReactComponentOfProps<IconProps> {}

@@ -16,13 +16,13 @@ typedef LinearProgressProps = {
 	@:optional var variant:LinearProgressVariant;
 }
 
-@:jsRequire('@material-ui/core', 'LinearProgress')
+@:jsRequire('@mui/material', 'LinearProgress')
 extern class LinearProgress extends ReactComponentOfProps<LinearProgressProps> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<LinearProgressClassKey>
 		return LinearProgressStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/core/LinearProgress/LinearProgress.js')
+@:jsRequire('@mui/material/LinearProgress/LinearProgress.js')
 extern class LinearProgressStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<LinearProgressClassKey>;
 }

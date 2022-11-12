@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SettingsInputSvideoTwoTone')
+@:jsRequire('@mui/icons-material', 'SettingsInputSvideoTwoTone')
 extern class SettingsInputSvideoTwoTone extends ReactComponentOfProps<IconProps> {}

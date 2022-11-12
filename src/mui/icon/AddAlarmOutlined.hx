@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'AddAlarmOutlined')
+@:jsRequire('@mui/icons-material', 'AddAlarmOutlined')
 extern class AddAlarmOutlined extends ReactComponentOfProps<IconProps> {}

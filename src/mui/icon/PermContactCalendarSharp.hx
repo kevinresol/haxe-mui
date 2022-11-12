@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PermContactCalendarSharp')
+@:jsRequire('@mui/icons-material', 'PermContactCalendarSharp')
 extern class PermContactCalendarSharp extends ReactComponentOfProps<IconProps> {}

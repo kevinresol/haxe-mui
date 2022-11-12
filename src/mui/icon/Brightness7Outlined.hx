@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'Brightness7Outlined')
+@:jsRequire('@mui/icons-material', 'Brightness7Outlined')
 extern class Brightness7Outlined extends ReactComponentOfProps<IconProps> {}

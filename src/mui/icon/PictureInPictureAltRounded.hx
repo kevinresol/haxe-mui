@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'PictureInPictureAltRounded')
+@:jsRequire('@mui/icons-material', 'PictureInPictureAltRounded')
 extern class PictureInPictureAltRounded extends ReactComponentOfProps<IconProps> {}

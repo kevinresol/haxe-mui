@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'VolumeDown')
+@:jsRequire('@mui/icons-material', 'VolumeDown')
 extern class VolumeDown extends ReactComponentOfProps<IconProps> {}

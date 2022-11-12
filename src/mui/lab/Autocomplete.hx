@@ -62,13 +62,13 @@ typedef AutocompleteProps<Data> = ForcedOverride<StandardDOMAttributes, {
 	@:optional var value:Data;
 }>;
 
-@:jsRequire('@material-ui/lab', 'Autocomplete')
+@:jsRequire('@mui/lab', 'Autocomplete')
 extern class Autocomplete<Data> extends ReactComponentOfProps<AutocompleteProps<Data>> {
 	static inline function styles<TTheme>(theme:TTheme):ClassesDef<AutocompleteClassKey>
 		return AutocompleteStyles.styles(theme);
 }
 
-@:jsRequire('@material-ui/lab/Autocomplete/Autocomplete.js')
+@:jsRequire('@mui/lab/Autocomplete/Autocomplete.js')
 extern class AutocompleteStyles {
 	static function styles<TTheme>(theme:TTheme):ClassesDef<AutocompleteClassKey>;
 }

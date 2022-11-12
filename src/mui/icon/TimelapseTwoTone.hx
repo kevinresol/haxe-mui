@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'TimelapseTwoTone')
+@:jsRequire('@mui/icons-material', 'TimelapseTwoTone')
 extern class TimelapseTwoTone extends ReactComponentOfProps<IconProps> {}

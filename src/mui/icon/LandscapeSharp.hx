@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'LandscapeSharp')
+@:jsRequire('@mui/icons-material', 'LandscapeSharp')
 extern class LandscapeSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'RefreshRounded')
+@:jsRequire('@mui/icons-material', 'RefreshRounded')
 extern class RefreshRounded extends ReactComponentOfProps<IconProps> {}

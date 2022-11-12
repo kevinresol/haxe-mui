@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SatelliteSharp')
+@:jsRequire('@mui/icons-material', 'SatelliteSharp')
 extern class SatelliteSharp extends ReactComponentOfProps<IconProps> {}

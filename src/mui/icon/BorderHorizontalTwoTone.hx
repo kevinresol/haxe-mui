@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BorderHorizontalTwoTone')
+@:jsRequire('@mui/icons-material', 'BorderHorizontalTwoTone')
 extern class BorderHorizontalTwoTone extends ReactComponentOfProps<IconProps> {}

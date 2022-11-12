@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'WatchSharp')
+@:jsRequire('@mui/icons-material', 'WatchSharp')
 extern class WatchSharp extends ReactComponentOfProps<IconProps> {}

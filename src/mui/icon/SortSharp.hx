@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'SortSharp')
+@:jsRequire('@mui/icons-material', 'SortSharp')
 extern class SortSharp extends ReactComponentOfProps<IconProps> {}

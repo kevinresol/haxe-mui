@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'BrushSharp')
+@:jsRequire('@mui/icons-material', 'BrushSharp')
 extern class BrushSharp extends ReactComponentOfProps<IconProps> {}

@@ -2,5 +2,5 @@ package mui.icon;
 
 import react.ReactComponent;
 
-@:jsRequire('@material-ui/icons', 'HeadsetMic')
+@:jsRequire('@mui/icons-material', 'HeadsetMic')
 extern class HeadsetMic extends ReactComponentOfProps<IconProps> {}
