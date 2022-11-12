@@ -1,7 +1,7 @@
 package mui.lab;
 
-import mui.core.ButtonBase.ButtonBaseProps;
-import mui.core.styles.Classes;
+import mui.material.ButtonBase.ButtonBaseProps;
+import mui.material.styles.Classes;
 import mui.lab.toggle.ToggleButtonClassKey;
 
 typedef ToggleButtonProps = ForcedOverride<ButtonBaseProps, {

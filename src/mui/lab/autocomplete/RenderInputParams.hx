@@ -1,6 +1,6 @@
 package mui.lab.autocomplete;
 
-import mui.core.InputLabel.InputLabelProps;
+import mui.material.InputLabel.InputLabelProps;
 
 typedef AutocompleteInputProps = {
 	var ref:ReactRef<Any>;

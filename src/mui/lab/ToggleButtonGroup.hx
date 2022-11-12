@@ -1,7 +1,7 @@
 package mui.lab;
 
-import mui.core.common.BoolOrAuto;
-import mui.core.styles.Classes;
+import mui.material.common.BoolOrAuto;
+import mui.material.styles.Classes;
 import mui.lab.toggle.ToggleButtonGroupClassKey;
 import mui.lab.toggle.ToggleButtonSize;
 

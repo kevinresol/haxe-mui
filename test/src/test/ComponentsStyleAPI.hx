@@ -1,7 +1,7 @@
 package test;
 
 import buddy.SingleSuite;
-import mui.core.styles.MuiTheme;
+import mui.material.styles.MuiTheme;
 
 using buddy.Should;
 
@@ -12,7 +12,7 @@ class ComponentsStyleAPI extends SingleSuite {
 		describe("Core components style API", {
 			
 			it("Checkbox should expose Checkbox.styles", {
-				var styles = mui.core.Checkbox.styles(defaultTheme);
+				var styles = mui.material.Checkbox.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -39,7 +39,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Switch should expose Switch.styles", {
-				var styles = mui.core.Switch.styles(defaultTheme);
+				var styles = mui.material.Switch.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -78,7 +78,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Collapse should expose Collapse.styles", {
-				var styles = mui.core.Collapse.styles(defaultTheme);
+				var styles = mui.material.Collapse.styles(defaultTheme);
 		
 				styles.container.should.not.be(null);
 				styles.resolve(Container).should.not.be(null);
@@ -103,7 +103,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Paper should expose Paper.styles", {
-				var styles = mui.core.Paper.styles(defaultTheme);
+				var styles = mui.material.Paper.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -172,7 +172,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Chip should expose Chip.styles", {
-				var styles = mui.core.Chip.styles(defaultTheme);
+				var styles = mui.material.Chip.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -247,7 +247,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Breadcrumbs should expose Breadcrumbs.styles", {
-				var styles = mui.core.Breadcrumbs.styles(defaultTheme);
+				var styles = mui.material.Breadcrumbs.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -270,7 +270,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Slider should expose Slider.styles", {
-				var styles = mui.core.Slider.styles(defaultTheme);
+				var styles = mui.material.Slider.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -325,7 +325,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Backdrop should expose Backdrop.styles", {
-				var styles = mui.core.Backdrop.styles(defaultTheme);
+				var styles = mui.material.Backdrop.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -344,7 +344,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Popover should expose Popover.styles", {
-				var styles = mui.core.Popover.styles(defaultTheme);
+				var styles = mui.material.Popover.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -363,7 +363,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("FilledInput should expose FilledInput.styles", {
-				var styles = mui.core.FilledInput.styles(defaultTheme);
+				var styles = mui.material.FilledInput.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -410,7 +410,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("InputLabel should expose InputLabel.styles", {
-				var styles = mui.core.InputLabel.styles(defaultTheme);
+				var styles = mui.material.InputLabel.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -449,7 +449,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("NativeSelect should expose NativeSelect.styles", {
-				var styles = mui.core.NativeSelect.styles(defaultTheme);
+				var styles = mui.material.NativeSelect.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -484,7 +484,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("OutlinedInput should expose OutlinedInput.styles", {
-				var styles = mui.core.OutlinedInput.styles(defaultTheme);
+				var styles = mui.material.OutlinedInput.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -529,7 +529,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("InputBase should expose InputBase.styles", {
-				var styles = mui.core.InputBase.styles(defaultTheme);
+				var styles = mui.material.InputBase.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -580,7 +580,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Input should expose Input.styles", {
-				var styles = mui.core.Input.styles(defaultTheme);
+				var styles = mui.material.Input.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -623,7 +623,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("InputAdornment should expose InputAdornment.styles", {
-				var styles = mui.core.InputAdornment.styles(defaultTheme);
+				var styles = mui.material.InputAdornment.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -652,7 +652,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Select should expose Select.styles", {
-				var styles = mui.core.Select.styles(defaultTheme);
+				var styles = mui.material.Select.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -687,7 +687,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Container should expose Container.styles", {
-				var styles = mui.core.Container.styles(defaultTheme);
+				var styles = mui.material.Container.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -716,7 +716,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Tooltip should expose Tooltip.styles", {
-				var styles = mui.core.Tooltip.styles(defaultTheme);
+				var styles = mui.material.Tooltip.styles(defaultTheme);
 		
 				styles.popper.should.not.be(null);
 				styles.resolve(Popper).should.not.be(null);
@@ -753,7 +753,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("AppBar should expose AppBar.styles", {
-				var styles = mui.core.AppBar.styles(defaultTheme);
+				var styles = mui.material.AppBar.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -786,7 +786,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("CardMedia should expose CardMedia.styles", {
-				var styles = mui.core.CardMedia.styles(defaultTheme);
+				var styles = mui.material.CardMedia.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -807,7 +807,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("CardActionArea should expose CardActionArea.styles", {
-				var styles = mui.core.CardActionArea.styles(defaultTheme);
+				var styles = mui.material.CardActionArea.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -828,7 +828,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("CardHeader should expose CardHeader.styles", {
-				var styles = mui.core.CardHeader.styles(defaultTheme);
+				var styles = mui.material.CardHeader.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -855,7 +855,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("CardContent should expose CardContent.styles", {
-				var styles = mui.core.CardContent.styles(defaultTheme);
+				var styles = mui.material.CardContent.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -872,7 +872,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("CardActions should expose CardActions.styles", {
-				var styles = mui.core.CardActions.styles(defaultTheme);
+				var styles = mui.material.CardActions.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -891,7 +891,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Card should expose Card.styles", {
-				var styles = mui.core.Card.styles(defaultTheme);
+				var styles = mui.material.Card.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -908,7 +908,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Link should expose Link.styles", {
-				var styles = mui.core.Link.styles(defaultTheme);
+				var styles = mui.material.Link.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -935,7 +935,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Badge should expose Badge.styles", {
-				var styles = mui.core.Badge.styles(defaultTheme);
+				var styles = mui.material.Badge.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -980,7 +980,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("FormLabel should expose FormLabel.styles", {
-				var styles = mui.core.FormLabel.styles(defaultTheme);
+				var styles = mui.material.FormLabel.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1011,7 +1011,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("FormGroup should expose FormGroup.styles", {
-				var styles = mui.core.FormGroup.styles(defaultTheme);
+				var styles = mui.material.FormGroup.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1030,7 +1030,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("FormControl should expose FormControl.styles", {
-				var styles = mui.core.FormControl.styles(defaultTheme);
+				var styles = mui.material.FormControl.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1053,7 +1053,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("FormHelperText should expose FormHelperText.styles", {
-				var styles = mui.core.FormHelperText.styles(defaultTheme);
+				var styles = mui.material.FormHelperText.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1084,7 +1084,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("FormControlLabel should expose FormControlLabel.styles", {
-				var styles = mui.core.FormControlLabel.styles(defaultTheme);
+				var styles = mui.material.FormControlLabel.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1111,7 +1111,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("IconButton should expose IconButton.styles", {
-				var styles = mui.core.IconButton.styles(defaultTheme);
+				var styles = mui.material.IconButton.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1144,7 +1144,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ButtonGroup should expose ButtonGroup.styles", {
-				var styles = mui.core.ButtonGroup.styles(defaultTheme);
+				var styles = mui.material.ButtonGroup.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1187,7 +1187,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Button should expose Button.styles", {
-				var styles = mui.core.Button.styles(defaultTheme);
+				var styles = mui.material.Button.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1258,7 +1258,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Fab should expose Fab.styles", {
-				var styles = mui.core.Fab.styles(defaultTheme);
+				var styles = mui.material.Fab.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1293,7 +1293,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ButtonBase should expose ButtonBase.styles", {
-				var styles = mui.core.ButtonBase.styles(defaultTheme);
+				var styles = mui.material.ButtonBase.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1314,7 +1314,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Toolbar should expose Toolbar.styles", {
-				var styles = mui.core.Toolbar.styles(defaultTheme);
+				var styles = mui.material.Toolbar.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1337,7 +1337,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("TableFooter should expose TableFooter.styles", {
-				var styles = mui.core.TableFooter.styles(defaultTheme);
+				var styles = mui.material.TableFooter.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1354,7 +1354,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Table should expose Table.styles", {
-				var styles = mui.core.Table.styles(defaultTheme);
+				var styles = mui.material.Table.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1373,7 +1373,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("TableHead should expose TableHead.styles", {
-				var styles = mui.core.TableHead.styles(defaultTheme);
+				var styles = mui.material.TableHead.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1390,7 +1390,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("TablePagination should expose TablePagination.styles", {
-				var styles = mui.core.TablePagination.styles(defaultTheme);
+				var styles = mui.material.TablePagination.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1425,7 +1425,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("TableRow should expose TableRow.styles", {
-				var styles = mui.core.TableRow.styles(defaultTheme);
+				var styles = mui.material.TableRow.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1450,7 +1450,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("TableBody should expose TableBody.styles", {
-				var styles = mui.core.TableBody.styles(defaultTheme);
+				var styles = mui.material.TableBody.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1467,7 +1467,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("TableCell should expose TableCell.styles", {
-				var styles = mui.core.TableCell.styles(defaultTheme);
+				var styles = mui.material.TableCell.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1506,7 +1506,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("TableSortLabel should expose TableSortLabel.styles", {
-				var styles = mui.core.TableSortLabel.styles(defaultTheme);
+				var styles = mui.material.TableSortLabel.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1531,7 +1531,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("DialogContent should expose DialogContent.styles", {
-				var styles = mui.core.DialogContent.styles(defaultTheme);
+				var styles = mui.material.DialogContent.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1550,7 +1550,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("DialogContentText should expose DialogContentText.styles", {
-				var styles = mui.core.DialogContentText.styles(defaultTheme);
+				var styles = mui.material.DialogContentText.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1567,7 +1567,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("DialogActions should expose DialogActions.styles", {
-				var styles = mui.core.DialogActions.styles(defaultTheme);
+				var styles = mui.material.DialogActions.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1586,7 +1586,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("DialogTitle should expose DialogTitle.styles", {
-				var styles = mui.core.DialogTitle.styles(defaultTheme);
+				var styles = mui.material.DialogTitle.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1603,7 +1603,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Dialog should expose Dialog.styles", {
-				var styles = mui.core.Dialog.styles(defaultTheme);
+				var styles = mui.material.Dialog.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1648,7 +1648,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Drawer should expose Drawer.styles", {
-				var styles = mui.core.Drawer.styles(defaultTheme);
+				var styles = mui.material.Drawer.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1687,7 +1687,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ListItemSecondaryAction should expose ListItemSecondaryAction.styles", {
-				var styles = mui.core.ListItemSecondaryAction.styles(defaultTheme);
+				var styles = mui.material.ListItemSecondaryAction.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1704,7 +1704,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ListItem should expose ListItem.styles", {
-				var styles = mui.core.ListItem.styles(defaultTheme);
+				var styles = mui.material.ListItem.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1741,7 +1741,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Divider should expose Divider.styles", {
-				var styles = mui.core.Divider.styles(defaultTheme);
+				var styles = mui.material.Divider.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1768,7 +1768,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ListItemIcon should expose ListItemIcon.styles", {
-				var styles = mui.core.ListItemIcon.styles(defaultTheme);
+				var styles = mui.material.ListItemIcon.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1787,7 +1787,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ListItemAvatar should expose ListItemAvatar.styles", {
-				var styles = mui.core.ListItemAvatar.styles(defaultTheme);
+				var styles = mui.material.ListItemAvatar.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1806,7 +1806,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ListItemText should expose ListItemText.styles", {
-				var styles = mui.core.ListItemText.styles(defaultTheme);
+				var styles = mui.material.ListItemText.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1833,7 +1833,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ListSubheader should expose ListSubheader.styles", {
-				var styles = mui.core.ListSubheader.styles(defaultTheme);
+				var styles = mui.material.ListSubheader.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1860,7 +1860,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("List should expose List.styles", {
-				var styles = mui.core.List.styles(defaultTheme);
+				var styles = mui.material.List.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1883,7 +1883,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Tabs should expose Tabs.styles", {
-				var styles = mui.core.Tabs.styles(defaultTheme);
+				var styles = mui.material.Tabs.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1920,7 +1920,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Tab should expose Tab.styles", {
-				var styles = mui.core.Tab.styles(defaultTheme);
+				var styles = mui.material.Tab.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -1955,7 +1955,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("LinearProgress should expose LinearProgress.styles", {
-				var styles = mui.core.LinearProgress.styles(defaultTheme);
+				var styles = mui.material.LinearProgress.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2006,7 +2006,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("CircularProgress should expose CircularProgress.styles", {
-				var styles = mui.core.CircularProgress.styles(defaultTheme);
+				var styles = mui.material.CircularProgress.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2041,7 +2041,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("StepLabel should expose StepLabel.styles", {
-				var styles = mui.core.StepLabel.styles(defaultTheme);
+				var styles = mui.material.StepLabel.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2078,7 +2078,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Stepper should expose Stepper.styles", {
-				var styles = mui.core.Stepper.styles(defaultTheme);
+				var styles = mui.material.Stepper.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2101,7 +2101,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("StepConnector should expose StepConnector.styles", {
-				var styles = mui.core.StepConnector.styles(defaultTheme);
+				var styles = mui.material.StepConnector.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2136,7 +2136,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("StepIcon should expose StepIcon.styles", {
-				var styles = mui.core.StepIcon.styles(defaultTheme);
+				var styles = mui.material.StepIcon.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2161,7 +2161,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("MobileStepper should expose MobileStepper.styles", {
-				var styles = mui.core.MobileStepper.styles(defaultTheme);
+				var styles = mui.material.MobileStepper.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2192,7 +2192,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("StepContent should expose StepContent.styles", {
-				var styles = mui.core.StepContent.styles(defaultTheme);
+				var styles = mui.material.StepContent.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2213,7 +2213,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("StepButton should expose StepButton.styles", {
-				var styles = mui.core.StepButton.styles(defaultTheme);
+				var styles = mui.material.StepButton.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2236,7 +2236,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Step should expose Step.styles", {
-				var styles = mui.core.Step.styles(defaultTheme);
+				var styles = mui.material.Step.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2261,7 +2261,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Snackbar should expose Snackbar.styles", {
-				var styles = mui.core.Snackbar.styles(defaultTheme);
+				var styles = mui.material.Snackbar.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2290,7 +2290,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("SnackbarContent should expose SnackbarContent.styles", {
-				var styles = mui.core.SnackbarContent.styles(defaultTheme);
+				var styles = mui.material.SnackbarContent.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2311,7 +2311,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("BottomNavigationAction should expose BottomNavigationAction.styles", {
-				var styles = mui.core.BottomNavigationAction.styles(defaultTheme);
+				var styles = mui.material.BottomNavigationAction.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2336,7 +2336,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("BottomNavigation should expose BottomNavigation.styles", {
-				var styles = mui.core.BottomNavigation.styles(defaultTheme);
+				var styles = mui.material.BottomNavigation.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2353,7 +2353,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("GridListTileBar should expose GridListTileBar.styles", {
-				var styles = mui.core.GridListTileBar.styles(defaultTheme);
+				var styles = mui.material.GridListTileBar.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2390,7 +2390,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("GridListTile should expose GridListTile.styles", {
-				var styles = mui.core.GridListTile.styles(defaultTheme);
+				var styles = mui.material.GridListTile.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2413,7 +2413,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Grid should expose Grid.styles", {
-				var styles = mui.core.Grid.styles(defaultTheme);
+				var styles = mui.material.Grid.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2522,7 +2522,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("GridList should expose GridList.styles", {
-				var styles = mui.core.GridList.styles(defaultTheme);
+				var styles = mui.material.GridList.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2539,7 +2539,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Avatar should expose Avatar.styles", {
-				var styles = mui.core.Avatar.styles(defaultTheme);
+				var styles = mui.material.Avatar.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2568,7 +2568,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Menu should expose Menu.styles", {
-				var styles = mui.core.Menu.styles(defaultTheme);
+				var styles = mui.material.Menu.styles(defaultTheme);
 		
 				styles.paper.should.not.be(null);
 				styles.resolve(Paper).should.not.be(null);
@@ -2587,7 +2587,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("MenuItem should expose MenuItem.styles", {
-				var styles = mui.core.MenuItem.styles(defaultTheme);
+				var styles = mui.material.MenuItem.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2610,7 +2610,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("SvgIcon should expose SvgIcon.styles", {
-				var styles = mui.core.SvgIcon.styles(defaultTheme);
+				var styles = mui.material.SvgIcon.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2643,7 +2643,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Typography should expose Typography.styles", {
-				var styles = mui.core.Typography.styles(defaultTheme);
+				var styles = mui.material.Typography.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2718,7 +2718,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ExpansionPanelDetails should expose ExpansionPanelDetails.styles", {
-				var styles = mui.core.ExpansionPanelDetails.styles(defaultTheme);
+				var styles = mui.material.ExpansionPanelDetails.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2735,7 +2735,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ExpansionPanelSummary should expose ExpansionPanelSummary.styles", {
-				var styles = mui.core.ExpansionPanelSummary.styles(defaultTheme);
+				var styles = mui.material.ExpansionPanelSummary.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2762,7 +2762,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ExpansionPanelActions should expose ExpansionPanelActions.styles", {
-				var styles = mui.core.ExpansionPanelActions.styles(defaultTheme);
+				var styles = mui.material.ExpansionPanelActions.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2781,7 +2781,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("ExpansionPanel should expose ExpansionPanel.styles", {
-				var styles = mui.core.ExpansionPanel.styles(defaultTheme);
+				var styles = mui.material.ExpansionPanel.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);
@@ -2804,7 +2804,7 @@ class ComponentsStyleAPI extends SingleSuite {
 			});
 		
 			it("Radio should expose Radio.styles", {
-				var styles = mui.core.Radio.styles(defaultTheme);
+				var styles = mui.material.Radio.styles(defaultTheme);
 		
 				styles.root.should.not.be(null);
 				styles.resolve(Root).should.not.be(null);

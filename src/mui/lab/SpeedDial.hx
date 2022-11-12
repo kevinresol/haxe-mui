@@ -1,9 +1,9 @@
 package mui.lab;
 
-import mui.core.Fab.FabProps;
-import mui.core.common.Direction;
-import mui.core.common.TransitionDuration;
-import mui.core.styles.Classes;
+import mui.material.Fab.FabProps;
+import mui.material.common.Direction;
+import mui.material.common.TransitionDuration;
+import mui.material.styles.Classes;
 import mui.lab.speeddial.SpeedDialClassKey;
 import react.transition.Transition;
 

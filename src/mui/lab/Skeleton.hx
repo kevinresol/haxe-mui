@@ -2,7 +2,7 @@ package mui.lab;
 
 import react.types.StringOrInt;
 
-import mui.core.styles.Classes;
+import mui.material.styles.Classes;
 import mui.lab.skeleton.SkeletonClassKey;
 import mui.lab.skeleton.SkeletonVariant;
 

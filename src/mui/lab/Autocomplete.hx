@@ -2,8 +2,8 @@ package mui.lab;
 
 import react.types.StringOrInt;
 
-import mui.core.input.InputValue;
-import mui.core.styles.Classes;
+import mui.material.input.InputValue;
+import mui.material.styles.Classes;
 import mui.lab.autocomplete.AutocompleteClassKey;
 import mui.lab.autocomplete.AutocompleteSize;
 import mui.lab.autocomplete.GetTagProps;

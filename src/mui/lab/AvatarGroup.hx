@@ -1,6 +1,6 @@
 package mui.lab;
 
-import mui.core.styles.Classes;
+import mui.material.styles.Classes;
 import mui.lab.avatargroup.AvatarGroupClassKey;
 import mui.lab.avatargroup.AvatarGroupSpacing;
 

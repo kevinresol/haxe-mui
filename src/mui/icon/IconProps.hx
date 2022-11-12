@@ -7,7 +7,7 @@ import js.html.Element as DOMElement;
 #end
 
 import css.Properties;
-import mui.core.icon.SvgIconFontSize;
+import mui.material.icon.SvgIconFontSize;
 import react.ReactType;
 import react.types.DOMAttributes;
 import react.types.ForcedOverride;

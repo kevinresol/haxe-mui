@@ -6,10 +6,10 @@ import react.React;
 import react.ReactMacro.jsx;
 
 import mui.lab.*;
-import mui.core.*; // After lab to overwrite proxies
-import mui.core.styles.MuiStylesProvider;
-import mui.core.styles.MuiTheme;
-import mui.core.styles.MuiThemeProvider;
+import mui.material.*; // After lab to overwrite proxies
+import mui.material.styles.MuiStylesProvider;
+import mui.material.styles.MuiTheme;
+import mui.material.styles.MuiThemeProvider;
 
 using buddy.Should;
 

@@ -1,11 +1,11 @@
 package mui.lab;
 
 import mui.lab.speeddial.SpeedDialActionClassKey;
-import mui.core.Fab.FabProps;
-import mui.core.Popper.PopperProps;
-import mui.core.popper.PopperPlacement;
-import mui.core.popper.TooltipClassKey;
-import mui.core.styles.Classes;
+import mui.material.Fab.FabProps;
+import mui.material.Popper.PopperProps;
+import mui.material.popper.PopperPlacement;
+import mui.material.popper.TooltipClassKey;
+import mui.material.styles.Classes;
 import react.transition.Transition;
 
 typedef SpeedDialActionProps = {
@@ -22,7 +22,7 @@ typedef SpeedDialActionProps = {
 	@:optional var tooltipPlacement:PopperPlacement;
 	@:optional var tooltipTitle:ReactFragment;
 
-	// mui.core.TooltipProps
+	// mui.material.TooltipProps
 	@:optional var disableFocusListener:Bool;
 	@:optional var disableHoverListener:Bool;
 	@:optional var disableTouchListener:Bool;

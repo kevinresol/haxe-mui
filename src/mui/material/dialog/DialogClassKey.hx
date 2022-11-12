@@ -1,0 +1,19 @@
+package mui.material.dialog;
+
+@:enum abstract DialogClassKey(String) to String {
+	var Root = "root";
+	var ScrollPaper = "scrollPaper";
+	var ScrollBody = "scrollBody";
+	var Container = "container";
+	var Paper = "paper";
+	var PaperScrollPaper = "paperScrollPaper";
+	var PaperScrollBody = "paperScrollBody";
+	var PaperWidthFalse = "paperWidthFalse";
+	var PaperWidthXS = "paperWidthXs";
+	var PaperWidthSM = "paperWidthSm";
+	var PaperWidthMD = "paperWidthMd";
+	var PaperWidthLG = "paperWidthLg";
+	var PaperWidthXL = "paperWidthXl";
+	var PaperFullWidth = "paperFullWidth";
+	var PaperFullScreen = "paperFullScreen";
+}
