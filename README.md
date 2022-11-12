@@ -1,3 +1,6 @@
+<strong>Note: This is for mui v5, see https://github.com/kLabz/haxe-material-ui/issues/21</strong>
+
+
 <p align="center">
   <img width="150" src="https://gitlab.com/k-labz/haxe-oss/haxe-material-ui/raw/master/logo.svg" alt="Haxe Material-UI logo"></a>
 </p>
