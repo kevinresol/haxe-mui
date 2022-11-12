@@ -1,9 +1,9 @@
 {
-  "name": "material-ui",
+  "name": "mui",
   "description": "Material UI - React components that implement Google's Material Design",
-  "version": "4.1.1",
+  "version": "5.0.0",
   "releasenote": "Some fixes, more styles utils (See CHANGELOG.md)",
-  "url": "https://github.com/kLabz/haxe-material-ui",
+  "url": "https://github.com/kevinresol/haxe-mui",
   "license": "MIT",
   "tags": [],
   "classPath": "src",
@@ -15,7 +15,7 @@
     "react-transition-group": ""
   },
   "contributors": [
-    "klabz"
+    "klabz", "kevinresol"
   ]
 }
 
