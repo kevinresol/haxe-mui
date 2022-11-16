@@ -22,6 +22,7 @@ typedef ButtonBaseProps = {
 	@:optional var onFocusVisible:HandlerOrVoid<ClassicHandler>;
 	@:optional var TouchRippleProps:Dynamic;
 	@:optional var type:ButtonType;
+	@:optional var sx:SxProps<Any>;
 }
 
 @:jsRequire('@mui/material', 'ButtonBase')

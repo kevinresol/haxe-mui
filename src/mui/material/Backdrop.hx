@@ -12,6 +12,7 @@ typedef BackdropProps = {
 	@:optional var classes:Record<BackdropClassKey>;
 	@:optional var invisible:Bool;
 	@:optional var transitionDuration:TimeoutTransitionDuration;
+	@:optional var sx:SxProps<Any>;
 }
 
 @:jsRequire('@mui/material', 'Backdrop')

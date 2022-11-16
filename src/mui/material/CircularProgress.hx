@@ -17,6 +17,7 @@ typedef CircularProgressProps = {
 	@:optional var thickness:Float;
 	@:optional var value:Float;
 	@:optional var variant:CircularProgressVariant;
+	@:optional var sx:SxProps<Any>;
 }
 
 @:jsRequire('@mui/material', 'CircularProgress')
